@@ -1,0 +1,374 @@
+
+@incollection{1-NeuralNetworks-wang2003artificial,
+  title={Artificial neural network},
+  author={Wang, Sun-Chong},
+  booktitle={Interdisciplinary computing in java programming},
+  pages={81--100},
+  year={2003},
+  publisher={Springer}
+}
+
+@InProceedings{2-CNN,
+author = {Lin, Tsung-Yu and RoyChowdhury, Aruni and Maji, Subhransu},
+title = {Bilinear CNN Models for Fine-Grained Visual Recognition},
+booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
+month = {December},
+year = {2015}
+}
+@inproceedings{3-Unsupervised-ghahramani2003unsupervised,
+  title={Unsupervised learning},
+  author={Ghahramani, Zoubin},
+  booktitle={Summer school on machine learning},
+  pages={72--112},
+  year={2003},
+  organization={Springer}
+}
+@article{4-K-Means-likas2003global,
+  title={The global k-means clustering algorithm},
+  author={Likas, Aristidis and Vlassis, Nikos and Verbeek, Jakob J},
+  journal={Pattern recognition},
+  volume={36},
+  number={2},
+  pages={451--461},
+  year={2003},
+  publisher={Elsevier}
+}
+@article{5-Agglomerative Hierarchical-bouguettaya2015efficient,
+  title={Efficient agglomerative hierarchical clustering},
+  author={Bouguettaya, Athman and Yu, Qi and Liu, Xumin and Zhou, Xiangmin and Song, Andy},
+  journal={Expert Systems with Applications},
+  volume={42},
+  number={5},
+  pages={2785--2797},
+  year={2015},
+  publisher={Elsevier}
+}
+@article{6-Guassian Mixture-reynolds2009gaussian,
+  title={Gaussian mixture models.},
+  author={Reynolds, Douglas A},
+  journal={Encyclopedia of biometrics},
+  volume={741},
+  number={659-663},
+  year={2009},
+  publisher={Berlin, Springer}
+}
+@article{7-Hidden Markov Model-reynolds2009gaussian,
+  title={Gaussian mixture models.},
+  author={Reynolds, Douglas A},
+  journal={Encyclopedia of biometrics},
+  volume={741},
+  number={659-663},
+  year={2009},
+  publisher={Berlin, Springer}
+}
+@inproceedings{8-DBSCAN Clsutering-khan2014dbscan,
+  title={DBSCAN: Past, present and future},
+  author={Khan, Kamran and Rehman, Saif Ur and Aziz, Kamran and Fong, Simon and Sarasvady, Sababady},
+  booktitle={The fifth international conference on the applications of digital information and web technologies (ICADIWT 2014)},
+  pages={232--238},
+  year={2014},
+  organization={IEEE}
+}
+@article{9-Principal component-abdi2010principal,
+  title={Principal component analysis},
+  author={Abdi, Herv{\'e} and Williams, Lynne J},
+  journal={Wiley interdisciplinary reviews: computational statistics},
+  volume={2},
+  number={4},
+  pages={433--459},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+@inproceedings{10-Static Learning-bielik2017learning,
+  title={Learning a static analyzer from data},
+  author={Bielik, Pavol and Raychev, Veselin and Vechev, Martin},
+  booktitle={International Conference on Computer Aided Verification},
+  pages={233--253},
+  year={2017},
+  organization={Springer}
+}
+@book{11-Reinforcement Learning-sutton2018reinforcement,
+  title={Reinforcement learning: An introduction},
+  author={Sutton, Richard S and Barto, Andrew G},
+  year={2018},
+  publisher={MIT press}
+}
+@book{12-Linear Regression-yan2009linear,
+  title={Linear regression analysis: theory and computing},
+  author={Yan, Xin and Su, Xiaogang},
+  year={2009},
+  publisher={World Scientific}
+}
+@article{13-Hierarchical-vaithyanathan2013model,
+  title={Model-based hierarchical clustering},
+  author={Vaithyanathan, Shivakumar and Dom, Byron E},
+  journal={arXiv preprint arXiv:1301.3899},
+  year={2013}
+}
+@article{14-SVM-yuan2010svm,
+  title={An SVM-based machine learning method for accurate internet traffic classification},
+  author={Yuan, Ruixi and Li, Zhu and Guan, Xiaohong and Xu, Li},
+  journal={Information Systems Frontiers},
+  volume={12},
+  number={2},
+  pages={149--156},
+  year={2010},
+  publisher={Springer}
+}
+@inproceedings{15-Ensemble Methods-dietterich2000ensemble,
+  title={Ensemble methods in machine learning},
+  author={Dietterich, Thomas G},
+  booktitle={International workshop on multiple classifier systems},
+  pages={1--15},
+  year={2000},
+  organization={Springer}
+}
+@incollection{16-Decision trees-rokach2005decision,
+  title={Decision trees},
+  author={Rokach, Lior and Maimon, Oded},
+  booktitle={Data mining and knowledge discovery handbook},
+  pages={165--192},
+  year={2005},
+  publisher={Springer}
+}
+@article{17-Discriminant Analysis-fraley2002model,
+  title={Model-based clustering, discriminant analysis, and density estimation},
+  author={Fraley, Chris and Raftery, Adrian E},
+  journal={Journal of the American statistical Association},
+  volume={97},
+  number={458},
+  pages={611--631},
+  year={2002},
+  publisher={Taylor \& Francis}
+}
+@article{18-Naive Bayes-chen2020novel,
+  title={A novel selective na{\"\i}ve Bayes algorithm},
+  author={Chen, Shenglei and Webb, Geoffrey I and Liu, Linyuan and Ma, Xin},
+  journal={Knowledge-Based Systems},
+  volume={192},
+  pages={105361},
+  year={2020},
+  publisher={Elsevier}
+}
+@inproceedings{19-Nearest Neightbor-sun2010adaptive,
+  title={An adaptive k-nearest neighbor algorithm},
+  author={Sun, Shiliang and Huang, Rongqing},
+  booktitle={2010 seventh international conference on fuzzy systems and knowledge discovery},
+  volume={1},
+  pages={91--94},
+  year={2010},
+  organization={IEEE}
+}
+@inproceedings{20-NLP Transformers-wolf2020transformers,
+  title={Transformers: State-of-the-art natural language processing},
+  author={Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond, Julien and Delangue, Clement and Moi, Anthony and Cistac, Pierric and Rault, Tim and Louf, R{\'e}mi and Funtowicz, Morgan and others},
+  booktitle={Proceedings of the 2020 conference on empirical methods in natural language processing: system demonstrations},
+  pages={38--45},
+  year={2020}
+}
+@article{21- SVM- noble2006support,
+  title={What is a support vector machine?},
+  author={Noble, William S},
+  journal={Nature biotechnology},
+  volume={24},
+  number={12},
+  pages={1565--1567},
+  year={2006},
+  publisher={Nature Publishing Group}
+}
+@article{22- Linear Regression-aalen1989linear,
+  title={A linear regression model for the analysis of life times},
+  author={Aalen, Odd O},
+  journal={Statistics in medicine},
+  volume={8},
+  number={8},
+  pages={907--925},
+  year={1989},
+  publisher={Wiley Online Library}
+}
+@article{23- Logistic Regression- carroll1993robustness,
+  title={On robustness in the logistic regression model},
+  author={Carroll, Raymond J and Pederson, Shane},
+  journal={Journal of the Royal Statistical Society: Series B (Methodological)},
+  volume={55},
+  number={3},
+  pages={693--706},
+  year={1993},
+  publisher={Wiley Online Library}
+}
+@article{24-Decision Tree-magerman1995statistical,
+  title={Statistical decision-tree models for parsing},
+  author={Magerman, David M},
+  journal={arXiv preprint cmp-lg/9504030},
+  year={1995}
+}
+@inproceedings{25-Random Forest-liu2012new,
+  title={New machine learning algorithm: Random forest},
+  author={Liu, Yanli and Wang, Yourong and Zhang, Jian},
+  booktitle={International Conference on Information Computing and Applications},
+  pages={246--252},
+  year={2012},
+  organization={Springer}
+}
+@inproceedings{26- Gradient Boost-felix2019flood,
+  title={Flood detection using gradient boost machine learning approach},
+  author={Felix, A Yovan and Sasipraba, T},
+  booktitle={2019 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE)},
+  pages={779--783},
+  year={2019},
+  organization={IEEE}
+}
+@ARTICLE{27- Guassian Noise-5570958,  
+author={Luisier, Florian and Blu, Thierry and Unser, Michael},  
+journal={IEEE Transactions on Image Processing},   
+title={Image Denoising in Mixed Poisson–Gaussian Noise},   
+year={2011},  
+volume={20},  
+number={3}, 
+pages={696-708},  
+doi={10.1109/TIP.2010.2073477}
+}
+@inproceedings{28- franceschi2018robustness,
+  title={Robustness of classifiers to uniform $$\backslash$ell\_p $ and Gaussian noise},
+  author={Franceschi, Jean-Yves and Fawzi, Alhussein and Fawzi, Omar},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={1280--1288},
+  year={2018},
+  organization={PMLR}
+}
+@book{29- korn2010monte,
+  title={Monte Carlo methods and models in finance and insurance},
+  author={Korn, Ralf and Korn, Elke and Kroisandt, Gerald},
+  year={2010},
+  publisher={CRC press}
+}
+@article{30-watkins1992q,
+  title={Q-learning},
+  author={Watkins, Christopher JCH and Dayan, Peter},
+  journal={Machine learning},
+  volume={8},
+  number={3},
+  pages={279--292},
+  year={1992},
+  publisher={Springer}
+}
+@article{31-schulman2017proximal,
+  title={Proximal policy optimization algorithms},
+  author={Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg},
+  journal={arXiv preprint arXiv:1707.06347},
+  year={2017}
+}
+@incollection{32-cunningham2008supervised,
+  title={Supervised learning},
+  author={Cunningham, P{\'a}draig and Cord, Matthieu and Delany, Sarah Jane},
+  booktitle={Machine learning techniques for multimedia},
+  pages={21--49},
+  year={2008},
+  publisher={Springer}
+}
+@article{33-medsker2001recurrent,
+  title={Recurrent neural networks},
+  author={Medsker, Larry R and Jain, LC},
+  journal={Design and Applications},
+  volume={5},
+  pages={64--67},
+  year={2001}
+}
+@article{34-akcay2018using,
+  title={Using deep convolutional neural network architectures for object classification and detection within x-ray baggage security imagery},
+  author={Akcay, Samet and Kundegorski, Mikolaj E and Willcocks, Chris G and Breckon, Toby P},
+  journal={IEEE transactions on information forensics and security},
+  volume={13},
+  number={9},
+  pages={2203--2215},
+  year={2018},
+  publisher={IEEE}
+}
+@article{35-Chhabra_Roy_Mohapatra_2020,
+title={Suspicion-Free Adversarial Attacks on Clustering Algorithms}, 
+volume={34}, url={https://ojs.aaai.org/index.php/AAAI/article/view/5770}, 
+DOI={10.1609/aaai.v34i04.5770}, 
+number={04}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Chhabra, Anshuman and Roy, Abhishek and Mohapatra, Prasant}, 
+year={2020}, 
+month={Apr.}, 
+pages={3625-3632} 
+}
+@article{36-abdi2010principal,
+  title={Principal component analysis},
+  author={Abdi, Herv{\'e} and Williams, Lynne J},
+  journal={Wiley interdisciplinary reviews: computational statistics},
+  volume={2},
+  number={4},
+  pages={433--459},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+@inproceedings{37-biggio2012poisoning,
+  title={Poisoning adaptive biometric systems},
+  author={Biggio, Battista and Fumera, Giorgio and Roli, Fabio and Didaci, Luca},
+  booktitle={Joint IAPR international workshops on statistical techniques in pattern recognition (SPR) and structural and syntactic pattern recognition (SSPR)},
+  pages={417--425},
+  year={2012},
+  organization={Springer}
+}
+@inproceedings{38-biggio2012poisoning,
+  title={Poisoning adaptive biometric systems},
+  author={Biggio, Battista and Fumera, Giorgio and Roli, Fabio and Didaci, Luca},
+  booktitle={Joint IAPR international workshops on statistical techniques in pattern recognition (SPR) and structural and syntactic pattern recognition (SSPR)},
+  pages={417--425},
+  year={2012},
+  organization={Springer}
+}
+@inproceedings{39-biggio2013poisoning,
+  title={Poisoning attacks to compromise face templates},
+  author={Biggio, Battista and Didaci, Luca and Fumera, Giorgio and Roli, Fabio},
+  booktitle={2013 international conference on biometrics (ICB)},
+  pages={1--7},
+  year={2013},
+  organization={IEEE}
+}
+@article{40-holmstrom2008adaptive,
+  title={An adaptive radial basis algorithm (ARBF) for expensive black-box mixed-integer constrained global optimization},
+  author={Holmstr{\"o}m, Kenneth and Quttineh, Nils-Hassan and Edvall, Marcus M},
+  journal={Optimization and Engineering},
+  volume={9},
+  number={4},
+  pages={311--339},
+  year={2008},
+  publisher={Springer}
+}
+@article{40-Chzhen2019,
+   author = {Evgenii Chzhen},
+   doi = {10.48550/arxiv.1903.11867},
+   journal = {arXiv e-prints},
+   keywords = {Mathematics - Statistics Theory,margin assumption,plug-in rules,risk bounds},
+   month = {3},
+   pages = {arXiv:1903.11867},
+   title = {Classification of sparse binary vectors},
+   url = {https://arxiv.org/abs/1903.11867v1},
+   year = {2019},
+}
+@inproceedings{41-demontis2017infinity,
+  title={Infinity-norm support vector machines against adversarial label contamination},
+  author={Demontis, Ambra and Biggio, Battista and Fumera, Giorgio and Giacinto, Giorgio and Roli, Fabio},
+  booktitle={1st Italian Conference on Cybersecurity, ITASEC 2017},
+  volume={1816},
+  pages={106--115},
+  year={2017},
+  organization={CEUR-WS}
+}
+@article{42-zhu2005semi,
+  title={Semi-supervised learning literature survey},
+  author={Zhu, Xiaojin Jerry},
+  year={2005},
+  publisher={University of Wisconsin-Madison Department of Computer Sciences}
+}
+@inproceedings{43-shi2017semi,
+  title={Semi-supervised Random Forest for Intrusion Detection Network.},
+  author={Shi, Ningxin and Yuan, Xiaohong and Nick, William},
+  booktitle={MAICS},
+  pages={181--185},
+  year={2017}
+}
