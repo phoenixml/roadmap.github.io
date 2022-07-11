@@ -275,7 +275,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-     # _roadmap
+  # _defence
   - scope:
       path: ""
       type: defence
@@ -284,7 +284,8 @@ defaults:
       author_profile: true
       share: true
       comment: true
-   - scope:
+  # _measurements
+  - scope:
       path: ""
       type: measurements
     values:
