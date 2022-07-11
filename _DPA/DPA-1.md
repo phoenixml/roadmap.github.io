@@ -1,8 +1,8 @@
 ---
 title: "DPA"
-excerpt: " "
+excerpt: "Data Poisoning Attack"
 collection: dpa
 ---
 
 DPA full list collected and grouped into one file. 
-[Download excel file here](https://github.com/phoenixml/roadmap.github.io/blob/master/files/DPA_Full_List.xlsx?raw=true)
+[Download file here](https://github.com/phoenixml/roadmap.github.io/blob/master/files/DPA_Full_List.xlsx?raw=true)
