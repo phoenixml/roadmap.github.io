@@ -1,0 +1,3206 @@
+<svg width="829" height="714" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0.00 0.00 96759.24 80402.08">
+<g id="graph0" class="graph" transform="translate(3.9999999095693624,80398.07815373903) scale(0.9999999773923406)">
+<title>TrackA</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-80398.08 96755.24,-80398.08 96755.24,4 -4,4"/>
+<!-- n13 -->
+<g id="node1" class="node">
+<title>n13</title>
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-30368" rx="7200" ry="7200"/>
+<text text-anchor="middle" x="60882.99" y="-29918" font-family="Helvetica,Arial,sans-serif" font-size="1500.00">CNN[2]</text>
+</g>
+<!-- n6000 -->
+
+<!-- n13&#45;&gt;n6000 -->
+
+<!-- n5028 -->
+<g id="node7" class="node">
+<title>n5028</title>
+<text text-anchor="middle" x="77126.99" y="-41851" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5028 -->
+<g id="edge1" class="edge">
+<title>n13-&gt;n5028</title>
+<path fill="none" stroke="black" d="M66441.92,-34944C67108.05,-35748.61 67690.25,-36633.47 68082.99,-37577 68094.52,-37604.69 68079.77,-41874.8 68100.99,-41896 68118.76,-41913.76 73910.09,-41922.33 76205.05,-41925.02"/>
+<polygon fill="black" stroke="black" points="76205.12,-41928.52 76215.12,-41925.04 76205.13,-41921.52 76205.12,-41928.52"/>
+<text text-anchor="middle" x="70219.76" y="-41993" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=StAdv</text>
+</g>
+<!-- n5029 -->
+<g id="node8" class="node">
+<title>n5029</title>
+<text text-anchor="middle" x="77126.99" y="-41525" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5029 -->
+<g id="edge3" class="edge">
+<title>n13-&gt;n5029</title>
+<path fill="none" stroke="black" d="M66441.9,-34944.45C67107.96,-35748.95 67690.14,-36633.67 68082.99,-37577 68104.31,-37628.2 68061.75,-41530.81 68100.99,-41570 68118.77,-41587.76 73910.09,-41596.33 76205.05,-41599.02"/>
+<polygon fill="black" stroke="black" points="76205.12,-41602.52 76215.13,-41599.04 76205.13,-41595.52 76205.12,-41602.52"/>
+<text text-anchor="middle" x="70219.76" y="-41667" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=ReColorAdv</text>
+</g>
+<!-- n5030 -->
+<g id="node9" class="node">
+<title>n5030</title>
+<text text-anchor="middle" x="77126.99" y="-41199" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5030 -->
+<g id="edge5" class="edge">
+<title>n13-&gt;n5030</title>
+<path fill="none" stroke="black" d="M66441.56,-34944.59C67107.66,-35749.07 67689.95,-36633.74 68082.99,-37577 68102.58,-37624.01 68064.95,-41208.01 68100.99,-41244 68118.77,-41261.75 73910.09,-41270.32 76205.05,-41273.02"/>
+<polygon fill="black" stroke="black" points="76205.12,-41276.52 76215.13,-41273.04 76205.13,-41269.52 76205.12,-41276.52"/>
+<text text-anchor="middle" x="70219.76" y="-41341" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=LPA</text>
+</g>
+<!-- n5031 -->
+<g id="node10" class="node">
+<title>n5031</title>
+<text text-anchor="middle" x="77126.99" y="-40873" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5031 -->
+<g id="edge7" class="edge">
+<title>n13-&gt;n5031</title>
+<path fill="none" stroke="black" d="M66441.43,-34945.08C67107.47,-35749.46 67689.78,-36633.97 68082.99,-37577 68100.85,-37619.83 68068.14,-40885.22 68100.99,-40918 68118.78,-40935.75 73910.09,-40944.32 76205.05,-40947.02"/>
+<polygon fill="black" stroke="black" points="76205.12,-40950.52 76215.13,-40947.04 76205.13,-40943.52 76205.12,-40950.52"/>
+<text text-anchor="middle" x="70219.76" y="-41015" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Fast-LPA</text>
+</g>
+<!-- n5033 -->
+<g id="node11" class="node">
+<title>n5033</title>
+<text text-anchor="middle" x="77126.99" y="-40547" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5033 -->
+<g id="edge9" class="edge">
+<title>n13-&gt;n5033</title>
+<path fill="none" stroke="black" d="M66440.93,-34945.29C67107.05,-35749.64 67689.5,-36634.08 68082.99,-37577 68099.12,-37615.65 68071.34,-40562.43 68100.99,-40592 68117.19,-40608.16 72922.45,-40616.72 75513.7,-40620.16"/>
+<polygon fill="black" stroke="black" points="75514.14,-40623.66 75524.14,-40620.17 75514.15,-40616.66 75514.14,-40623.66"/>
+<text text-anchor="middle" x="70219.76" y="-40689" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=FGSM</text>
+</g>
+<!-- n5034 -->
+<g id="node13" class="node">
+<title>n5034</title>
+<text text-anchor="middle" x="77126.99" y="-40221" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5034 -->
+<g id="edge11" class="edge">
+<title>n13-&gt;n5034</title>
+<path fill="none" stroke="black" d="M66440.59,-34945.87C67106.67,-35750.1 67689.21,-36634.35 68082.99,-37577 68097.39,-37611.46 68074.54,-40239.64 68100.99,-40266 68117.2,-40282.15 72922.45,-40290.71 75513.7,-40294.16"/>
+<polygon fill="black" stroke="black" points="75514.14,-40297.66 75524.15,-40294.17 75514.15,-40290.66 75514.14,-40297.66"/>
+<text text-anchor="middle" x="70219.76" y="-40363" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=BIM</text>
+</g>
+<!-- n5042 -->
+<g id="node15" class="node">
+<title>n5042</title>
+<text text-anchor="middle" x="77126.99" y="-39895" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5042 -->
+<g id="edge13" class="edge">
+<title>n13-&gt;n5042</title>
+<path fill="none" stroke="black" d="M66440.08,-34946.53C67106.16,-35750.62 67688.83,-36634.66 68082.99,-37577 68095.66,-37607.28 68077.73,-39916.84 68100.99,-39940 68118.8,-39957.73 73910.1,-39966.31 76205.05,-39969.02"/>
+<polygon fill="black" stroke="black" points="76205.12,-39972.52 76215.13,-39969.03 76205.13,-39965.52 76205.12,-39972.52"/>
+<text text-anchor="middle" x="70219.76" y="-40037" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGD</text>
+</g>
+<!-- n5044 -->
+<g id="node17" class="node">
+<title>n5044</title>
+<text text-anchor="middle" x="77126.99" y="-39569" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5044 -->
+<g id="edge15" class="edge">
+<title>n13-&gt;n5044</title>
+<path fill="none" stroke="black" d="M66439.32,-34947.29C67105.43,-35751.23 67688.31,-36635.03 68082.99,-37577 68104.86,-37629.19 68060.87,-39574.1 68100.99,-39614 68118.81,-39631.72 73910.11,-39640.31 76205.05,-39643.02"/>
+<polygon fill="black" stroke="black" points="76205.13,-39646.52 76215.13,-39643.03 76205.13,-39639.52 76205.13,-39646.52"/>
+<text text-anchor="middle" x="70219.76" y="-39711" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=FrogsAttack</text>
+</g>
+<!-- n5045 -->
+<g id="node19" class="node">
+<title>n5045</title>
+<text text-anchor="middle" x="77126.99" y="-39243" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5045 -->
+<g id="edge17" class="edge">
+<title>n13-&gt;n5045</title>
+<path fill="none" stroke="black" d="M66438.43,-34948.54C67104.51,-35752.22 67687.63,-36635.61 68082.99,-37577 68101.4,-37620.82 68067.26,-39254.51 68100.99,-39288 68118.82,-39305.7 73910.11,-39314.3 76205.05,-39317.02"/>
+<polygon fill="black" stroke="black" points="76205.13,-39320.52 76215.13,-39317.03 76205.14,-39313.52 76205.13,-39320.52"/>
+<text text-anchor="middle" x="70219.76" y="-39385" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=CollisionAttack</text>
+</g>
+<!-- n5046 -->
+<g id="node21" class="node">
+<title>n5046</title>
+<text text-anchor="middle" x="77126.99" y="-38917" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5046 -->
+<g id="edge19" class="edge">
+<title>n13-&gt;n5046</title>
+<path fill="none" stroke="black" d="M66436.87,-34950.07C67103.03,-35753.46 67686.57,-36636.36 68082.99,-37577 68097.93,-37612.46 68073.65,-38934.93 68100.99,-38962 68118.84,-38979.68 73910.12,-38988.3 76205.06,-38991.02"/>
+<polygon fill="black" stroke="black" points="76205.13,-38994.52 76215.13,-38991.03 76205.14,-38987.52 76205.13,-38994.52"/>
+<text text-anchor="middle" x="70219.76" y="-39059" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=One Shot Kill</text>
+</g>
+<!-- n5090 -->
+<g id="node23" class="node">
+<title>n5090</title>
+<text text-anchor="middle" x="77126.99" y="-38591" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5090 -->
+<g id="edge21" class="edge">
+<title>n13-&gt;n5090</title>
+<path fill="none" stroke="black" d="M66434.59,-34952.8C67100.76,-35755.64 67684.91,-36637.66 68082.99,-37577 68094.48,-37604.11 68080.02,-38616.32 68100.99,-38637 68117.28,-38653.07 72922.49,-38661.13 75513.72,-38664.32"/>
+<polygon fill="black" stroke="black" points="75514.16,-38667.82 75524.16,-38664.33 75514.17,-38660.82 75514.16,-38667.82"/>
+<text text-anchor="middle" x="70219.76" y="-38733" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=APGD</text>
+</g>
+<!-- n5017 -->
+<g id="node25" class="node">
+<title>n5017</title>
+<text text-anchor="middle" x="77126.99" y="-38265" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5017 -->
+<g id="edge23" class="edge">
+<title>n13-&gt;n5017</title>
+<path fill="none" stroke="black" d="M66430.41,-34958.11C67096.57,-35759.88 67681.82,-36640.18 68082.99,-37577 68099.07,-37614.55 68071.8,-38283.43 68100.99,-38312 68117.34,-38328.01 72922.53,-38335.57 75513.74,-38338.48"/>
+<polygon fill="black" stroke="black" points="75514.17,-38341.98 75524.18,-38338.49 75514.18,-38334.98 75514.17,-38341.98"/>
+<text text-anchor="middle" x="70219.76" y="-38408" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PGD Fast/Data Augmentation</text>
+</g>
+<!-- n5009 -->
+<g id="node27" class="node">
+<title>n5009</title>
+<text text-anchor="middle" x="77126.99" y="-37939" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5009 -->
+<g id="edge25" class="edge">
+<title>n13-&gt;n5009</title>
+<path fill="none" stroke="black" d="M66419.43,-34971.31C67085.72,-35770.43 67673.92,-36646.47 68082.99,-37577 68101.43,-37618.95 68067.93,-37957.27 68100.99,-37989 68119.12,-38006.4 73910.23,-38011.97 76205.09,-38013.49"/>
+<polygon fill="black" stroke="black" points="76205.16,-38016.99 76215.17,-38013.5 76205.17,-38009.99 76205.16,-38016.99"/>
+<text text-anchor="middle" x="70219.76" y="-38083" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=ScoreBased</text>
+</g>
+<!-- n5057 -->
+<g id="node29" class="node">
+<title>n5057</title>
+<text text-anchor="middle" x="77126.99" y="-37613" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5057 -->
+<g id="edge27" class="edge">
+<title>n13-&gt;n5057</title>
+<path fill="none" stroke="black" d="M66319.24,-35089.14C66989.32,-35865.06 67605.19,-36703.21 68082.99,-37577 68100.89,-37609.74 68071.95,-37635.57 68100.99,-37659 68140.08,-37690.55 73914.16,-37690.15 76204.95,-37688.75"/>
+<polygon fill="black" stroke="black" points="76205.01,-37692.25 76215.01,-37688.75 76205.01,-37685.25 76205.01,-37692.25"/>
+<text text-anchor="middle" x="70219.76" y="-37762" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=JSMA</text>
+</g>
+<!-- n5058 -->
+<g id="node31" class="node">
+<title>n5058</title>
+<text text-anchor="middle" x="77126.99" y="-37287" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5058 -->
+<g id="edge29" class="edge">
+<title>n13-&gt;n5058</title>
+<path fill="none" stroke="black" d="M65581.85,-35823.75C66358.57,-36436.23 67205.22,-36969.58 68100.99,-37333 68147.53,-37351.88 73915.8,-37359.13 76205.05,-37361.26"/>
+<polygon fill="black" stroke="black" points="76205.1,-37364.76 76215.1,-37361.27 76205.1,-37357.76 76205.1,-37364.76"/>
+<text text-anchor="middle" x="70219.76" y="-37430" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=C&amp;W</text>
+</g>
+<!-- n5059 -->
+<g id="node33" class="node">
+<title>n5059</title>
+<text text-anchor="middle" x="77126.99" y="-36961" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5059 -->
+<g id="edge31" class="edge">
+<title>n13-&gt;n5059</title>
+<path fill="none" stroke="black" d="M65749.51,-35674.67C66483.17,-36214.54 67273.39,-36682.7 68100.99,-37007 68147.76,-37025.32 73915.89,-37032.9 76205.07,-37035.19"/>
+<polygon fill="black" stroke="black" points="76205.12,-37038.69 76215.13,-37035.2 76205.13,-37031.69 76205.12,-37038.69"/>
+<text text-anchor="middle" x="70219.76" y="-37104" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=ZOO</text>
+</g>
+<!-- n5060 -->
+<g id="node35" class="node">
+<title>n5060</title>
+<text text-anchor="middle" x="77126.99" y="-36635" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5060 -->
+<g id="edge33" class="edge">
+<title>n13-&gt;n5060</title>
+<path fill="none" stroke="black" d="M65918.09,-35514.72C66606.69,-35986.2 67340.05,-36393.76 68100.99,-36681 68147.98,-36698.74 73915.98,-36706.67 76205.1,-36709.12"/>
+<polygon fill="black" stroke="black" points="76205.15,-36712.62 76215.15,-36709.13 76205.16,-36705.62 76205.15,-36712.62"/>
+<text text-anchor="middle" x="70219.76" y="-36778" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Query Mechanism</text>
+</g>
+<!-- n5061 -->
+<g id="node37" class="node">
+<title>n5061</title>
+<text text-anchor="middle" x="77126.99" y="-36309" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Perceptual</text>
+</g>
+<!-- n13&#45;&gt;n5061 -->
+<g id="edge35" class="edge">
+<title>n13-&gt;n5061</title>
+<path fill="none" stroke="black" d="M66086.84,-35344.42C66728.68,-35752.06 67405.06,-36103.66 68100.99,-36356 68147.1,-36372.72 73648.82,-36380.42 76038.55,-36382.98"/>
+<polygon fill="black" stroke="black" points="76038.61,-36386.48 76048.61,-36382.99 76038.61,-36379.48 76038.61,-36386.48"/>
+<text text-anchor="middle" x="70219.76" y="-36452" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=UAP</text>
+</g>
+<!-- n5062 -->
+<g id="node39" class="node">
+<title>n5062</title>
+<text text-anchor="middle" x="77126.99" y="-35983" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5062 -->
+<g id="edge37" class="edge">
+<title>n13-&gt;n5062</title>
+<path fill="none" stroke="black" d="M66253.75,-35163.7C66847.81,-35512.6 67467.82,-35813.19 68100.99,-36033 68144.19,-36048 72929.83,-36054.42 75513.78,-36056.8"/>
+<polygon fill="black" stroke="black" points="75514.19,-36060.3 75524.19,-36056.8 75514.2,-36053.3 75514.19,-36060.3"/>
+<text text-anchor="middle" x="70219.76" y="-36127" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=AutoZoom</text>
+</g>
+<!-- n5063 -->
+<g id="node41" class="node">
+<title>n5063</title>
+<text text-anchor="middle" x="77126.99" y="-35657" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5063 -->
+<g id="edge39" class="edge">
+<title>n13-&gt;n5063</title>
+<path fill="none" stroke="black" d="M66422.87,-34967.41C66967.12,-35261.43 67530,-35514.86 68100.99,-35704 68187.71,-35732.73 72941.88,-35734.45 75513.99,-35733.28"/>
+<polygon fill="black" stroke="black" points="75514.36,-35736.78 75524.36,-35733.27 75514.36,-35729.78 75514.36,-35736.78"/>
+<text text-anchor="middle" x="70219.76" y="-35807" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=GenAttack</text>
+</g>
+<!-- n5064 -->
+<g id="node43" class="node">
+<title>n5064</title>
+<text text-anchor="middle" x="77126.99" y="-35331" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5064 -->
+<g id="edge41" class="edge">
+<title>n13-&gt;n5064</title>
+<path fill="none" stroke="black" d="M66586.23,-34763.03C67081.09,-35008.17 67588.84,-35219.8 68100.99,-35381 68144.61,-35394.73 72930.06,-35401.73 75513.87,-35404.52"/>
+<polygon fill="black" stroke="black" points="75514.28,-35408.02 75524.28,-35404.53 75514.29,-35401.02 75514.28,-35408.02"/>
+<text text-anchor="middle" x="70219.76" y="-35475" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Embedding COsine</text>
+</g>
+<!-- n5070 -->
+<g id="node45" class="node">
+<title>n5070</title>
+<text text-anchor="middle" x="77126.99" y="-35005" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5070 -->
+<g id="edge43" class="edge">
+<title>n13-&gt;n5070</title>
+<path fill="none" stroke="black" d="M66747.97,-34544.57C67192.84,-34745.51 67646.03,-34919.54 68100.99,-35055 68197.19,-35083.64 73925.96,-35082.44 76205.21,-35080.83"/>
+<polygon fill="black" stroke="black" points="76205.23,-35084.33 76215.22,-35080.82 76205.22,-35077.33 76205.23,-35084.33"/>
+<text text-anchor="middle" x="70219.76" y="-35155" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=AAtack</text>
+</g>
+<!-- n5071 -->
+<g id="node47" class="node">
+<title>n5071</title>
+<text text-anchor="middle" x="77126.99" y="-34679" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5071 -->
+<g id="edge45" class="edge">
+<title>n13-&gt;n5071</title>
+<path fill="none" stroke="black" d="M66905.62,-34314.22C67300.79,-34476.06 67700.89,-34616.91 68100.99,-34729 68197.64,-34756.08 73925.7,-34755.82 76205.01,-34754.64"/>
+<polygon fill="black" stroke="black" points="76205.02,-34758.14 76215.02,-34754.64 76205.02,-34751.14 76205.02,-34758.14"/>
+<text text-anchor="middle" x="70219.76" y="-34828" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=BayesOpt</text>
+</g>
+<!-- n5066 -->
+<g id="node49" class="node">
+<title>n5066</title>
+<text text-anchor="middle" x="77126.99" y="-34353" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5066 -->
+<g id="edge47" class="edge">
+<title>n13-&gt;n5066</title>
+<path fill="none" stroke="black" d="M67057.39,-34071.91C67403.93,-34199.79 67752.97,-34311.8 68100.99,-34403 68189.35,-34426.16 72941.98,-34428.84 75513.71,-34428.59"/>
+<polygon fill="black" stroke="black" points="75514.08,-34432.09 75524.08,-34428.59 75514.07,-34425.09 75514.08,-34432.09"/>
+<text text-anchor="middle" x="70219.76" y="-34502" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=ScoreBased</text>
+</g>
+<!-- n5049 -->
+<g id="node51" class="node">
+<title>n5049</title>
+<text text-anchor="middle" x="77126.99" y="-34027" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5049 -->
+<g id="edge49" class="edge">
+<title>n13-&gt;n5049</title>
+<path fill="none" stroke="black" d="M67203.58,-33816.54C67502.62,-33915.21 67802.57,-34002.37 68100.99,-34075 68198.51,-34098.74 73926.05,-34101.77 76205.11,-34102.04"/>
+<polygon fill="black" stroke="black" points="76205.12,-34105.54 76215.12,-34102.04 76205.12,-34098.54 76205.12,-34105.54"/>
+<text text-anchor="middle" x="70219.76" y="-34174" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=NES</text>
+</g>
+<!-- n5050 -->
+<g id="node54" class="node">
+<title>n5050</title>
+<text text-anchor="middle" x="77126.99" y="-33701" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5050 -->
+<g id="edge51" class="edge">
+<title>n13-&gt;n5050</title>
+<path fill="none" stroke="black" d="M67341.47,-33550.96C67595.21,-33625.23 67848.91,-33691.48 68100.99,-33748 68198.93,-33769.96 73926.21,-33774.7 76205.16,-33775.72"/>
+<polygon fill="black" stroke="black" points="76205.17,-33779.22 76215.17,-33775.73 76205.17,-33772.22 76205.17,-33779.22"/>
+<text text-anchor="middle" x="70219.76" y="-33846" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=NES</text>
+</g>
+<!-- n5054 -->
+<g id="node55" class="node">
+<title>n5054</title>
+<text text-anchor="middle" x="77126.99" y="-33375" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5054 -->
+<g id="edge53" class="edge">
+<title>n13-&gt;n5054</title>
+<path fill="none" stroke="black" d="M67470.25,-33274.98C67681.33,-33329.26 67891.9,-33378.24 68100.99,-33421 68199.32,-33441.11 73926.37,-33447.61 76205.21,-33449.4"/>
+<polygon fill="black" stroke="black" points="76205.21,-33452.9 76215.22,-33449.41 76205.22,-33445.9 76205.21,-33452.9"/>
+<text text-anchor="middle" x="70219.76" y="-33519" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Transfer-NES-PGD</text>
+</g>
+<!-- n5056 -->
+<g id="node57" class="node">
+<title>n5056</title>
+<text text-anchor="middle" x="77126.99" y="-33049" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5056 -->
+<g id="edge55" class="edge">
+<title>n13-&gt;n5056</title>
+<path fill="none" stroke="black" d="M67588.21,-32991.21C67759.97,-33029.6 67931.08,-33064.69 68100.99,-33096 68199.69,-33114.19 73926.09,-33121.2 76204.99,-33123.27"/>
+<polygon fill="black" stroke="black" points="76205,-33126.77 76215,-33123.28 76205,-33119.77 76205,-33126.77"/>
+<text text-anchor="middle" x="70219.76" y="-33192" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Transfer-NES-FGSM</text>
+</g>
+<!-- n5067 -->
+<g id="node59" class="node">
+<title>n5067</title>
+<text text-anchor="middle" x="77126.99" y="-32723" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5067 -->
+<g id="edge57" class="edge">
+<title>n13-&gt;n5067</title>
+<path fill="none" stroke="black" d="M67694.79,-32700.71C67830.88,-32726.8 67966.38,-32750.97 68100.99,-32773 68191.14,-32787.75 72942.55,-32794.28 75513.78,-32796.74"/>
+<polygon fill="black" stroke="black" points="75514.14,-32800.24 75524.14,-32796.75 75514.15,-32793.24 75514.14,-32800.24"/>
+<text text-anchor="middle" x="70219.76" y="-32867" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=P-RGF</text>
+</g>
+<!-- n5068 -->
+<g id="node61" class="node">
+<title>n5068</title>
+<text text-anchor="middle" x="77126.99" y="-32397" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5068 -->
+<g id="edge59" class="edge">
+<title>n13-&gt;n5068</title>
+<path fill="none" stroke="black" d="M67790.78,-32398.79C67894.68,-32415.57 67998.13,-32431.34 68100.99,-32446 68281.38,-32471.72 72967.37,-32473.79 75513.99,-32473"/>
+<polygon fill="black" stroke="black" points="75514.26,-32476.5 75524.25,-32472.99 75514.25,-32469.5 75514.26,-32476.5"/>
+<text text-anchor="middle" x="70219.76" y="-32546" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Trans-P-RGF</text>
+</g>
+<!-- n5069 -->
+<g id="node63" class="node">
+<title>n5069</title>
+<text text-anchor="middle" x="77126.99" y="-32071" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5069 -->
+<g id="edge61" class="edge">
+<title>n13-&gt;n5069</title>
+<path fill="none" stroke="black" d="M67874.41,-32089.2C67950.25,-32099.29 68025.8,-32108.9 68100.99,-32118 68299.9,-32142.08 73945.67,-32145.56 76204.71,-32145.98"/>
+<polygon fill="black" stroke="black" points="76205.05,-32149.48 76215.05,-32145.98 76205.05,-32142.48 76205.05,-32149.48"/>
+<text text-anchor="middle" x="70219.76" y="-32217" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=TREMBA</text>
+</g>
+<!-- n5025 -->
+<g id="node65" class="node">
+<title>n5025</title>
+<text text-anchor="middle" x="77126.99" y="-31745" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5025 -->
+<g id="edge63" class="edge">
+<title>n13-&gt;n5025</title>
+<path fill="none" stroke="black" d="M67944.09,-31775.88C67996.56,-31781.45 68048.87,-31786.83 68100.99,-31792 68300.37,-31811.79 73945.86,-31817.83 76204.77,-31819.46"/>
+<polygon fill="black" stroke="black" points="76205.1,-31822.96 76215.1,-31819.47 76205.11,-31815.96 76205.1,-31822.96"/>
+<text text-anchor="middle" x="70219.76" y="-31889" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=NTM-NPTM</text>
+</g>
+<!-- n5043 -->
+<g id="node66" class="node">
+<title>n5043</title>
+<text text-anchor="middle" x="77126.99" y="-31419" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5043 -->
+<g id="edge65" class="edge">
+<title>n13-&gt;n5043</title>
+<path fill="none" stroke="black" d="M67999.76,-31461.01C68033.58,-31463.73 68067.33,-31466.4 68100.99,-31469 68300.76,-31484.43 73946.01,-31491.16 76204.82,-31493.25"/>
+<polygon fill="black" stroke="black" points="76205.15,-31496.75 76215.15,-31493.26 76205.15,-31489.75 76205.15,-31496.75"/>
+<text text-anchor="middle" x="70219.76" y="-31563" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Watermarking</text>
+</g>
+<!-- n5006 -->
+<g id="node68" class="node">
+<title>n5006</title>
+<text text-anchor="middle" x="77126.99" y="-31093" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5006 -->
+<g id="edge67" class="edge">
+<title>n13-&gt;n5006</title>
+<path fill="none" stroke="black" d="M68041.63,-31139.7C68061.44,-31140.81 68081.23,-31141.91 68100.99,-31143 68499.66,-31164.9 73986.5,-31167.77 76204.98,-31168.04"/>
+<polygon fill="black" stroke="black" points="76205.13,-31171.54 76215.13,-31168.04 76205.13,-31164.54 76205.13,-31171.54"/>
+<text text-anchor="middle" x="70219.76" y="-31240" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Gradient Based - Data Augmentation</text>
+</g>
+<!-- n5053 -->
+<g id="node70" class="node">
+<title>n5053</title>
+<text text-anchor="middle" x="77126.99" y="-30767" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5053 -->
+<g id="edge69" class="edge">
+<title>n13-&gt;n5053</title>
+<path fill="none" stroke="black" d="M68069.2,-30816.96C68079.81,-30817.31 68090.4,-30817.66 68100.99,-30818 68817.08,-30841.26 73117.01,-30843.53 75514.06,-30842.94"/>
+<polygon fill="black" stroke="black" points="75514.16,-30846.44 75524.15,-30842.93 75514.15,-30839.44 75514.16,-30846.44"/>
+<text text-anchor="middle" x="70219.76" y="-30916" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=TransferBased-NES</text>
+</g>
+<!-- n5093 -->
+<g id="node72" class="node">
+<title>n5093</title>
+<text text-anchor="middle" x="77126.99" y="-30441" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5093 -->
+<g id="edge71" class="edge">
+<title>n13-&gt;n5093</title>
+<path fill="none" stroke="black" d="M68082.19,-30492.81C68088.46,-30492.88 68094.73,-30492.94 68100.99,-30493 70694.95,-30518.77 73708.48,-30520.83 75513.96,-30519.06"/>
+<polygon fill="black" stroke="black" points="75514.21,-30522.56 75524.21,-30519.05 75514.21,-30515.56 75514.21,-30522.56"/>
+<text text-anchor="middle" x="70219.76" y="-30591" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Gaussian Noise</text>
+</g>
+<!-- n5040 -->
+<g id="node75" class="node">
+<title>n5040</title>
+<text text-anchor="middle" x="77126.99" y="-30115" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5040 -->
+<g id="edge73" class="edge">
+<title>n13-&gt;n5040</title>
+<path fill="none" stroke="black" d="M68081.01,-30189.25C68087.67,-30189.17 68094.33,-30189.08 68100.99,-30189 69984.2,-30165.65 70455.18,-30188.8 72338.54,-30189 73683.48,-30189.14 75240.95,-30189.5 76204.91,-30189.75"/>
+<polygon fill="black" stroke="black" points="76205.16,-30193.25 76215.17,-30189.75 76205.17,-30186.25 76205.16,-30193.25"/>
+<text text-anchor="middle" x="70219.76" y="-30264" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Projected Gradient Descent</text>
+</g>
+<!-- n5092 -->
+<g id="node205" class="node">
+<title>n5092</title>
+<text text-anchor="middle" x="77126.99" y="-29789" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible(PGD$Linfty$), Optimal perturbation(PGD$L_2$,PGD$L_1$)</text>
+</g>
+<!-- n13&#45;&gt;n5092 -->
+<g id="edge186" class="edge">
+<title>n13-&gt;n5092</title>
+<path fill="none" stroke="black" d="M68066.25,-29875.22C68077.84,-29874.81 68089.42,-29874.4 68100.99,-29874 68607.02,-29856.42 70903.03,-29854.04 73052.36,-29856"/>
+<polygon fill="black" stroke="black" points="73052.61,-29859.5 73062.61,-29856.01 73052.61,-29852.5 73052.61,-29859.5"/>
+<text text-anchor="middle" x="70219.76" y="-29949" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGD</text>
+</g>
+<!-- n5000 -->
+<g id="node231" class="node">
+<title>n5000</title>
+<text text-anchor="middle" x="77126.99" y="-29463" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5000 -->
+<g id="edge200" class="edge">
+<title>n13-&gt;n5000</title>
+<path fill="none" stroke="black" d="M68037.16,-29554.7C68058.47,-29553.45 68079.75,-29552.21 68100.99,-29551 68816.32,-29510.12 73116.92,-29521.02 75514.17,-29530.58"/>
+<polygon fill="black" stroke="black" points="75514.26,-29534.08 75524.27,-29530.62 75514.28,-29527.08 75514.26,-29534.08"/>
+<text text-anchor="middle" x="70219.76" y="-29626" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Gradient Descent</text>
+</g>
+<!-- n5002 -->
+<g id="node232" class="node">
+<title>n5002</title>
+<text text-anchor="middle" x="77126.99" y="-29137" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5002 -->
+<g id="edge202" class="edge">
+<title>n13-&gt;n5002</title>
+<path fill="none" stroke="black" d="M67991.93,-29225.89C68028.37,-29222.85 68064.73,-29219.88 68100.99,-29217 68499,-29185.35 73986.24,-29200.94 76204.9,-29208.6"/>
+<polygon fill="black" stroke="black" points="76205.04,-29212.1 76215.05,-29208.63 76205.06,-29205.1 76205.04,-29212.1"/>
+<text text-anchor="middle" x="70219.76" y="-29292" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=JPEG-Lp</text>
+</g>
+<!-- n5003 -->
+<g id="node233" class="node">
+<title>n5003</title>
+<text text-anchor="middle" x="77126.99" y="-28811" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5003 -->
+<g id="edge204" class="edge">
+<title>n13-&gt;n5003</title>
+<path fill="none" stroke="black" d="M67934.01,-28910.59C67989.86,-28904.5 68045.53,-28898.63 68100.99,-28893 68461.59,-28856.39 73017.22,-28869.05 75514.22,-28878.88"/>
+<polygon fill="black" stroke="black" points="75514.27,-28882.38 75524.28,-28878.92 75514.29,-28875.38 75514.27,-28882.38"/>
+<text text-anchor="middle" x="70219.76" y="-28968" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=APGD-AT-Randomization</text>
+</g>
+<!-- n5012 -->
+<g id="node234" class="node">
+<title>n5012</title>
+<text text-anchor="middle" x="77126.99" y="-28485" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5012 -->
+<g id="edge206" class="edge">
+<title>n13-&gt;n5012</title>
+<path fill="none" stroke="black" d="M67861.37,-28595.13C67941.58,-28584.19 68021.48,-28573.8 68100.99,-28564 68281.83,-28541.7 72967.62,-28549.7 75514.1,-28555.74"/>
+<polygon fill="black" stroke="black" points="75514.35,-28559.24 75524.36,-28555.76 75514.36,-28552.24 75514.35,-28559.24"/>
+<text text-anchor="middle" x="70219.76" y="-28639" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=APGD-AT-Logit Squeezing</text>
+</g>
+<!-- n5004 -->
+<g id="node235" class="node">
+<title>n5004</title>
+<text text-anchor="middle" x="77126.99" y="-28159" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5004 -->
+<g id="edge208" class="edge">
+<title>n13-&gt;n5004</title>
+<path fill="none" stroke="black" d="M67778.14,-28295.02C67886.28,-28277.19 67993.95,-28260.48 68100.99,-28245 68281.33,-28218.91 72967.34,-28224.94 75513.98,-28230.17"/>
+<polygon fill="black" stroke="black" points="75514.24,-28233.67 75524.24,-28230.2 75514.25,-28226.67 75514.24,-28233.67"/>
+<text text-anchor="middle" x="70219.76" y="-28320" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Momentum-Mustafa</text>
+</g>
+<!-- n5013 -->
+<g id="node236" class="node">
+<title>n5013</title>
+<text text-anchor="middle" x="77126.99" y="-27833" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5013 -->
+<g id="edge210" class="edge">
+<title>n13-&gt;n5013</title>
+<path fill="none" stroke="black" d="M67681.58,-27996.8C67822.09,-27969.37 67962,-27944.02 68100.99,-27921 68298.67,-27888.25 73945.6,-27899.55 76204.82,-27905.4"/>
+<polygon fill="black" stroke="black" points="76205.15,-27908.9 76215.16,-27905.43 76205.16,-27901.9 76205.15,-27908.9"/>
+<text text-anchor="middle" x="70219.76" y="-27996" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Momentum Iterative-Super resolution</text>
+</g>
+<!-- n5014 -->
+<g id="node237" class="node">
+<title>n5014</title>
+<text text-anchor="middle" x="77126.99" y="-27507" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5014 -->
+<g id="edge212" class="edge">
+<title>n13-&gt;n5014</title>
+<path fill="none" stroke="black" d="M67572.08,-27703.66C67749.23,-27663.37 67925.73,-27626.64 68100.99,-27594 68297.97,-27557.31 73945.32,-27571.6 76204.74,-27578.82"/>
+<polygon fill="black" stroke="black" points="76205.06,-27582.32 76215.07,-27578.85 76205.08,-27575.32 76205.06,-27582.32"/>
+<text text-anchor="middle" x="70219.76" y="-27669" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Momentum-Denoisining</text>
+</g>
+<!-- n5005 -->
+<g id="node238" class="node">
+<title>n5005</title>
+<text text-anchor="middle" x="77126.99" y="-27181" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5005 -->
+<g id="edge214" class="edge">
+<title>n13-&gt;n5005</title>
+<path fill="none" stroke="black" d="M67450.75,-27417.63C67668.31,-27360.71 67885.4,-27309.5 68100.99,-27265 68279.45,-27228.17 72966.71,-27240.12 75513.88,-27249.4"/>
+<polygon fill="black" stroke="black" points="75514.13,-27252.91 75524.14,-27249.44 75514.16,-27245.91 75514.13,-27252.91"/>
+<text text-anchor="middle" x="70219.76" y="-27340" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Discretized Inputs</text>
+</g>
+<!-- n5072 -->
+<g id="node239" class="node">
+<title>n5072</title>
+<text text-anchor="middle" x="77126.99" y="-26855" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5072 -->
+<g id="edge216" class="edge">
+<title>n13-&gt;n5072</title>
+<path fill="none" stroke="black" d="M67319.14,-27140.54C67580.24,-27062.81 67841.42,-26993.67 68100.99,-26935 68198.89,-26912.87 73926.2,-26922.98 76205.16,-26927.88"/>
+<polygon fill="black" stroke="black" points="76205.16,-26931.38 76215.17,-26927.9 76205.17,-26924.38 76205.16,-26931.38"/>
+<text text-anchor="middle" x="70219.76" y="-27010" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Discretized Inputs</text>
+</g>
+<!-- n5010 -->
+<g id="node240" class="node">
+<title>n5010</title>
+<text text-anchor="middle" x="77126.99" y="-26529" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible / Noise</text>
+</g>
+<!-- n13&#45;&gt;n5010 -->
+<g id="edge218" class="edge">
+<title>n13-&gt;n5010</title>
+<path fill="none" stroke="black" d="M67183.99,-26884.06C67489.42,-26781.87 67795.94,-26691.77 68100.99,-26617 68285.23,-26571.84 73358.15,-26587.58 75815.85,-26597.91"/>
+<polygon fill="black" stroke="black" points="75816.18,-26601.41 75826.2,-26597.96 75816.21,-26594.41 75816.18,-26601.41"/>
+<text text-anchor="middle" x="70219.76" y="-26692" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Watermarking</text>
+</g>
+<!-- n5016 -->
+<g id="node241" class="node">
+<title>n5016</title>
+<text text-anchor="middle" x="77126.99" y="-26203" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible(PGDL∞), Optimal perturbation(PGDL2 ,PGDL1)</text>
+</g>
+<!-- n13&#45;&gt;n5016 -->
+<g id="edge220" class="edge">
+<title>n13-&gt;n5016</title>
+<path fill="none" stroke="black" d="M67033.41,-26624.55C67387.67,-26491.89 67744.77,-26375.93 68100.99,-26282 68170.72,-26263.61 71147.61,-26265.06 73663.38,-26269.6"/>
+<polygon fill="black" stroke="black" points="73663.52,-26273.1 73673.52,-26269.62 73663.53,-26266.1 73663.52,-26273.1"/>
+<text text-anchor="middle" x="70219.76" y="-26357" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Gradient Based</text>
+</g>
+<!-- n5091 -->
+<g id="node242" class="node">
+<title>n5091</title>
+<text text-anchor="middle" x="77126.99" y="-25877" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5091 -->
+<g id="edge222" class="edge">
+<title>n13-&gt;n5091</title>
+<path fill="none" stroke="black" d="M66883.45,-26388.68C67285.65,-26221.86 67693.21,-26076.88 68100.99,-25962 68188.92,-25937.23 72942.14,-25943.25 75513.94,-25948.34"/>
+<polygon fill="black" stroke="black" points="75514.29,-25951.84 75524.3,-25948.36 75514.31,-25944.84 75514.29,-25951.84"/>
+<text text-anchor="middle" x="70219.76" y="-26037" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGD Fast</text>
+</g>
+<!-- n5019 -->
+<g id="node243" class="node">
+<title>n5019</title>
+<text text-anchor="middle" x="77126.99" y="-25551" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5019 -->
+<g id="edge224" class="edge">
+<title>n13-&gt;n5019</title>
+<path fill="none" stroke="black" d="M66726.89,-26162.03C67178.31,-25955.79 67638.62,-25777.36 68100.99,-25639 68188.51,-25612.81 72941.91,-25617.89 75513.85,-25622.57"/>
+<polygon fill="black" stroke="black" points="75514.2,-25626.07 75524.21,-25622.59 75514.22,-25619.07 75514.2,-25626.07"/>
+<text text-anchor="middle" x="70219.76" y="-25714" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGD Fast</text>
+</g>
+<!-- n5021 -->
+<g id="node244" class="node">
+<title>n5021</title>
+<text text-anchor="middle" x="77126.99" y="-25225" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5021 -->
+<g id="edge226" class="edge">
+<title>n13-&gt;n5021</title>
+<path fill="none" stroke="black" d="M66565.18,-25945.77C67066.46,-25694.81 67581.3,-25478.32 68100.99,-25314 68188.09,-25286.46 72941.69,-25291.63 75513.76,-25296.45"/>
+<polygon fill="black" stroke="black" points="75514.11,-25299.95 75524.12,-25296.47 75514.13,-25292.95 75514.11,-25299.95"/>
+<text text-anchor="middle" x="70219.76" y="-25389" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGD Fast</text>
+</g>
+<!-- n5023 -->
+<g id="node245" class="node">
+<title>n5023</title>
+<text text-anchor="middle" x="77126.99" y="-24899" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5023 -->
+<g id="edge228" class="edge">
+<title>n13-&gt;n5023</title>
+<path fill="none" stroke="black" d="M66399.58,-25740.96C66950.74,-25439.98 67521.49,-25180.73 68100.99,-24988 68187.68,-24959.17 72941.86,-24964.93 75513.99,-24970.17"/>
+<polygon fill="black" stroke="black" points="75514.34,-24973.67 75524.35,-24970.19 75514.36,-24966.67 75514.34,-24973.67"/>
+<text text-anchor="middle" x="70219.76" y="-25063" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGD Fast</text>
+</g>
+<!-- n5032 -->
+<g id="node246" class="node">
+<title>n5032</title>
+<text text-anchor="middle" x="77126.99" y="-24573" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5032 -->
+<g id="edge230" class="edge">
+<title>n13-&gt;n5032</title>
+<path fill="none" stroke="black" d="M66231.31,-25547.5C66831.86,-25191.31 67459.44,-24884.53 68100.99,-24661 68187.26,-24630.94 72941.63,-24637.79 75513.89,-24643.72"/>
+<polygon fill="black" stroke="black" points="75514.25,-24647.22 75524.26,-24643.74 75514.27,-24640.22 75514.25,-24647.22"/>
+<text text-anchor="middle" x="70219.76" y="-24736" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=M-Gradient Based</text>
+</g>
+<!-- n5020 -->
+<g id="node247" class="node">
+<title>n5020</title>
+<text text-anchor="middle" x="77126.99" y="-24247" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5020 -->
+<g id="edge232" class="edge">
+<title>n13-&gt;n5020</title>
+<path fill="none" stroke="black" d="M66062.07,-25365.79C66710.83,-24949.51 67395.58,-24590.57 68100.99,-24334 68186.84,-24302.77 72941.41,-24310.69 75513.8,-24317.28"/>
+<polygon fill="black" stroke="black" points="75514.16,-24320.78 75524.17,-24317.31 75514.18,-24313.78 75514.16,-24320.78"/>
+<text text-anchor="middle" x="70219.76" y="-24409" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGD Fast</text>
+</g>
+<!-- n5008 -->
+<g id="node248" class="node">
+<title>n5008</title>
+<text text-anchor="middle" x="77126.99" y="-23921" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5008 -->
+<g id="edge234" class="edge">
+<title>n13-&gt;n5008</title>
+<path fill="none" stroke="black" d="M65892.17,-25195.87C66587.76,-24714.71 67329.86,-24298.87 68100.99,-24007 68186.43,-23974.66 72941.18,-23983.62 75513.71,-23990.85"/>
+<polygon fill="black" stroke="black" points="75514.07,-23994.35 75524.08,-23990.88 75514.09,-23987.35 75514.07,-23994.35"/>
+<text text-anchor="middle" x="70219.76" y="-24082" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=IGB-Adam</text>
+</g>
+<!-- n5011 -->
+<g id="node249" class="node">
+<title>n5011</title>
+<text text-anchor="middle" x="77126.99" y="-23595" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5011 -->
+<g id="edge236" class="edge">
+<title>n13-&gt;n5011</title>
+<path fill="none" stroke="black" d="M65722.14,-25036.67C66462.9,-24485.94 67262.33,-24008.37 68100.99,-23679 68194.42,-23642.31 73925.29,-23658.61 76205.14,-23666.56"/>
+<polygon fill="black" stroke="black" points="76205.14,-23670.06 76215.16,-23666.6 76205.17,-23663.06 76205.14,-23670.06"/>
+<text text-anchor="middle" x="70219.76" y="-23754" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Image Scaling</text>
+</g>
+<!-- n5015 -->
+<g id="node250" class="node">
+<title>n5015</title>
+<text text-anchor="middle" x="77126.99" y="-23269" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5015 -->
+<g id="edge238" class="edge">
+<title>n13-&gt;n5015</title>
+<path fill="none" stroke="black" d="M65554.16,-24888.59C66337.75,-24264.4 67193.7,-23720.8 68100.99,-23352 68193.98,-23314.2 73925.11,-23331.81 76205.09,-23340.33"/>
+<polygon fill="black" stroke="black" points="76205.09,-23343.83 76215.1,-23340.36 76205.12,-23336.83 76205.09,-23343.83"/>
+<text text-anchor="middle" x="70219.76" y="-23427" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Discretized Inputs</text>
+</g>
+<!-- n5007 -->
+<g id="node251" class="node">
+<title>n5007</title>
+<text text-anchor="middle" x="77126.99" y="-22943" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5007 -->
+<g id="edge240" class="edge">
+<title>n13-&gt;n5007</title>
+<path fill="none" stroke="black" d="M65386.96,-24750.68C66211.31,-24048.76 67123.34,-23434.34 68100.99,-23024 68185.23,-22988.64 72940.93,-23001.64 75513.77,-23011.29"/>
+<polygon fill="black" stroke="black" points="75514.12,-23014.79 75524.14,-23011.32 75514.15,-23007.79 75514.12,-23014.79"/>
+<text text-anchor="middle" x="70219.76" y="-23099" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=M-PGD</text>
+</g>
+<!-- n5076 -->
+<g id="node252" class="node">
+<title>n5076</title>
+<text text-anchor="middle" x="77126.99" y="-22617" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5076 -->
+<g id="edge242" class="edge">
+<title>n13-&gt;n5076</title>
+<path fill="none" stroke="black" d="M66292.2,-25615.64C66995.84,-24765.98 67628.68,-23838.18 68082.99,-22863 68098.75,-22829.17 68073.22,-22720.95 68100.99,-22696 68138.36,-22662.43 73913.91,-22680.1 76205.01,-22688.44"/>
+<polygon fill="black" stroke="black" points="76205.06,-22691.94 76215.07,-22688.48 76205.08,-22684.94 76205.06,-22691.94"/>
+<text text-anchor="middle" x="70219.76" y="-22771" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=DeepFool</text>
+</g>
+<!-- n5077 -->
+<g id="node253" class="node">
+<title>n5077</title>
+<text text-anchor="middle" x="77126.99" y="-22291" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5077 -->
+<g id="edge244" class="edge">
+<title>n13-&gt;n5077</title>
+<path fill="none" stroke="black" d="M66335.24,-25665.4C67038.37,-24806.14 67659.75,-23862.33 68082.99,-22863 68104.28,-22812.73 68061.7,-22409.9 68100.99,-22372 68137.15,-22337.12 73913.87,-22354.3 76205.13,-22362.49"/>
+<polygon fill="black" stroke="black" points="76205.17,-22365.99 76215.19,-22362.53 76205.2,-22358.99 76205.17,-22365.99"/>
+<text text-anchor="middle" x="70219.76" y="-22447" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=FGSM</text>
+</g>
+<!-- n5078 -->
+<g id="node254" class="node">
+<title>n5078</title>
+<text text-anchor="middle" x="77126.99" y="-21965" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5078 -->
+<g id="edge246" class="edge">
+<title>n13-&gt;n5078</title>
+<path fill="none" stroke="black" d="M66344.25,-25675.48C67047.32,-24814.27 67666.31,-23867.22 68082.99,-22863 68100.39,-22821.07 68068.55,-22077.76 68100.99,-22046 68136.89,-22010.86 73913.77,-22028.2 76205.09,-22036.46"/>
+<polygon fill="black" stroke="black" points="76205.14,-22039.96 76215.16,-22036.5 76205.17,-22032.96 76205.14,-22039.96"/>
+<text text-anchor="middle" x="70219.76" y="-22121" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Cassidi</text>
+</g>
+<!-- n5079 -->
+<g id="node255" class="node">
+<title>n5079</title>
+<text text-anchor="middle" x="77126.99" y="-21639" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5079 -->
+<g id="edge248" class="edge">
+<title>n13-&gt;n5079</title>
+<path fill="none" stroke="black" d="M66347.88,-25680.11C67051.03,-24817.99 67669.09,-23869.44 68082.99,-22863 68095.07,-22833.63 68078.37,-21742.28 68100.99,-21720 68136.78,-21684.75 73913.72,-21702.15 76205.08,-21710.45"/>
+<polygon fill="black" stroke="black" points="76205.13,-21713.95 76215.14,-21710.49 76205.16,-21706.95 76205.13,-21713.95"/>
+<text text-anchor="middle" x="70219.76" y="-21795" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=NewtonFool</text>
+</g>
+<!-- n5080 -->
+<g id="node256" class="node">
+<title>n5080</title>
+<text text-anchor="middle" x="77126.99" y="-21313" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5080 -->
+<g id="edge250" class="edge">
+<title>n13-&gt;n5080</title>
+<path fill="none" stroke="black" d="M66350.14,-25682.38C67053.24,-24819.83 67670.69,-23870.55 68082.99,-22863 68098.45,-22825.23 68071.97,-21422.69 68100.99,-21394 68136.72,-21358.68 73913.7,-21376.13 76205.07,-21384.44"/>
+<polygon fill="black" stroke="black" points="76205.12,-21387.94 76215.14,-21384.48 76205.15,-21380.94 76205.12,-21387.94"/>
+<text text-anchor="middle" x="70219.76" y="-21469" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=TUAP</text>
+</g>
+<!-- n5081 -->
+<g id="node257" class="node">
+<title>n5081</title>
+<text text-anchor="middle" x="77126.99" y="-20987" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5081 -->
+<g id="edge252" class="edge">
+<title>n13-&gt;n5081</title>
+<path fill="none" stroke="black" d="M66351.29,-25684.19C67054.47,-24821.27 67671.65,-23871.4 68082.99,-22863 68101.82,-22816.83 68065.57,-21103.09 68100.99,-21068 68136.68,-21032.64 73913.68,-21050.11 76205.07,-21058.44"/>
+<polygon fill="black" stroke="black" points="76205.12,-21061.94 76215.13,-21058.47 76205.14,-21054.94 76205.12,-21061.94"/>
+<text text-anchor="middle" x="70219.76" y="-21143" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=DFO</text>
+</g>
+<!-- n5024 -->
+<g id="node258" class="node">
+<title>n5024</title>
+<text text-anchor="middle" x="77126.99" y="-20661" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible, Optimal perturbation</text>
+</g>
+<!-- n13&#45;&gt;n5024 -->
+<g id="edge254" class="edge">
+<title>n13-&gt;n5024</title>
+<path fill="none" stroke="black" d="M66352.38,-25685.08C67055.5,-24822 67672.38,-23871.85 68082.99,-22863 68094.1,-22835.71 68080.08,-20762.75 68100.99,-20742 68131.76,-20711.47 72438.08,-20720.3 75090.35,-20728.65"/>
+<polygon fill="black" stroke="black" points="75090.54,-20732.15 75100.55,-20728.69 75090.56,-20725.15 75090.54,-20732.15"/>
+<text text-anchor="middle" x="70219.76" y="-20817" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Salt-Pepper</text>
+</g>
+<!-- n5073 -->
+<g id="node259" class="node">
+<title>n5073</title>
+<text text-anchor="middle" x="77126.99" y="-20335" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5073 -->
+<g id="edge256" class="edge">
+<title>n13-&gt;n5073</title>
+<path fill="none" stroke="black" d="M66353.1,-25685.83C67056.21,-24822.6 67672.89,-23872.21 68082.99,-22863 68095.79,-22831.51 68076.88,-20439.95 68100.99,-20416 68136.63,-20380.6 73913.66,-20398.09 76205.06,-20406.43"/>
+<polygon fill="black" stroke="black" points="76205.11,-20409.93 76215.13,-20406.47 76205.14,-20402.93 76205.11,-20409.93"/>
+<text text-anchor="middle" x="70219.76" y="-20491" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=ReColorAdv</text>
+</g>
+<!-- n5074 -->
+<g id="node260" class="node">
+<title>n5074</title>
+<text text-anchor="middle" x="77126.99" y="-20009" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5074 -->
+<g id="edge258" class="edge">
+<title>n13-&gt;n5074</title>
+<path fill="none" stroke="black" d="M66353.6,-25686.47C67056.72,-24823.11 67673.28,-23872.52 68082.99,-22863 68097.47,-22827.31 68073.68,-20117.15 68100.99,-20090 68136.62,-20054.58 73913.66,-20072.09 76205.06,-20080.43"/>
+<polygon fill="black" stroke="black" points="76205.11,-20083.93 76215.12,-20080.47 76205.14,-20076.93 76205.11,-20083.93"/>
+<text text-anchor="middle" x="70219.76" y="-20165" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=cADV</text>
+</g>
+<!-- n5075 -->
+<g id="node261" class="node">
+<title>n5075</title>
+<text text-anchor="middle" x="77126.99" y="-19683" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5075 -->
+<g id="edge260" class="edge">
+<title>n13-&gt;n5075</title>
+<path fill="none" stroke="black" d="M66353.93,-25687.05C67057.09,-24823.57 67673.57,-23872.79 68082.99,-22863 68099.16,-22823.11 68070.48,-19794.36 68100.99,-19764 68136.6,-19728.57 73913.65,-19746.08 76205.06,-19754.43"/>
+<polygon fill="black" stroke="black" points="76205.11,-19757.93 76215.12,-19754.47 76205.14,-19750.93 76205.11,-19757.93"/>
+<text text-anchor="middle" x="70219.76" y="-19839" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=AtADV</text>
+</g>
+<!-- n5018 -->
+<g id="node262" class="node">
+<title>n5018</title>
+<text text-anchor="middle" x="77126.99" y="-19357" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visibility=Visible</text>
+</g>
+<!-- n13&#45;&gt;n5018 -->
+<g id="edge262" class="edge">
+<title>n13-&gt;n5018</title>
+<path fill="none" stroke="black" d="M66354.42,-25687.25C67057.51,-24823.75 67673.85,-23872.9 68082.99,-22863 68100.85,-22818.91 68067.28,-19471.56 68100.99,-19438 68136.59,-19402.56 73913.65,-19420.08 76205.06,-19428.43"/>
+<polygon fill="black" stroke="black" points="76205.11,-19431.93 76215.12,-19428.46 76205.13,-19424.93 76205.11,-19431.93"/>
+<text text-anchor="middle" x="70219.76" y="-19513" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=GAN</text>
+</g>
+<!-- n3 -->
+<g id="node2" class="node">
+<title>n3</title>
+<text text-anchor="middle" x="93151.24" y="-31745" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-NTM/ PAT</text>
+</g>
+<!-- n5 -->
+
+<!-- n6 -->
+<g id="node3" class="node">
+<title>n6</title>
+<text text-anchor="middle" x="93151.24" y="-41851" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-StAdv/ PAT</text>
+</g>
+<!-- n7 -->
+<g id="node4" class="node">
+<title>n7</title>
+<text text-anchor="middle" x="93151.24" y="-41525" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-ReCAdv/ PAT</text>
+</g>
+<!-- n8 -->
+<g id="node5" class="node">
+<title>n8</title>
+<text text-anchor="middle" x="93151.24" y="-41199" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-LPA/ PAT</text>
+</g>
+<!-- n9 -->
+<g id="node6" class="node">
+<title>n9</title>
+<text text-anchor="middle" x="93151.24" y="-40873" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Fast-LPA/ PAT</text>
+</g>
+<!-- n5027 -->
+
+<!-- n6000&#45;&gt;n5027 -->
+
+<!-- n6001 -->
+
+<!-- n5027&#45;&gt;n6001 -->
+
+<!-- n6001&#45;&gt;n5 -->
+
+<!-- n5028&#45;&gt;n6 -->
+<g id="edge2" class="edge">
+<title>n5028-&gt;n6</title>
+<path fill="none" stroke="black" d="M78038.95,-41926C80906.64,-41926 89715.66,-41926 92379.35,-41926"/>
+<polygon fill="black" stroke="black" points="92379.57,-41929.5 92389.57,-41926 92379.57,-41922.5 92379.57,-41929.5"/>
+<text text-anchor="middle" x="85724.34" y="-42001" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based</text>
+</g>
+<!-- n5029&#45;&gt;n7 -->
+<g id="edge4" class="edge">
+<title>n5029-&gt;n7</title>
+<path fill="none" stroke="black" d="M78038.95,-41600C80865.64,-41600 89464.99,-41600 92261.36,-41600"/>
+<polygon fill="black" stroke="black" points="92261.59,-41603.5 92271.59,-41600 92261.59,-41596.5 92261.59,-41603.5"/>
+<text text-anchor="middle" x="85724.34" y="-41675" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=NA</text>
+</g>
+<!-- n5030&#45;&gt;n8 -->
+<g id="edge6" class="edge">
+<title>n5030-&gt;n8</title>
+<path fill="none" stroke="black" d="M78038.95,-41274C80937.29,-41274 89904.65,-41274 92462.63,-41274"/>
+<polygon fill="black" stroke="black" points="92462.92,-41277.5 92472.92,-41274 92462.92,-41270.5 92462.92,-41277.5"/>
+<text text-anchor="middle" x="85724.34" y="-41349" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=NA</text>
+</g>
+<!-- n5031&#45;&gt;n9 -->
+<g id="edge8" class="edge">
+<title>n5031-&gt;n9</title>
+<path fill="none" stroke="black" d="M78038.95,-40948C80849.48,-40948 89366.88,-40948 92212.85,-40948"/>
+<polygon fill="black" stroke="black" points="92213,-40951.5 92223,-40948 92213,-40944.5 92213,-40951.5"/>
+<text text-anchor="middle" x="85724.34" y="-41023" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=NA</text>
+</g>
+<!-- n53 -->
+<g id="node12" class="node">
+<title>n53</title>
+<text text-anchor="middle" x="93151.24" y="-40547" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-FGSM/ Mustafa</text>
+</g>
+<!-- n5033&#45;&gt;n53 -->
+<g id="edge10" class="edge">
+<title>n5033-&gt;n53</title>
+<path fill="none" stroke="black" d="M78729.76,-40622C82025.24,-40622 89480.12,-40622 92164.08,-40622"/>
+<polygon fill="black" stroke="black" points="92164.39,-40625.5 92174.39,-40622 92164.39,-40618.5 92164.39,-40625.5"/>
+<text text-anchor="middle" x="85724.34" y="-40697" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Momentum Fast Iterative</text>
+</g>
+<!-- n54 -->
+<g id="node14" class="node">
+<title>n54</title>
+<text text-anchor="middle" x="93151.24" y="-40221" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-BIM/ Mustafa</text>
+</g>
+<!-- n5034&#45;&gt;n54 -->
+<g id="edge12" class="edge">
+<title>n5034-&gt;n54</title>
+<path fill="none" stroke="black" d="M78729.76,-40296C82068.94,-40296 89678.55,-40296 92268.31,-40296"/>
+<polygon fill="black" stroke="black" points="92268.72,-40299.5 92278.72,-40296 92268.72,-40292.5 92268.72,-40299.5"/>
+<text text-anchor="middle" x="85724.34" y="-40371" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Momentum Iterative</text>
+</g>
+<!-- n92 -->
+<g id="node16" class="node">
+<title>n92</title>
+<text text-anchor="middle" x="93151.24" y="-39895" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGD/ BAT</text>
+</g>
+<!-- n5042&#45;&gt;n92 -->
+<g id="edge14" class="edge">
+<title>n5042-&gt;n92</title>
+<path fill="none" stroke="black" d="M78038.95,-39970C80919.36,-39970 89793.95,-39970 92414.44,-39970"/>
+<polygon fill="black" stroke="black" points="92414.5,-39973.5 92424.5,-39970 92414.5,-39966.5 92414.5,-39973.5"/>
+<text text-anchor="middle" x="85724.34" y="-40045" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Non Fast</text>
+</g>
+<!-- n244 -->
+<g id="node18" class="node">
+<title>n244</title>
+<text text-anchor="middle" x="93151.24" y="-39569" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-FrogsAttacks/ Data Sanitizing</text>
+</g>
+<!-- n5044&#45;&gt;n244 -->
+<g id="edge16" class="edge">
+<title>n5044-&gt;n244</title>
+<path fill="none" stroke="black" d="M78038.95,-39644C80642.01,-39644 88140.47,-39644 91494.44,-39644"/>
+<polygon fill="black" stroke="black" points="91494.57,-39647.5 91504.57,-39644 91494.57,-39640.5 91494.57,-39647.5"/>
+<text text-anchor="middle" x="85724.34" y="-39719" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based Frogs</text>
+</g>
+<!-- n245 -->
+<g id="node20" class="node">
+<title>n245</title>
+<text text-anchor="middle" x="93151.24" y="-39243" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Collision Attack/ Data Sanitizing</text>
+</g>
+<!-- n5045&#45;&gt;n245 -->
+<g id="edge18" class="edge">
+<title>n5045-&gt;n245</title>
+<path fill="none" stroke="black" d="M78038.95,-39318C80602.35,-39318 87913.13,-39318 91338.3,-39318"/>
+<polygon fill="black" stroke="black" points="91338.33,-39321.5 91348.33,-39318 91338.33,-39314.5 91338.33,-39321.5"/>
+<text text-anchor="middle" x="85724.34" y="-39393" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=NA</text>
+</g>
+<!-- n246 -->
+<g id="node22" class="node">
+<title>n246</title>
+<text text-anchor="middle" x="93151.24" y="-38917" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-One Shot-kill/ DS</text>
+</g>
+<!-- n5046&#45;&gt;n246 -->
+<g id="edge20" class="edge">
+<title>n5046-&gt;n246</title>
+<path fill="none" stroke="black" d="M78038.95,-38992C80812.63,-38992 89144.51,-38992 92098.01,-38992"/>
+<polygon fill="black" stroke="black" points="92098.27,-38995.5 92108.27,-38992 92098.27,-38988.5 92098.27,-38995.5"/>
+<text text-anchor="middle" x="85724.34" y="-39067" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=NA</text>
+</g>
+<!-- n253 -->
+<g id="node24" class="node">
+<title>n253</title>
+<text text-anchor="middle" x="93151.24" y="-38591" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-APGD/ Pixel Defend</text>
+</g>
+<!-- n5090&#45;&gt;n253 -->
+<g id="edge22" class="edge">
+<title>n5090-&gt;n253</title>
+<path fill="none" stroke="black" d="M78729.76,-38666C81937.11,-38666 89084.37,-38666 91938.69,-38666"/>
+<polygon fill="black" stroke="black" points="91938.87,-38669.5 91948.87,-38666 91938.87,-38662.5 91938.87,-38669.5"/>
+<text text-anchor="middle" x="85724.34" y="-38741" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random Search</text>
+</g>
+<!-- n2012 -->
+<g id="node26" class="node">
+<title>n2012</title>
+<text text-anchor="middle" x="93151.24" y="-38265" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGD Fast/Data Augmentation</text>
+</g>
+<!-- n5017&#45;&gt;n2012 -->
+<g id="edge24" class="edge">
+<title>n5017-&gt;n2012</title>
+<path fill="none" stroke="black" d="M78729.76,-38340C81774.75,-38340 88370.87,-38340 91473.29,-38340"/>
+<polygon fill="black" stroke="black" points="91473.52,-38343.5 91483.52,-38340 91473.52,-38336.5 91473.52,-38343.5"/>
+<text text-anchor="middle" x="85724.34" y="-38415" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Fast Search</text>
+</g>
+<!-- n261 -->
+<g id="node28" class="node">
+<title>n261</title>
+<text text-anchor="middle" x="93151.24" y="-37939" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-SB/Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5009&#45;&gt;n261 -->
+<g id="edge26" class="edge">
+<title>n5009-&gt;n261</title>
+<path fill="none" stroke="black" d="M78038.95,-38014C80516.33,-38014 87427.83,-38014 90980.68,-38014"/>
+<polygon fill="black" stroke="black" points="90980.77,-38017.5 90990.77,-38014 90980.77,-38010.5 90980.77,-38017.5"/>
+<text text-anchor="middle" x="85724.34" y="-38089" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Salient Search, Random</text>
+</g>
+<!-- n262 -->
+<g id="node30" class="node">
+<title>n262</title>
+<text text-anchor="middle" x="93151.24" y="-37613" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-JSMA/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5057&#45;&gt;n262 -->
+<g id="edge28" class="edge">
+<title>n5057-&gt;n262</title>
+<path fill="none" stroke="black" d="M78038.95,-37688C80466.35,-37688 87150.75,-37688 90761.61,-37688"/>
+<polygon fill="black" stroke="black" points="90761.86,-37691.5 90771.86,-37688 90761.86,-37684.5 90761.86,-37691.5"/>
+<text text-anchor="middle" x="85724.34" y="-37763" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Constrained Based</text>
+</g>
+<!-- n263 -->
+<g id="node32" class="node">
+<title>n263</title>
+<text text-anchor="middle" x="93151.24" y="-37287" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-C&amp;W/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5058&#45;&gt;n263 -->
+<g id="edge30" class="edge">
+<title>n5058-&gt;n263</title>
+<path fill="none" stroke="black" d="M78038.95,-37362C80471.01,-37362 87176.41,-37362 90782.35,-37362"/>
+<polygon fill="black" stroke="black" points="90782.59,-37365.5 90792.59,-37362 90782.59,-37358.5 90782.59,-37365.5"/>
+<text text-anchor="middle" x="85724.34" y="-37437" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Unconstrained Based</text>
+</g>
+<!-- n264 -->
+<g id="node34" class="node">
+<title>n264</title>
+<text text-anchor="middle" x="93151.24" y="-36961" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-ZOO/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5059&#45;&gt;n264 -->
+<g id="edge32" class="edge">
+<title>n5059-&gt;n264</title>
+<path fill="none" stroke="black" d="M78038.95,-37036C80480.43,-37036 87228.4,-37036 90824.1,-37036"/>
+<polygon fill="black" stroke="black" points="90824.31,-37039.5 90834.31,-37036 90824.31,-37032.5 90824.31,-37039.5"/>
+<text text-anchor="middle" x="85724.34" y="-37111" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Approximation</text>
+</g>
+<!-- n265 -->
+<g id="node36" class="node">
+<title>n265</title>
+<text text-anchor="middle" x="93151.24" y="-36635" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-QM/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5060&#45;&gt;n265 -->
+<g id="edge34" class="edge">
+<title>n5060-&gt;n265</title>
+<path fill="none" stroke="black" d="M78038.95,-36710C80497.91,-36710 87325.29,-36710 90900.88,-36710"/>
+<polygon fill="black" stroke="black" points="90901.03,-36713.5 90911.03,-36710 90901.03,-36706.5 90901.03,-36713.5"/>
+<text text-anchor="middle" x="85724.34" y="-36785" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Query Reduction</text>
+</g>
+<!-- n266 -->
+<g id="node38" class="node">
+<title>n266</title>
+<text text-anchor="middle" x="93151.24" y="-36309" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-UAP/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5061&#45;&gt;n266 -->
+<g id="edge36" class="edge">
+<title>n5061-&gt;n266</title>
+<path fill="none" stroke="black" d="M78205.31,-36384C80781.03,-36384 87341.92,-36384 90852.15,-36384"/>
+<polygon fill="black" stroke="black" points="90852.44,-36387.5 90862.44,-36384 90852.44,-36380.5 90852.44,-36387.5"/>
+<text text-anchor="middle" x="85724.34" y="-36459" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Minimal perturbation to decision boundary</text>
+</g>
+<!-- n267 -->
+<g id="node40" class="node">
+<title>n267</title>
+<text text-anchor="middle" x="93151.24" y="-35983" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-AutoZoom/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5062&#45;&gt;n267 -->
+<g id="edge38" class="edge">
+<title>n5062-&gt;n267</title>
+<path fill="none" stroke="black" d="M78729.76,-36058C81500.17,-36058 87210.13,-36058 90553.94,-36058"/>
+<polygon fill="black" stroke="black" points="90554.05,-36061.5 90564.05,-36058 90554.05,-36054.5 90554.05,-36061.5"/>
+<text text-anchor="middle" x="85724.34" y="-36133" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random Vector Based Gradient Estimation</text>
+</g>
+<!-- n268 -->
+<g id="node42" class="node">
+<title>n268</title>
+<text text-anchor="middle" x="93151.24" y="-35657" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-GenAttack/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5063&#45;&gt;n268 -->
+<g id="edge40" class="edge">
+<title>n5063-&gt;n268</title>
+<path fill="none" stroke="black" d="M78729.76,-35732C81502.03,-35732 87217.78,-35732 90560.66,-35732"/>
+<polygon fill="black" stroke="black" points="90560.76,-35735.5 90570.76,-35732 90560.76,-35728.5 90560.76,-35735.5"/>
+<text text-anchor="middle" x="85724.34" y="-35807" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random noise in the range (-δmax,δmax)</text>
+</g>
+<!-- n269 -->
+<g id="node44" class="node">
+<title>n269</title>
+<text text-anchor="middle" x="93151.24" y="-35331" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-ECO/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5064&#45;&gt;n269 -->
+<g id="edge42" class="edge">
+<title>n5064-&gt;n269</title>
+<path fill="none" stroke="black" d="M78729.76,-35406C81584.45,-35406 87560.25,-35406 90852.38,-35406"/>
+<polygon fill="black" stroke="black" points="90852.63,-35409.5 90862.63,-35406 90852.63,-35402.5 90852.63,-35409.5"/>
+<text text-anchor="middle" x="85724.34" y="-35481" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random noise in the range (-δmax,δmax)</text>
+</g>
+<!-- n270 -->
+<g id="node46" class="node">
+<title>n270</title>
+<text text-anchor="middle" x="93151.24" y="-35005" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-AAttack/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5070&#45;&gt;n270 -->
+<g id="edge44" class="edge">
+<title>n5070-&gt;n270</title>
+<path fill="none" stroke="black" d="M78038.95,-35080C80447.83,-35080 87048.98,-35080 90678.41,-35080"/>
+<polygon fill="black" stroke="black" points="90678.71,-35083.5 90688.71,-35080 90678.71,-35076.5 90678.71,-35083.5"/>
+<text text-anchor="middle" x="85724.34" y="-35155" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Adaptive direction initialization</text>
+</g>
+<!-- n271 -->
+<g id="node48" class="node">
+<title>n271</title>
+<text text-anchor="middle" x="93151.24" y="-34679" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-BayesOpt/ Stocahstic Element, Shardped Edges</text>
+</g>
+<!-- n5071&#45;&gt;n271 -->
+<g id="edge46" class="edge">
+<title>n5071-&gt;n271</title>
+<path fill="none" stroke="black" d="M78038.95,-34754C80432.59,-34754 86965.61,-34754 90609.16,-34754"/>
+<polygon fill="black" stroke="black" points="90609.17,-34757.5 90619.17,-34754 90609.17,-34750.5 90609.17,-34757.5"/>
+<text text-anchor="middle" x="85724.34" y="-34829" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=search dimensionality reduction</text>
+</g>
+<!-- n281 -->
+<g id="node50" class="node">
+<title>n281</title>
+<text text-anchor="middle" x="93151.24" y="-34353" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-ScoreBased/Adversarial Purification</text>
+</g>
+<!-- n5066&#45;&gt;n281 -->
+<g id="edge48" class="edge">
+<title>n5066-&gt;n281</title>
+<path fill="none" stroke="black" d="M78729.76,-34428C81679.36,-34428 87961.05,-34428 91171.63,-34428"/>
+<polygon fill="black" stroke="black" points="91171.92,-34431.5 91181.92,-34428 91171.92,-34424.5 91171.92,-34431.5"/>
+<text text-anchor="middle" x="85724.34" y="-34503" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random search</text>
+</g>
+<!-- n282 -->
+<g id="node52" class="node">
+<title>n282</title>
+<text text-anchor="middle" x="93151.24" y="-34027" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-NES/Augmented Adv Training</text>
+</g>
+<!-- n5049&#45;&gt;n282 -->
+<g id="edge50" class="edge">
+<title>n5049-&gt;n282</title>
+<path fill="none" stroke="black" d="M78038.95,-34102C80627.73,-34102 88058.35,-34102 91438.87,-34102"/>
+<polygon fill="black" stroke="black" points="91439.08,-34105.5 91449.08,-34102 91439.08,-34098.5 91439.08,-34105.5"/>
+<text text-anchor="middle" x="85724.34" y="-34177" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Latent Space NES search and Gradient Based</text>
+</g>
+<!-- n289 -->
+<g id="node53" class="node">
+<title>n289</title>
+<text text-anchor="middle" x="93151.24" y="-33701" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-NES-PGD-NonFast/Augmented Adv Training</text>
+</g>
+<!-- n5050&#45;&gt;n289 -->
+<g id="edge52" class="edge">
+<title>n5050-&gt;n289</title>
+<path fill="none" stroke="black" d="M78038.95,-33776C80448.55,-33776 87052.95,-33776 90681.68,-33776"/>
+<polygon fill="black" stroke="black" points="90681.98,-33779.5 90691.98,-33776 90681.98,-33772.5 90681.98,-33779.5"/>
+<text text-anchor="middle" x="85724.34" y="-33851" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Latent Space NES-NonFast search and Gradient Based</text>
+</g>
+<!-- n283 -->
+<g id="node56" class="node">
+<title>n283</title>
+<text text-anchor="middle" x="93151.24" y="-33375" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-T-NES-PGD/Augmented Adv Training</text>
+</g>
+<!-- n5054&#45;&gt;n283 -->
+<g id="edge54" class="edge">
+<title>n5054-&gt;n283</title>
+<path fill="none" stroke="black" d="M78038.95,-33450C80527.72,-33450 87491.43,-33450 91029.45,-33450"/>
+<polygon fill="black" stroke="black" points="91029.49,-33453.5 91039.49,-33450 91029.49,-33446.5 91029.49,-33453.5"/>
+<text text-anchor="middle" x="85724.34" y="-33525" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Latent Space NES search and Gradient Based</text>
+</g>
+<!-- n284 -->
+<g id="node58" class="node">
+<title>n284</title>
+<text text-anchor="middle" x="93151.24" y="-33049" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-T-NES-FGSM/Augmented Adv Training</text>
+</g>
+<!-- n5056&#45;&gt;n284 -->
+<g id="edge56" class="edge">
+<title>n5056-&gt;n284</title>
+<path fill="none" stroke="black" d="M78038.95,-33124C80506.61,-33124 87373.62,-33124 90938.68,-33124"/>
+<polygon fill="black" stroke="black" points="90938.8,-33127.5 90948.8,-33124 90938.8,-33120.5 90938.8,-33127.5"/>
+<text text-anchor="middle" x="85724.34" y="-33199" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Latent Space NES search and Gradient Based</text>
+</g>
+<!-- n286 -->
+<g id="node60" class="node">
+<title>n286</title>
+<text text-anchor="middle" x="93151.24" y="-32723" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-P-RGF/AT</text>
+</g>
+<!-- n5067&#45;&gt;n286 -->
+<g id="edge58" class="edge">
+<title>n5067-&gt;n286</title>
+<path fill="none" stroke="black" d="M78729.76,-32798C82148.86,-32798 90045.26,-32798 92445.51,-32798"/>
+<polygon fill="black" stroke="black" points="92445.6,-32801.5 92455.6,-32798 92445.6,-32794.5 92445.6,-32801.5"/>
+<text text-anchor="middle" x="85724.34" y="-32873" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random search</text>
+</g>
+<!-- n287 -->
+<g id="node62" class="node">
+<title>n287</title>
+<text text-anchor="middle" x="93151.24" y="-32397" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Trans-P-RGF/AT</text>
+</g>
+<!-- n5068&#45;&gt;n287 -->
+<g id="edge60" class="edge">
+<title>n5068-&gt;n287</title>
+<path fill="none" stroke="black" d="M78729.76,-32472C82006.94,-32472 89397.44,-32472 92118.92,-32472"/>
+<polygon fill="black" stroke="black" points="92119.37,-32475.5 92129.37,-32472 92119.37,-32468.5 92119.37,-32475.5"/>
+<text text-anchor="middle" x="85724.34" y="-32547" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random search</text>
+</g>
+<!-- n288 -->
+<g id="node64" class="node">
+<title>n288</title>
+<text text-anchor="middle" x="93151.24" y="-32071" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-TREMBA/ AT</text>
+</g>
+<!-- n5069&#45;&gt;n288 -->
+<g id="edge62" class="edge">
+<title>n5069-&gt;n288</title>
+<path fill="none" stroke="black" d="M78038.95,-32146C80861.07,-32146 89437.2,-32146 92247.76,-32146"/>
+<polygon fill="black" stroke="black" points="92247.78,-32149.5 92257.78,-32146 92247.78,-32142.5 92247.78,-32149.5"/>
+<text text-anchor="middle" x="85724.34" y="-32221" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random search</text>
+</g>
+<!-- n5025&#45;&gt;n3 -->
+<g id="edge64" class="edge">
+<title>n5025-&gt;n3</title>
+<path fill="none" stroke="black" d="M78038.95,-31820C80914.19,-31820 89762.1,-31820 92400.26,-31820"/>
+<polygon fill="black" stroke="black" points="92400.39,-31823.5 92410.39,-31820 92400.39,-31816.5 92400.39,-31823.5"/>
+<text text-anchor="middle" x="85724.34" y="-31895" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=L∞ , L2 , JPEG-L∞ , StAdv, ReColorAdv</text>
+</g>
+<!-- n242 -->
+<g id="node67" class="node">
+<title>n242</title>
+<text text-anchor="middle" x="93151.24" y="-31419" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Watermarking/ Data Sanitizing</text>
+</g>
+<!-- n5043&#45;&gt;n242 -->
+<g id="edge66" class="edge">
+<title>n5043-&gt;n242</title>
+<path fill="none" stroke="black" d="M78038.95,-31494C80627.83,-31494 88058.94,-31494 91439.28,-31494"/>
+<polygon fill="black" stroke="black" points="91439.49,-31497.5 91449.49,-31494 91439.49,-31490.5 91439.49,-31497.5"/>
+<text text-anchor="middle" x="85724.34" y="-31569" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based Watermarking</text>
+</g>
+<!-- n251 -->
+<g id="node69" class="node">
+<title>n251</title>
+<text text-anchor="middle" x="93151.24" y="-31093" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGD-NonFast/ Pixel Defend</text>
+</g>
+<!-- n5006&#45;&gt;n251 -->
+<g id="edge68" class="edge">
+<title>n5006-&gt;n251</title>
+<path fill="none" stroke="black" d="M78038.95,-31168C80654.64,-31168 88213.32,-31168 91542.95,-31168"/>
+<polygon fill="black" stroke="black" points="91543,-31171.5 91553,-31168 91543,-31164.5 91543,-31171.5"/>
+<text text-anchor="middle" x="85724.34" y="-31243" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Non Fast</text>
+</g>
+<!-- n280 -->
+<g id="node71" class="node">
+<title>n280</title>
+<text text-anchor="middle" x="93151.24" y="-30767" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-TB-NES/ Randomization</text>
+</g>
+<!-- n5053&#45;&gt;n280 -->
+<g id="edge70" class="edge">
+<title>n5053-&gt;n280</title>
+<path fill="none" stroke="black" d="M78729.76,-30842C81862.97,-30842 88756.05,-30842 91733.97,-30842"/>
+<polygon fill="black" stroke="black" points="91734.06,-30845.5 91744.06,-30842 91734.05,-30838.5 91734.06,-30845.5"/>
+<text text-anchor="middle" x="85724.34" y="-30917" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based</text>
+</g>
+<!-- n85 -->
+<g id="node73" class="node">
+<title>n85</title>
+<text text-anchor="middle" x="93151.24" y="-30441" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Gaussian Noise/ Certified Robustness. </text>
+</g>
+<!-- n5093&#45;&gt;n85 -->
+<g id="edge72" class="edge">
+<title>n5093-&gt;n85</title>
+<path fill="none" stroke="black" d="M78729.76,-30516C81635.29,-30516 87774.08,-30516 91025.69,-30516"/>
+<polygon fill="black" stroke="black" points="91025.81,-30519.5 91035.81,-30516 91025.81,-30512.5 91025.81,-30519.5"/>
+<text text-anchor="middle" x="85724.34" y="-30591" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Search</text>
+</g>
+<!-- n91 -->
+<g id="node74" class="node">
+<title>n91</title>
+<text text-anchor="middle" x="93151.24" y="-30115" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-M-PGD/ BAT</text>
+</g>
+<!-- n5040&#45;&gt;n91 -->
+<g id="edge74" class="edge">
+<title>n5040-&gt;n91</title>
+<path fill="none" stroke="black" d="M78038.95,-30190C80865.64,-30190 89464.99,-30190 92261.36,-30190"/>
+<polygon fill="black" stroke="black" points="92261.59,-30193.5 92271.59,-30190 92261.59,-30186.5 92261.59,-30193.5"/>
+<text text-anchor="middle" x="85724.34" y="-30265" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Non Fast</text>
+</g>
+<!-- n4 -->
+<g id="node76" class="node">
+<title>n4</title>
+<ellipse fill="none" stroke="black" cx="6120" cy="-59053" rx="6120" ry="3600"/>
+<text text-anchor="middle" x="6120" y="-58603" font-family="Helvetica,Arial,sans-serif" font-size="1500.00">A</text>
+</g>
+<!-- n12 -->
+<g id="node77" class="node">
+<title>n12</title>
+<ellipse fill="none" stroke="black" cx="20666.03" cy="-74256" rx="6138.15" ry="6138.15"/>
+<text text-anchor="middle" x="20666.03" y="-73866" font-family="Helvetica,Arial,sans-serif" font-size="1300.00">Unsupervised[3]</text>
+</g>
+<!-- n4&#45;&gt;n12 -->
+<g id="edge75" class="edge">
+<title>n4-&gt;n12</title>
+<path fill="none" stroke="black" d="M9013.62,-62225.22C10622.2,-63975.01 12669.05,-66178.16 14527.95,-68109 15097.53,-68700.62 15702.5,-69318.7 16302.03,-69925.22"/>
+<polygon fill="black" stroke="black" points="16299.56,-69927.7 16309.08,-69932.35 16304.54,-69922.78 16299.56,-69927.7"/>
+<text text-anchor="middle" x="13383.98" y="-68124" font-family="Helvetica,Arial,sans-serif" font-size="250.00">VM=Unsupervised</text>
+</g>
+<!-- n2000 -->
+<g id="node78" class="node">
+<title>n2000</title>
+<ellipse fill="none" stroke="black" cx="20666.03" cy="-64463" rx="3637.2" ry="3637.2"/>
+<text text-anchor="middle" x="20666.03" y="-64073" font-family="Helvetica,Arial,sans-serif" font-size="1300.00">Unknown</text>
+</g>
+<!-- n4&#45;&gt;n2000 -->
+<g id="edge76" class="edge">
+<title>n4-&gt;n2000</title>
+<path fill="none" stroke="black" d="M11293.15,-60976.91C13270.34,-61712.37 15474.06,-62532.09 17247.56,-63191.79"/>
+<polygon fill="black" stroke="black" points="17246.4,-63195.09 17257,-63195.3 17248.84,-63188.53 17246.4,-63195.09"/>
+<text text-anchor="middle" x="13383.98" y="-62247" font-family="Helvetica,Arial,sans-serif" font-size="250.00">VM=Unknown</text>
+</g>
+<!-- n700 -->
+<g id="node98" class="node">
+<title>n700</title>
+<ellipse fill="none" stroke="black" cx="20666.03" cy="-57110" rx="3600" ry="3600"/>
+<text text-anchor="middle" x="20666.03" y="-56810" font-family="Helvetica,Arial,sans-serif" font-size="1000.00">Supervised[32]</text>
+</g>
+<!-- n4&#45;&gt;n700 -->
+<g id="edge96" class="edge">
+<title>n4-&gt;n700</title>
+<path fill="none" stroke="black" d="M12088.09,-58255.83C13785.33,-58029.09 15580.62,-57789.25 17087.64,-57587.92"/>
+<polygon fill="black" stroke="black" points="17088.14,-57591.38 17097.59,-57586.59 17087.21,-57584.45 17088.14,-57591.38"/>
+<text text-anchor="middle" x="13383.98" y="-58307" font-family="Helvetica,Arial,sans-serif" font-size="250.00">VM=Supervised</text>
+</g>
+<!-- n800 -->
+<g id="node138" class="node">
+<title>n800</title>
+<ellipse fill="none" stroke="black" cx="20666.03" cy="-8658" rx="5400" ry="5400"/>
+<text text-anchor="middle" x="20666.03" y="-8358" font-family="Helvetica,Arial,sans-serif" font-size="1000.00">Semi-Supervised[42]</text>
+</g>
+<!-- n4&#45;&gt;n800 -->
+<g id="edge137" class="edge">
+<title>n4-&gt;n800</title>
+<path fill="none" stroke="black" d="M7145.34,-55503.68C9670.36,-46754.49 16202.49,-24120.67 19164.86,-13856.08"/>
+<polygon fill="black" stroke="black" points="19168.3,-13856.79 19167.71,-13846.22 19161.57,-13854.85 19168.3,-13856.79"/>
+<text text-anchor="middle" x="13383.98" y="-37837" font-family="Helvetica,Arial,sans-serif" font-size="250.00">VM=Semi-Supervised</text>
+</g>
+<!-- n75 -->
+<g id="node79" class="node">
+<title>n75</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-76885" rx="684.93" ry="684.93"/>
+<text text-anchor="middle" x="39111.59" y="-76810" font-family="Helvetica,Arial,sans-serif" font-size="250.00">K-Means[4]</text>
+</g>
+<!-- n12&#45;&gt;n75 -->
+<g id="edge77" class="edge">
+<title>n12-&gt;n75</title>
+<path fill="none" stroke="black" d="M26632.63,-75697.7C26696.08,-75710.01 26759.26,-75722.12 26822.11,-75734 31184.57,-76558.77 36535.25,-76802.45 38416.74,-76865.38"/>
+<polygon fill="black" stroke="black" points="38416.95,-76868.89 38427.06,-76865.73 38417.18,-76861.89 38416.95,-76868.89"/>
+<text text-anchor="middle" x="28457.85" y="-76309" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=K-Means Clustering</text>
+</g>
+<!-- n76 -->
+<g id="node80" class="node">
+<title>n76</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-75812" rx="369.68" ry="369.68"/>
+<text text-anchor="middle" x="39111.59" y="-75737" font-family="Helvetica,Arial,sans-serif" font-size="250.00">AH[5]</text>
+</g>
+<!-- n12&#45;&gt;n76 -->
+<g id="edge78" class="edge">
+<title>n12-&gt;n76</title>
+<path fill="none" stroke="black" d="M26747.73,-75088.19C27864.87,-75219.9 29022.09,-75342.32 30111.59,-75433 33445.05,-75710.44 37490.97,-75788.85 38731.18,-75807.13"/>
+<polygon fill="black" stroke="black" points="38731.54,-75810.64 38741.59,-75807.29 38731.64,-75803.64 38731.54,-75810.64"/>
+<text text-anchor="middle" x="28457.85" y="-75505" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Agglomerative Hierarchical</text>
+</g>
+<!-- n77 -->
+<g id="node81" class="node">
+<title>n77</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-75031" rx="392.87" ry="392.87"/>
+<text text-anchor="middle" x="39111.59" y="-74956" font-family="Helvetica,Arial,sans-serif" font-size="250.00">GM[6]</text>
+</g>
+<!-- n12&#45;&gt;n77 -->
+<g id="edge79" class="edge">
+<title>n12-&gt;n77</title>
+<path fill="none" stroke="black" d="M26798.86,-74513.66C31397.35,-74706.89 37154.91,-74948.82 38708.79,-75014.12"/>
+<polygon fill="black" stroke="black" points="38708.85,-75017.62 38718.99,-75014.54 38709.15,-75010.63 38708.85,-75017.62"/>
+<text text-anchor="middle" x="28457.85" y="-74726" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Guassian Mixture</text>
+</g>
+<!-- n79 -->
+<g id="node82" class="node">
+<title>n79</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-73889" rx="731.21" ry="731.21"/>
+<text text-anchor="middle" x="39111.59" y="-73814" font-family="Helvetica,Arial,sans-serif" font-size="250.00">DBSCAN[8]</text>
+</g>
+<!-- n12&#45;&gt;n79 -->
+<g id="edge80" class="edge">
+<title>n12-&gt;n79</title>
+<path fill="none" stroke="black" d="M26803.26,-74133.9C31114.19,-74048.12 36441.94,-73942.1 38370.32,-73903.73"/>
+<polygon fill="black" stroke="black" points="38370.61,-73907.23 38380.54,-73903.53 38370.47,-73900.23 38370.61,-73907.23"/>
+<text text-anchor="middle" x="28457.85" y="-74208" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=DBSCAN Clustering</text>
+</g>
+<!-- n80 -->
+<g id="node83" class="node">
+<title>n80</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-72778" rx="362.42" ry="362.42"/>
+<text text-anchor="middle" x="39111.59" y="-72703" font-family="Helvetica,Arial,sans-serif" font-size="250.00">CA[9]</text>
+</g>
+<!-- n12&#45;&gt;n80 -->
+<g id="edge81" class="edge">
+<title>n12-&gt;n80</title>
+<path fill="none" stroke="black" d="M26754.26,-73474.1C27869.59,-73350.31 29024.49,-73235 30111.59,-73149 33453.08,-72884.67 37508.39,-72802.88 38739.08,-72783.27"/>
+<polygon fill="black" stroke="black" points="38739.47,-72786.77 38749.41,-72783.11 38739.36,-72779.77 38739.47,-72786.77"/>
+<text text-anchor="middle" x="28457.85" y="-73541" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Component Analysis</text>
+</g>
+<!-- n900 -->
+<g id="node84" class="node">
+<title>n900</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-69416" rx="1080" ry="1080"/>
+<text text-anchor="middle" x="39111.59" y="-69326" font-family="Helvetica,Arial,sans-serif" font-size="300.00">RL[11]</text>
+</g>
+<!-- n12&#45;&gt;n900 -->
+<g id="edge82" class="edge">
+<title>n12-&gt;n900</title>
+<path fill="none" stroke="black" d="M26603.41,-72698.16C30734.69,-71614.02 35877.96,-70264.32 38056.92,-69692.51"/>
+<polygon fill="black" stroke="black" points="38058.1,-69695.81 38066.89,-69689.89 38056.33,-69689.04 38058.1,-69695.81"/>
+<text text-anchor="middle" x="28457.85" y="-72713" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Reinforcement Learning</text>
+</g>
+<!-- n2013 -->
+<g id="node206" class="node">
+<title>n2013</title>
+<text text-anchor="middle" x="39111.59" y="-66443" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-UAP/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2013 -->
+<g id="edge188" class="edge">
+<title>n2000-&gt;n2013</title>
+<path fill="none" stroke="black" d="M24051.21,-65793.6C24938.92,-66083.42 25904.81,-66347.59 26822.11,-66496 30681.18,-67120.37 35311.63,-66862.19 37632.04,-66664.99"/>
+<polygon fill="black" stroke="black" points="37632.57,-66668.46 37642.23,-66664.13 37631.97,-66661.49 37632.57,-66668.46"/>
+<text text-anchor="middle" x="28457.85" y="-66903" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= Vanilla Universal-UAP</text>
+</g>
+<!-- n2014 -->
+<g id="node207" class="node">
+<title>n2014</title>
+<text text-anchor="middle" x="39111.59" y="-66117" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-DF-UAP/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2014 -->
+<g id="edge189" class="edge">
+<title>n2000-&gt;n2014</title>
+<path fill="none" stroke="black" d="M24123.13,-65593.61C24994.5,-65830.17 25934.73,-66044.55 26822.11,-66166 27080.66,-66201.39 34126.49,-66197.86 37430.37,-66194.24"/>
+<polygon fill="black" stroke="black" points="37430.66,-66197.74 37440.65,-66194.23 37430.65,-66190.74 37430.66,-66197.74"/>
+<text text-anchor="middle" x="28457.85" y="-66267" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= Dominant Feature-UAP</text>
+</g>
+<!-- n2015 -->
+<g id="node208" class="node">
+<title>n2015</title>
+<text text-anchor="middle" x="39111.59" y="-65791" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-SV-UAP/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2015 -->
+<g id="edge190" class="edge">
+<title>n2000-&gt;n2015</title>
+<path fill="none" stroke="black" d="M24183.89,-65387.38C25041.01,-65574.25 25959.52,-65742.8 26822.11,-65839 27081.47,-65867.93 34126.87,-65868.4 37430.5,-65867.03"/>
+<polygon fill="black" stroke="black" points="37430.79,-65870.53 37440.79,-65867.02 37430.79,-65863.53 37430.79,-65870.53"/>
+<text text-anchor="middle" x="28457.85" y="-65937" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= SV-UAP</text>
+</g>
+<!-- n2016 -->
+<g id="node209" class="node">
+<title>n2016</title>
+<text text-anchor="middle" x="39111.59" y="-65465" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-GAP-UAP/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2016 -->
+<g id="edge191" class="edge">
+<title>n2000-&gt;n2016</title>
+<path fill="none" stroke="black" d="M24232.34,-65177.77C25077.8,-65318.28 25978.99,-65444.54 26822.11,-65517 27079.77,-65539.14 34000.61,-65540.94 37340.3,-65540.5"/>
+<polygon fill="black" stroke="black" points="37340.39,-65544 37350.39,-65540.5 37340.39,-65537 37340.39,-65544"/>
+<text text-anchor="middle" x="28457.85" y="-65610" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= GAP-UAP</text>
+</g>
+<!-- n2017 -->
+<g id="node210" class="node">
+<title>n2017</title>
+<text text-anchor="middle" x="39111.59" y="-65139" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Cos-UAP/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2017 -->
+<g id="edge192" class="edge">
+<title>n2000-&gt;n2017</title>
+<path fill="none" stroke="black" d="M24269.17,-64959.18C25105.62,-65054.73 25993.62,-65140.43 26822.11,-65190 27338.94,-65220.92 34139.78,-65218.75 37395.8,-65215.89"/>
+<polygon fill="black" stroke="black" points="37395.94,-65219.39 37405.94,-65215.88 37395.93,-65212.39 37395.94,-65219.39"/>
+<text text-anchor="middle" x="28457.85" y="-65288" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= Cos-UAP</text>
+</g>
+<!-- n2018 -->
+<g id="node211" class="node">
+<title>n2018</title>
+<text text-anchor="middle" x="39111.59" y="-64813" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-FFF/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2018 -->
+<g id="edge193" class="edge">
+<title>n2000-&gt;n2018</title>
+<path fill="none" stroke="black" d="M24293.13,-64734.49C25123.63,-64786.21 26003.06,-64832.68 26822.11,-64860 27878.37,-64895.23 34661.74,-64892.7 37673.51,-64889.75"/>
+<polygon fill="black" stroke="black" points="37673.71,-64893.25 37683.71,-64889.74 37673.71,-64886.25 37673.71,-64893.25"/>
+<text text-anchor="middle" x="28457.85" y="-64961" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= FFF</text>
+</g>
+<!-- n2019 -->
+<g id="node212" class="node">
+<title>n2019</title>
+<text text-anchor="middle" x="39111.59" y="-64487" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-AAA/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2019 -->
+<g id="edge194" class="edge">
+<title>n2000-&gt;n2019</title>
+<path fill="none" stroke="black" d="M24302.78,-64514.94C25130.88,-64524.98 26006.85,-64534.17 26822.11,-64540 30712.63,-64567.82 35296.16,-64567.17 37611.06,-64564.49"/>
+<polygon fill="black" stroke="black" points="37611.24,-64567.99 37621.23,-64564.48 37611.23,-64560.99 37611.24,-64567.99"/>
+<text text-anchor="middle" x="28457.85" y="-64631" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= AAA</text>
+</g>
+<!-- n2020 -->
+<g id="node213" class="node">
+<title>n2020</title>
+<text text-anchor="middle" x="39111.59" y="-64161" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-GD-UAP/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2020 -->
+<g id="edge195" class="edge">
+<title>n2000-&gt;n2020</title>
+<path fill="none" stroke="black" d="M24299.94,-64306.77C25128.74,-64277.32 26005.72,-64251.05 26822.11,-64236 28830.76,-64198.97 34534.9,-64216.43 37409.93,-64228.24"/>
+<polygon fill="black" stroke="black" points="37409.92,-64231.74 37419.93,-64228.28 37409.95,-64224.74 37409.92,-64231.74"/>
+<text text-anchor="middle" x="28457.85" y="-64311" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= GD-UAP</text>
+</g>
+<!-- n2021 -->
+<g id="node214" class="node">
+<title>n2021</title>
+<text text-anchor="middle" x="39111.59" y="-63835" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-PD-UAP/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2021 -->
+<g id="edge196" class="edge">
+<title>n2000-&gt;n2021</title>
+<path fill="none" stroke="black" d="M24283.44,-64083.62C25116.34,-64011.39 25999.23,-63946.89 26822.11,-63910 27341.19,-63886.73 34188.71,-63898.88 37430.68,-63906.02"/>
+<polygon fill="black" stroke="black" points="37430.77,-63909.52 37440.77,-63906.04 37430.78,-63902.52 37430.77,-63909.52"/>
+<text text-anchor="middle" x="28457.85" y="-63985" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= PD-UA</text>
+</g>
+<!-- n2022 -->
+<g id="node215" class="node">
+<title>n2022</title>
+<text text-anchor="middle" x="39111.59" y="-63509" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-NAG/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2022 -->
+<g id="edge197" class="edge">
+<title>n2000-&gt;n2022</title>
+<path fill="none" stroke="black" d="M24254.46,-63869.22C25094.51,-63754.12 25987.78,-63651.01 26822.11,-63592 27350.24,-63554.64 34450.22,-63570.42 37610.96,-63579.38"/>
+<polygon fill="black" stroke="black" points="37611.08,-63582.88 37621.09,-63579.41 37611.1,-63575.88 37611.08,-63582.88"/>
+<text text-anchor="middle" x="28457.85" y="-63667" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= NAG</text>
+</g>
+<!-- n2023 -->
+<g id="node216" class="node">
+<title>n2023</title>
+<text text-anchor="middle" x="39111.59" y="-63183" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-DF-UAP-COCO/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2023 -->
+<g id="edge198" class="edge">
+<title>n2000-&gt;n2023</title>
+<path fill="none" stroke="black" d="M24211.96,-63652.87C25062.34,-63491.94 25970.81,-63347.32 26822.11,-63265 27072.08,-63240.83 33605.98,-63248.43 37041.94,-63254.14"/>
+<polygon fill="black" stroke="black" points="37042,-63257.64 37052.01,-63254.16 37042.02,-63250.64 37042,-63257.64"/>
+<text text-anchor="middle" x="28457.85" y="-63340" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= DF-UAP-COCO</text>
+</g>
+<!-- n2024 -->
+<g id="node217" class="node">
+<title>n2024</title>
+<text text-anchor="middle" x="39111.59" y="-62857" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Cos-UAP-Jigsaw/Adversarial Training</text>
+</g>
+<!-- n2000&#45;&gt;n2024 -->
+<g id="edge199" class="edge">
+<title>n2000-&gt;n2024</title>
+<path fill="none" stroke="black" d="M24158.48,-63446.8C25021.59,-63238.56 25949.18,-63050.55 26822.11,-62944 28729.19,-62711.21 34035.41,-62800.04 37013.86,-62873.16"/>
+<polygon fill="black" stroke="black" points="37013.87,-62876.67 37023.95,-62873.41 37014.04,-62869.67 37013.87,-62876.67"/>
+<text text-anchor="middle" x="28457.85" y="-63019" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC= Cos-UAP-Jigsaw</text>
+</g>
+<!-- n83 -->
+<g id="node85" class="node">
+<title>n83</title>
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-77876" rx="819.45" ry="819.45"/>
+<text text-anchor="middle" x="60882.99" y="-77801" font-family="Helvetica,Arial,sans-serif" font-size="250.00">SO Attack[35]</text>
+</g>
+<!-- n75&#45;&gt;n83 -->
+<g id="edge83" class="edge">
+<title>n75-&gt;n83</title>
+<path fill="none" stroke="black" d="M39795.9,-76916.11C43003.08,-77062.11 56553.84,-77678.97 60054.08,-77838.31"/>
+<polygon fill="black" stroke="black" points="60054.17,-77841.82 60064.32,-77838.78 60054.49,-77834.83 60054.17,-77841.82"/>
+<text text-anchor="middle" x="50897.29" y="-77621" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TM:Black Box</text>
+</g>
+<!-- n90 -->
+<g id="node91" class="node">
+<title>n90</title>
+<text text-anchor="middle" x="60882.99" y="-76810" font-family="Helvetica,Arial,sans-serif" font-size="250.00">NonConvex Optimization/Non-convex Guarantee</text>
+</g>
+<!-- n75&#45;&gt;n90 -->
+<g id="edge89" class="edge">
+<title>n75-&gt;n90</title>
+<path fill="none" stroke="black" d="M39796.65,-76885C42615.83,-76885 53417.85,-76885 58372.27,-76885"/>
+<polygon fill="black" stroke="black" points="58372.7,-76888.5 58382.7,-76885 58372.7,-76881.5 58372.7,-76888.5"/>
+<text text-anchor="middle" x="50897.29" y="-76960" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=NonConvex Optimization</text>
+</g>
+<!-- n95 -->
+<g id="node92" class="node">
+<title>n95</title>
+<text text-anchor="middle" x="60882.99" y="-76484" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Saddle Point Attack/Adversarial Traning</text>
+</g>
+<!-- n75&#45;&gt;n95 -->
+<g id="edge90" class="edge">
+<title>n75-&gt;n95</title>
+<path fill="none" stroke="black" d="M39795.69,-76854.51C41300.71,-76788.97 45016.24,-76636.15 48129.59,-76581 51899.94,-76514.21 56298.31,-76526.56 58819.99,-76542.3"/>
+<polygon fill="black" stroke="black" points="58820.13,-76545.8 58830.15,-76542.36 58820.17,-76538.8 58820.13,-76545.8"/>
+<text text-anchor="middle" x="50897.29" y="-76656" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Byazantine-PGD</text>
+</g>
+<!-- n78 -->
+<g id="node88" class="node">
+<title>n78</title>
+<text text-anchor="middle" x="60882.99" y="-75996" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Ps-lhc/ Adversarial Retraining</text>
+</g>
+<!-- n76&#45;&gt;n78 -->
+<g id="edge86" class="edge">
+<title>n76-&gt;n78</title>
+<path fill="none" stroke="black" d="M39481.32,-75824.94C40708.96,-75867.32 44770.38,-76001.96 48129.59,-76049 52177.13,-76105.67 56947.99,-76092.62 59344.36,-76080.52"/>
+<polygon fill="black" stroke="black" points="59344.47,-76084.02 59354.45,-76080.47 59344.43,-76077.02 59344.47,-76084.02"/>
+<text text-anchor="middle" x="50897.29" y="-76164" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Poisoning single-linkage hierarchical clustering</text>
+</g>
+<!-- n86 -->
+<g id="node89" class="node">
+<title>n86</title>
+<text text-anchor="middle" x="60882.99" y="-75670" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Pc-lhc/ Adversarial Retraining</text>
+</g>
+<!-- n76&#45;&gt;n86 -->
+<g id="edge87" class="edge">
+<title>n76-&gt;n86</title>
+<path fill="none" stroke="black" d="M39481.64,-75808.54C40709.81,-75797.21 44771.39,-75761.26 48129.59,-75749 52173.69,-75734.24 56939.24,-75738.51 59337.69,-75742.16"/>
+<polygon fill="black" stroke="black" points="59337.79,-75745.66 59347.8,-75742.18 59337.8,-75738.66 59337.79,-75745.66"/>
+<text text-anchor="middle" x="50897.29" y="-75824" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Poisoning complete-linkage hierarchical clustering</text>
+</g>
+<!-- n82 -->
+<g id="node87" class="node">
+<title>n82</title>
+<g id="a_node87"><a xlink:href="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L221" xlink:title="GG [27]">
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-75031" rx="473.62" ry="473.62"/>
+<text text-anchor="middle" x="60882.99" y="-74956" font-family="Helvetica,Arial,sans-serif" font-size="250.00">GG [27]</text>
+</a>
+</g>
+</g>
+<!-- n77&#45;&gt;n82 -->
+<g id="edge85" class="edge">
+<title>n77-&gt;n82</title>
+<path fill="none" stroke="black" d="M39504.63,-75031C42158.3,-75031 57473.22,-75031 60399.02,-75031"/>
+<polygon fill="black" stroke="black" points="60399.16,-75034.5 60409.16,-75031 60399.16,-75027.5 60399.16,-75034.5"/>
+<text text-anchor="middle" x="50897.29" y="-75106" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Generalised Gaussian</text>
+</g>
+<!-- n756 -->
+<g id="node90" class="node">
+<title>n756</title>
+<text text-anchor="middle" x="60882.99" y="-73814" font-family="Helvetica,Arial,sans-serif" font-size="250.00">DBSCAN/DBSCAN Preprocessing</text>
+</g>
+<!-- n79&#45;&gt;n756 -->
+<g id="edge88" class="edge">
+<title>n79-&gt;n756</title>
+<path fill="none" stroke="black" d="M39842.73,-73889C42879.85,-73889 54564.47,-73889 59083.33,-73889"/>
+<polygon fill="black" stroke="black" points="59083.66,-73892.5 59093.66,-73889 59083.66,-73885.5 59083.66,-73892.5"/>
+<text text-anchor="middle" x="50897.29" y="-73964" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=DBSCAN</text>
+</g>
+<!-- n88 -->
+<g id="node93" class="node">
+<title>n88</title>
+<text text-anchor="middle" x="60882.99" y="-73355" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Stealthy Poisoning Attacks/DBSCAN Preprocessing</text>
+</g>
+<!-- n80&#45;&gt;n88 -->
+<g id="edge91" class="edge">
+<title>n80-&gt;n88</title>
+<path fill="none" stroke="black" d="M39452.29,-72654.97C40777.16,-72199.22 45645.51,-70753.41 48111.59,-73149 48152.5,-73188.74 48087.91,-73366.07 48129.59,-73405 48311.79,-73575.17 54554.09,-73518.19 58236.14,-73469.51"/>
+<polygon fill="black" stroke="black" points="58236.31,-73473.01 58246.26,-73469.38 58236.21,-73466.01 58236.31,-73473.01"/>
+<text text-anchor="middle" x="50897.29" y="-73594" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Stealthy-PA</text>
+</g>
+<!-- n89 -->
+<g id="node94" class="node">
+<title>n89</title>
+<text text-anchor="middle" x="60882.99" y="-73029" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Weak Long Attacks/DBSCAN Preprocessing</text>
+</g>
+<!-- n80&#45;&gt;n89 -->
+<g id="edge92" class="edge">
+<title>n80-&gt;n89</title>
+<path fill="none" stroke="black" d="M39473.53,-72794.32C40691.63,-72848.5 44762.73,-73022.36 48129.59,-73082 49140.44,-73099.91 55201.05,-73103.46 58590.65,-73104.03"/>
+<polygon fill="black" stroke="black" points="58590.89,-73107.53 58600.9,-73104.03 58590.9,-73100.53 58590.89,-73107.53"/>
+<text text-anchor="middle" x="50897.29" y="-73176" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Weak Long-PA</text>
+</g>
+<!-- n99 -->
+<g id="node95" class="node">
+<title>n99</title>
+<text text-anchor="middle" x="60882.99" y="-72703" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Boiling Frog Attacks/DBSCAN Preprocessing</text>
+</g>
+<!-- n80&#45;&gt;n99 -->
+<g id="edge93" class="edge">
+<title>n80-&gt;n99</title>
+<path fill="none" stroke="black" d="M39473.96,-72778C41683.86,-72778 53447.81,-72778 58535.02,-72778"/>
+<polygon fill="black" stroke="black" points="58535.27,-72781.5 58545.27,-72778 58535.27,-72774.5 58535.27,-72781.5"/>
+<text text-anchor="middle" x="50897.29" y="-72853" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Boiling Frog-PA</text>
+</g>
+<!-- n98 -->
+<g id="node96" class="node">
+<title>n98</title>
+<text text-anchor="middle" x="60882.99" y="-72377" font-family="Helvetica,Arial,sans-serif" font-size="250.00">IPA Stealthy Attacks//DBSCAN Preprocessing</text>
+</g>
+<!-- n80&#45;&gt;n98 -->
+<g id="edge94" class="edge">
+<title>n80-&gt;n98</title>
+<path fill="none" stroke="black" d="M39473.53,-72761.68C40691.63,-72707.5 44762.73,-72533.64 48129.59,-72474 51745.2,-72409.95 55938.33,-72418.67 58500.19,-72433.38"/>
+<polygon fill="black" stroke="black" points="58500.5,-72436.89 58510.52,-72433.44 58500.54,-72429.89 58500.5,-72436.89"/>
+<text text-anchor="middle" x="50897.29" y="-72549" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=IPA</text>
+</g>
+<!-- n901 -->
+<g id="node146" class="node">
+<title>n901</title>
+<g id="a_node146"><a xlink:href="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L239" xlink:title="MC[29]">
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-71826" rx="454.4" ry="454.4"/>
+<text text-anchor="middle" x="60882.99" y="-71751" font-family="Helvetica,Arial,sans-serif" font-size="250.00">MC[29]</text>
+</a>
+</g>
+</g>
+<!-- n900&#45;&gt;n901 -->
+<g id="edge145" class="edge">
+<title>n900-&gt;n901</title>
+<path fill="none" stroke="black" d="M40178.48,-69583.97C42581.84,-69957.09 48609.56,-70861.48 53682.99,-71363 56220,-71613.79 59274.06,-71758.49 60418.85,-71807.24"/>
+<polygon fill="black" stroke="black" points="60418.76,-71810.74 60428.9,-71807.67 60419.05,-71803.75 60418.76,-71810.74"/>
+<text text-anchor="middle" x="50897.29" y="-71433" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Monte Carlo</text>
+</g>
+<!-- n903 -->
+<g id="node147" class="node">
+<title>n903</title>
+<g id="a_node147"><a xlink:href="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L239" xlink:title="Q-L[30]">
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-70274" rx="1080" ry="1080"/>
+<text text-anchor="middle" x="60882.99" y="-70124" font-family="Helvetica,Arial,sans-serif" font-size="500.00">Q-L[30]</text>
+</a>
+</g>
+</g>
+<!-- n900&#45;&gt;n903 -->
+<g id="edge146" class="edge">
+<title>n900-&gt;n903</title>
+<path fill="none" stroke="black" d="M40191.21,-69458.51C43895.47,-69604.51 56073.54,-70084.48 59793.23,-70231.09"/>
+<polygon fill="black" stroke="black" points="59793.3,-70234.59 59803.43,-70231.49 59793.58,-70227.6 59793.3,-70234.59"/>
+<text text-anchor="middle" x="50897.29" y="-70063" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=DQ-Learning</text>
+</g>
+<!-- n904 -->
+<g id="node148" class="node">
+<title>n904</title>
+<text text-anchor="middle" x="60882.99" y="-68947" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Pixel Based Attack/Ensemble Adversarial Training</text>
+</g>
+<!-- n900&#45;&gt;n904 -->
+<g id="edge147" class="edge">
+<title>n900-&gt;n904</title>
+<path fill="none" stroke="black" d="M40191.67,-69396.47C43459.13,-69337.33 53316.7,-69158.92 58150.19,-69071.44"/>
+<polygon fill="black" stroke="black" points="58150.43,-69074.94 58160.37,-69071.26 58150.31,-69067.94 58150.43,-69074.94"/>
+<text text-anchor="middle" x="50897.29" y="-69327" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Pixel Based Attack</text>
+</g>
+<!-- n905 -->
+<g id="node149" class="node">
+<title>n905</title>
+<text text-anchor="middle" x="60882.99" y="-68621" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Training Adversarial Policies/Cascade Adversarial</text>
+</g>
+<!-- n900&#45;&gt;n905 -->
+<g id="edge148" class="edge">
+<title>n900-&gt;n905</title>
+<path fill="none" stroke="black" d="M40188.26,-69330.44C41877.91,-69200.07 45257.72,-68955.5 48129.59,-68848 51603.83,-68717.95 55613.84,-68690.26 58195.28,-68688.28"/>
+<polygon fill="black" stroke="black" points="58195.68,-68691.78 58205.68,-68688.27 58195.68,-68684.78 58195.68,-68691.78"/>
+<text text-anchor="middle" x="50897.29" y="-68923" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Training Adversarial Policies</text>
+</g>
+<!-- n906 -->
+<g id="node150" class="node">
+<title>n906</title>
+<text text-anchor="middle" x="60882.99" y="-68295" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-C&amp;W L2,L0,LInf/Defensive Distillation</text>
+</g>
+<!-- n900&#45;&gt;n906 -->
+<g id="edge149" class="edge">
+<title>n900-&gt;n906</title>
+<path fill="none" stroke="black" d="M40180.41,-69259.78C41865.14,-69021.81 45245.24,-68578.76 48129.59,-68414 51828.71,-68202.7 56141.22,-68248.86 58684.31,-68306.16"/>
+<polygon fill="black" stroke="black" points="58684.48,-68309.67 58694.56,-68306.4 58684.64,-68302.67 58684.48,-68309.67"/>
+<text text-anchor="middle" x="50897.29" y="-68489" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=C&amp;W L2,L0,LInf</text>
+</g>
+<!-- n87 -->
+<g id="node86" class="node">
+<title>n87</title>
+<text text-anchor="middle" x="77126.99" y="-77801" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Spill Over Attack/Preprocessing</text>
+</g>
+<!-- n83&#45;&gt;n87 -->
+<g id="edge84" class="edge">
+<title>n83-&gt;n87</title>
+<path fill="none" stroke="black" d="M61702.31,-77876C64248.88,-77876 72066.88,-77876 75490.95,-77876"/>
+<polygon fill="black" stroke="black" points="75490.98,-77879.5 75500.98,-77876 75490.98,-77872.5 75490.98,-77879.5"/>
+<text text-anchor="middle" x="70219.76" y="-77951" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Spill Over</text>
+</g>
+<!-- n84 -->
+<g id="node97" class="node">
+<title>n84</title>
+<text text-anchor="middle" x="77126.99" y="-74956" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Gaussian Noise/ Preprocessing, Certified Robustness</text>
+</g>
+<!-- n82&#45;&gt;n84 -->
+<g id="edge95" class="edge">
+<title>n82-&gt;n84</title>
+<path fill="none" stroke="black" d="M61356.64,-75031C63238.99,-75031 70293.62,-75031 74300.04,-75031"/>
+<polygon fill="black" stroke="black" points="74300.32,-75034.5 74310.31,-75031 74300.31,-75027.5 74300.32,-75034.5"/>
+<text text-anchor="middle" x="70219.76" y="-75106" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Gaussian Noise</text>
+</g>
+<!-- n701 -->
+<g id="node99" class="node">
+<title>n701</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-62344" rx="415.92" ry="415.92"/>
+<text text-anchor="middle" x="39111.59" y="-62269" font-family="Helvetica,Arial,sans-serif" font-size="250.00">LR[12]</text>
+</g>
+<!-- n700&#45;&gt;n701 -->
+<g id="edge97" class="edge">
+<title>n700-&gt;n701</title>
+<path fill="none" stroke="black" d="M23678.26,-59081.87C25468.46,-60139.55 27829,-61341.61 30111.59,-61920 33324.19,-62734.05 37383.81,-62490.99 38687.33,-62383.07"/>
+<polygon fill="black" stroke="black" points="38687.65,-62386.56 38697.33,-62382.24 38687.07,-62379.58 38687.65,-62386.56"/>
+<text text-anchor="middle" x="28457.85" y="-61986" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Linear Regression</text>
+</g>
+<!-- n702 -->
+<g id="node100" class="node">
+<title>n702</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-60988" rx="922.57" ry="922.57"/>
+<text text-anchor="middle" x="39111.59" y="-60913" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Hierarchical[13]</text>
+</g>
+<!-- n700&#45;&gt;n702 -->
+<g id="edge98" class="edge">
+<title>n700-&gt;n702</title>
+<path fill="none" stroke="black" d="M24047.66,-58344.81C25829.28,-58949.44 28064.25,-59636.07 30111.59,-60057 33018.09,-60654.57 36535.6,-60877.19 38179.45,-60952.82"/>
+<polygon fill="black" stroke="black" points="38179.53,-60956.33 38189.68,-60953.29 38179.85,-60949.33 38179.53,-60956.33"/>
+<text text-anchor="middle" x="28457.85" y="-60105" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Hierarchical</text>
+</g>
+<!-- n703 -->
+<g id="node101" class="node">
+<title>n703</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-59236" rx="811.73" ry="811.73"/>
+<text text-anchor="middle" x="39111.59" y="-59161" font-family="Helvetica,Arial,sans-serif" font-size="250.00">SVR,GPR[14]</text>
+</g>
+<!-- n700&#45;&gt;n703 -->
+<g id="edge99" class="edge">
+<title>n700-&gt;n703</title>
+<path fill="none" stroke="black" d="M24226.81,-57642.12C25993.97,-57896.11 28162.59,-58192.57 30111.59,-58416 33120.54,-58760.94 36708.99,-59051.96 38291.73,-59174.22"/>
+<polygon fill="black" stroke="black" points="38291.63,-59177.72 38301.86,-59175 38292.16,-59170.74 38291.63,-59177.72"/>
+<text text-anchor="middle" x="28457.85" y="-58487" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=SVR,GPR</text>
+</g>
+<!-- n705 -->
+<g id="node102" class="node">
+<title>n705</title>
+<g id="a_node102"><a xlink:href="https://github.com/phoenixml/research-DPA-References" xlink:title="DT[16]">
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-57983" rx="423.68" ry="423.68"/>
+<text text-anchor="middle" x="39111.59" y="-57908" font-family="Helvetica,Arial,sans-serif" font-size="250.00">DT[16]</text>
+</a>
+</g>
+</g>
+<!-- n700&#45;&gt;n705 -->
+<g id="edge100" class="edge">
+<title>n700-&gt;n705</title>
+<path fill="none" stroke="black" d="M24261.58,-57289.4C25101.77,-57330.82 25993.3,-57374.34 26822.11,-57414 31464.68,-57636.13 37094.57,-57891.8 38678.01,-57963.45"/>
+<polygon fill="black" stroke="black" points="38677.97,-57966.95 38688.12,-57963.91 38678.29,-57959.96 38677.97,-57966.95"/>
+<text text-anchor="middle" x="28457.85" y="-57643" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Decision Trees</text>
+</g>
+<!-- n707 -->
+<g id="node103" class="node">
+<title>n707</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-57110" rx="431.21" ry="431.21"/>
+<text text-anchor="middle" x="39111.59" y="-57035" font-family="Helvetica,Arial,sans-serif" font-size="250.00">NB[18]</text>
+</g>
+<!-- n700&#45;&gt;n707 -->
+<g id="edge101" class="edge">
+<title>n700-&gt;n707</title>
+<path fill="none" stroke="black" d="M24266.23,-57110C28943.83,-57110 36742.87,-57110 38669.97,-57110"/>
+<polygon fill="black" stroke="black" points="38670.16,-57113.5 38680.16,-57110 38670.16,-57106.5 38670.16,-57113.5"/>
+<text text-anchor="middle" x="28457.85" y="-57185" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Naive Bayes</text>
+</g>
+<!-- n711 -->
+<g id="node104" class="node">
+<title>n711</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-54141" rx="2520" ry="2520"/>
+<text text-anchor="middle" x="39111.59" y="-53841" font-family="Helvetica,Arial,sans-serif" font-size="1000.00">NLP[20]</text>
+</g>
+<!-- n700&#45;&gt;n711 -->
+<g id="edge123" class="edge">
+<title>n700-&gt;n711</title>
+<path fill="none" stroke="black" d="M24220.4,-56537.99C27857.58,-55952.48 33416.68,-55057.59 36613.41,-54542.99"/>
+<polygon fill="black" stroke="black" points="36614.04,-54546.43 36623.36,-54541.39 36612.93,-54539.52 36614.04,-54546.43"/>
+<text text-anchor="middle" x="28457.85" y="-56193" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Transformers</text>
+</g>
+<!-- n712 -->
+<g id="node126" class="node">
+<title>n712</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-50314" rx="508.04" ry="508.04"/>
+<text text-anchor="middle" x="39111.59" y="-50239" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PCA[36]</text>
+</g>
+<!-- n700&#45;&gt;n712 -->
+<g id="edge124" class="edge">
+<title>n700-&gt;n712</title>
+<path fill="none" stroke="black" d="M23591.43,-55011.46C25388.21,-53825.64 27784.8,-52422.57 30111.59,-51612 33201.94,-50535.44 37188.78,-50351.28 38593.34,-50320.17"/>
+<polygon fill="black" stroke="black" points="38593.43,-50323.67 38603.35,-50319.95 38593.28,-50316.67 38593.43,-50323.67"/>
+<text text-anchor="middle" x="28457.85" y="-53149" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=PCA</text>
+</g>
+<!-- n15 -->
+<g id="node163" class="node">
+<title>n15</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-41413" rx="2880" ry="2880"/>
+<text text-anchor="middle" x="39111.59" y="-41023" font-family="Helvetica,Arial,sans-serif" font-size="1300.00">SVM[21]</text>
+</g><g id="edge130" class="edge">
+<title>n701-&gt;n710</title>
+<path fill="none" stroke="black" d="M39527.51,-62332.38C41257.49,-62285.4 48066.92,-62115.01 53664.99,-62179 55957.34,-62205.2 58658.47,-62278.2 60013.82,-62317.74"/>
+<polygon fill="black" stroke="black" points="60014.15,-62321.26 60024.25,-62318.05 60014.35,-62314.26 60014.15,-62321.26"/>
+<text text-anchor="middle" x="50897.29" y="-62254" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=FGSM</text>
+</g>
+<!-- n700&#45;&gt;n15 -->
+<g id="edge162" class="edge">
+<title>n700-&gt;n15</title>
+<path fill="none" stroke="black" d="M23247.09,-54599.92C24333.43,-53564.97 25621.91,-52365.62 26822.11,-51320 30218.29,-48361.22 34319.14,-45117.83 36819.76,-43175.01"/>
+<polygon fill="black" stroke="black" points="36822.26,-43177.5 36828.01,-43168.61 36817.96,-43171.98 36822.26,-43177.5"/>
+<text text-anchor="middle" x="28457.85" y="-51395" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Support Vector Machine</text>
+</g><g id="edge129" class="edge">
+<title>n701-&gt;n710</title>
+<path fill="none" stroke="black" d="M39527.51,-62353.79C41257.49,-62393.36 48066.92,-62536.9 53664.99,-62483 55957.21,-62460.93 58658.39,-62399.43 60013.79,-62366.12"/>
+<polygon fill="black" stroke="black" points="60014.3,-62369.61 60024.21,-62365.86 60014.13,-62362.61 60014.3,-62369.61"/>
+<text text-anchor="middle" x="50897.29" y="-62569" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGD</text>
+</g>
+<!-- n14 -->
+<g id="node174" class="node">
+<title>n14</title>
+<g id="a_node174"><a xlink:href="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L2" xlink:title="NN[1]">
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-29515" rx="9000" ry="9000"/>
+<text text-anchor="middle" x="39111.59" y="-29065" font-family="Helvetica,Arial,sans-serif" font-size="1500.00">NN[1]</text>
+</a>
+</g>
+</g>
+<!-- n700&#45;&gt;n14 -->
+<g id="edge174" class="edge">
+<title>n700-&gt;n14</title>
+<path fill="none" stroke="black" d="M21988.41,-53761.37C23597.28,-49895.87 26546.07,-43440 30111.59,-38524 30825.26,-37540.02 31647.5,-36563.12 32498.76,-35635.65"/>
+<polygon fill="black" stroke="black" points="32501.45,-35637.89 32505.64,-35628.16 32496.29,-35633.16 32501.45,-35637.89"/>
+<text text-anchor="middle" x="28457.85" y="-43788" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=NN</text>
+</g>
+<!-- n19 -->
+<g id="node177" class="node">
+<title>n19</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-15156" rx="3600" ry="3600"/>
+<text text-anchor="middle" x="39111.59" y="-14766" font-family="Helvetica,Arial,sans-serif" font-size="1300.00">RF[25]</text>
+</g>
+<!-- n700&#45;&gt;n19 -->
+<g id="edge177" class="edge">
+<title>n700-&gt;n19</title>
+<path fill="none" stroke="black" d="M21230.22,-53554.42C22572.4,-45429.17 26145.13,-25794.98 30111.59,-20506 31523.67,-18623.1 33809.65,-17276.2 35724.18,-16404.81"/>
+<polygon fill="black" stroke="black" points="35725.65,-16407.99 35733.3,-16400.66 35722.75,-16401.61 35725.65,-16407.99"/>
+<text text-anchor="middle" x="28457.85" y="-28031" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=Random Forest</text>
+</g>
+<!-- n710 -->
+<g id="node131" class="node">
+<title>n710</title>
+<text text-anchor="middle" x="60882.99" y="-62269" font-family="Helvetica,Arial,sans-serif" font-size="250.00">LR/Pixel Defend</text>
+</g>
+<!-- n701&#45;&gt;n710 -->
+
+<!-- n701&#45;&gt;n710 -->
+
+<!-- n720 -->
+<g id="node132" class="node">
+<title>n720</title>
+<text text-anchor="middle" x="60882.99" y="-60913" font-family="Helvetica,Arial,sans-serif" font-size="250.00">L∞-bounded/TRADES</text>
+</g>
+<!-- n702&#45;&gt;n720 -->
+<g id="edge131" class="edge">
+<title>n702-&gt;n720</title>
+<path fill="none" stroke="black" d="M40034.52,-60988C43510.42,-60988 55821.29,-60988 59701.53,-60988"/>
+<polygon fill="black" stroke="black" points="59701.83,-60991.5 59711.83,-60988 59701.83,-60984.5 59701.83,-60991.5"/>
+<text text-anchor="middle" x="50897.29" y="-61063" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=L∞-bounded</text>
+</g>
+<!-- n723 -->
+<g id="node133" class="node">
+<title>n723</title>
+<text text-anchor="middle" x="60882.99" y="-59298" font-family="Helvetica,Arial,sans-serif" font-size="250.00">SVR,GPR/DBSCAN</text>
+</g>
+<!-- n703&#45;&gt;n723 -->
+<g id="edge132" class="edge">
+<title>n703-&gt;n723</title>
+<path fill="none" stroke="black" d="M39923.79,-59241.11C43270.27,-59262.17 56005.32,-59342.31 59805.33,-59366.22"/>
+<polygon fill="black" stroke="black" points="59805.38,-59369.72 59815.4,-59366.29 59805.43,-59362.72 59805.38,-59369.72"/>
+<text text-anchor="middle" x="50897.29" y="-59402" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=SVR poisoning</text>
+</g>
+<!-- n725 -->
+<g id="node134" class="node">
+<title>n725</title>
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-58808" rx="393.14" ry="393.14"/>
+<text text-anchor="middle" x="60882.99" y="-58733" font-family="Helvetica,Arial,sans-serif" font-size="250.00">SP[16]</text>
+</g>
+<!-- n705&#45;&gt;n725 -->
+<g id="edge133" class="edge">
+<title>n705-&gt;n725</title>
+<path fill="none" stroke="black" d="M39532.72,-57936.05C41136.45,-57766.61 46845.97,-57255.61 48111.59,-58415 48155.25,-58455 48085.38,-58507.61 48129.59,-58547 48601.15,-58967.2 58363.78,-58845.68 60479.74,-58814.31"/>
+<polygon fill="black" stroke="black" points="60479.83,-58817.81 60489.78,-58814.16 60479.73,-58810.81 60479.83,-58817.81"/>
+<text text-anchor="middle" x="50897.29" y="-58924" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TM=Grey Box</text>
+</g>
+<!-- n727 -->
+<g id="node136" class="node">
+<title>n727</title>
+<text text-anchor="middle" x="60882.99" y="-58168" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-PANB/ Data Sanitizing</text>
+</g>
+<!-- n707&#45;&gt;n727 -->
+<g id="edge135" class="edge">
+<title>n707-&gt;n727</title>
+<path fill="none" stroke="black" d="M39540.18,-57058.97C41163.29,-56875.64 46912.15,-56323.88 48111.59,-57550 48163.67,-57603.24 48076.28,-58168 48129.59,-58220 48154.95,-58244.73 56302.12,-58244.61 59559.29,-58243.58"/>
+<polygon fill="black" stroke="black" points="59559.43,-58247.08 59569.43,-58243.57 59559.43,-58240.08 59559.43,-58247.08"/>
+<text text-anchor="middle" x="50897.29" y="-58317" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PANB</text>
+</g>
+<!-- n728 -->
+<g id="node137" class="node">
+<title>n728</title>
+<text text-anchor="middle" x="60882.99" y="-57842" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Label Modification/Data Sanitizing</text>
+</g>
+<!-- n707&#45;&gt;n728 -->
+<g id="edge136" class="edge">
+<title>n707-&gt;n728</title>
+<path fill="none" stroke="black" d="M39540.27,-57059.8C41161.33,-56879.78 46897.01,-56339.39 48111.59,-57550 48138.78,-57577.1 48101.77,-57868.55 48129.59,-57895 48153.8,-57918.02 55397.6,-57918.83 58955.44,-57917.84"/>
+<polygon fill="black" stroke="black" points="58955.54,-57921.34 58965.54,-57917.83 58955.54,-57914.34 58955.54,-57921.34"/>
+<text text-anchor="middle" x="50897.29" y="-57991" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Label Modification</text>
+</g>
+<!-- n740 -->
+<g id="node105" class="node">
+<title>n740</title>
+<text text-anchor="middle" x="60882.99" y="-57516" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Text Attack/Synonym Encoded Method</text>
+</g>
+<!-- n711&#45;&gt;n740 -->
+<g id="edge102" class="edge">
+<title>n711-&gt;n740</title>
+<path fill="none" stroke="black" d="M41631.29,-54088.9C43728.46,-54196.08 46606.33,-54724.27 48111.59,-56670 48142.09,-56709.42 48094.03,-57532.08 48129.59,-57567 48152.94,-57589.93 55109.3,-57592.08 58736.58,-57591.63"/>
+<polygon fill="black" stroke="black" points="58736.88,-57595.13 58746.88,-57591.63 58736.88,-57588.13 58736.88,-57595.13"/>
+<text text-anchor="middle" x="50897.29" y="-57664" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Text Attack</text>
+</g>
+<!-- n780 -->
+<g id="node106" class="node">
+<title>n780</title>
+<text text-anchor="middle" x="60882.99" y="-57190" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Alzantot/Dirichlet Neighborhood Ensemble</text>
+</g>
+<!-- n711&#45;&gt;n780 -->
+<g id="edge103" class="edge">
+<title>n711-&gt;n780</title>
+<path fill="none" stroke="black" d="M41631.22,-54093.53C43724.39,-54204.1 46596.5,-54734.66 48111.59,-56670 48150.65,-56719.89 48084.13,-57195.86 48129.59,-57240 48152.67,-57262.41 54871.4,-57265.45 58545.95,-57265.44"/>
+<polygon fill="black" stroke="black" points="58546.05,-57268.94 58556.05,-57265.44 58546.05,-57261.94 58546.05,-57268.94"/>
+<text text-anchor="middle" x="50897.29" y="-57338" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Alzantot</text>
+</g>
+<!-- n781 -->
+<g id="node107" class="node">
+<title>n781</title>
+<text text-anchor="middle" x="60882.99" y="-56864" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-BAE/Dirichlet Neighborhood Ensemble</text>
+</g>
+<!-- n711&#45;&gt;n781 -->
+<g id="edge104" class="edge">
+<title>n711-&gt;n781</title>
+<path fill="none" stroke="black" d="M41631.51,-54111.01C43710.08,-54234.23 46560.97,-54773.47 48111.59,-56670 48145.86,-56711.92 48089.95,-56876.11 48129.59,-56913 48153.53,-56935.27 55095.85,-56938.83 58725.93,-56939.17"/>
+<polygon fill="black" stroke="black" points="58726.23,-56942.67 58736.23,-56939.17 58726.23,-56935.67 58726.23,-56942.67"/>
+<text text-anchor="middle" x="50897.29" y="-57011" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=BAE</text>
+</g>
+<!-- n782 -->
+<g id="node108" class="node">
+<title>n782</title>
+<text text-anchor="middle" x="60882.99" y="-56538" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-BERT-Attack/Dirichlet Neighborhood Ensemble</text>
+</g>
+<!-- n711&#45;&gt;n782 -->
+<g id="edge105" class="edge">
+<title>n711-&gt;n782</title>
+<path fill="none" stroke="black" d="M41490.69,-54971.92C43288.58,-55554.56 45831.48,-56282.33 48129.59,-56591 48253.82,-56607.69 54589.03,-56611.77 58282.04,-56612.74"/>
+<polygon fill="black" stroke="black" points="58282.19,-56616.24 58292.19,-56612.74 58282.19,-56609.24 58282.19,-56616.24"/>
+<text text-anchor="middle" x="50897.29" y="-56684" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=BERT-Attack</text>
+</g>
+<!-- n783 -->
+<g id="node109" class="node">
+<title>n783</title>
+<text text-anchor="middle" x="60882.99" y="-56212" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-DepWordBug/Randomised smoothing</text>
+</g>
+<!-- n711&#45;&gt;n783 -->
+<g id="edge106" class="edge">
+<title>n711-&gt;n783</title>
+<path fill="none" stroke="black" d="M41524.58,-54868.19C43325.38,-55371.94 45856.98,-55998 48129.59,-56264 48390.34,-56294.52 55268.96,-56292.44 58812.96,-56289.31"/>
+<polygon fill="black" stroke="black" points="58813.02,-56292.81 58823.02,-56289.3 58813.01,-56285.81 58813.02,-56292.81"/>
+<text text-anchor="middle" x="50897.29" y="-56365" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=DepWordBug</text>
+</g>
+<!-- n784 -->
+<g id="node110" class="node">
+<title>n784</title>
+<text text-anchor="middle" x="60882.99" y="-55886" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-HotFlip/Adversarial Training</text>
+</g>
+<!-- n711&#45;&gt;n784 -->
+<g id="edge107" class="edge">
+<title>n711-&gt;n784</title>
+<path fill="none" stroke="black" d="M41554.25,-54760.6C43357.42,-55185.34 45879.07,-55710.98 48129.59,-55935 48402.43,-55962.16 55893.16,-55962.85 59264.58,-55961.78"/>
+<polygon fill="black" stroke="black" points="59264.76,-55965.28 59274.76,-55961.77 59264.76,-55958.28 59264.76,-55965.28"/>
+<text text-anchor="middle" x="50897.29" y="-56035" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=HotFlip</text>
+</g>
+<!-- n785 -->
+<g id="node111" class="node">
+<title>n785</title>
+<text text-anchor="middle" x="60882.99" y="-55560" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-InputReduction/Adversarial Training</text>
+</g>
+<!-- n711&#45;&gt;n785 -->
+<g id="edge108" class="edge">
+<title>n711-&gt;n785</title>
+<path fill="none" stroke="black" d="M41579.47,-54651.56C43384.45,-54998.44 45897.49,-55426.2 48129.59,-55609 48392.79,-55630.56 55351.15,-55634.42 58875.77,-55634.99"/>
+<polygon fill="black" stroke="black" points="58875.77,-55638.49 58885.77,-55635 58875.77,-55631.49 58875.77,-55638.49"/>
+<text text-anchor="middle" x="50897.29" y="-55706" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=InputReduction</text>
+</g>
+<!-- n786 -->
+<g id="node112" class="node">
+<title>n786</title>
+<text text-anchor="middle" x="60882.99" y="-55234" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Morpheus/Adversarial Training</text>
+</g>
+<!-- n711&#45;&gt;n786 -->
+<g id="edge109" class="edge">
+<title>n711-&gt;n786</title>
+<path fill="none" stroke="black" d="M41599.56,-54541.84C43405.91,-54812.24 45912.07,-55144.73 48129.59,-55287 48400.07,-55304.35 55722.04,-55308.03 59146.67,-55308.8"/>
+<polygon fill="black" stroke="black" points="59146.7,-55312.3 59156.7,-55308.8 59146.7,-55305.3 59146.7,-55312.3"/>
+<text text-anchor="middle" x="50897.29" y="-55380" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Morpheus</text>
+</g>
+<!-- n787 -->
+<g id="node113" class="node">
+<title>n787</title>
+<text text-anchor="middle" x="60882.99" y="-54908" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Practical Swarm OPT/Adversarial Training</text>
+</g>
+<!-- n711&#45;&gt;n787 -->
+<g id="edge110" class="edge">
+<title>n711-&gt;n787</title>
+<path fill="none" stroke="black" d="M41615.22,-54428.8C43422.55,-54621.93 45923.29,-54858.98 48129.59,-54961 48639.2,-54984.56 55027.24,-54985.6 58563.57,-54984.33"/>
+<polygon fill="black" stroke="black" points="58563.61,-54987.83 58573.6,-54984.33 58563.6,-54980.83 58563.61,-54987.83"/>
+<text text-anchor="middle" x="50897.29" y="-55058" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Practical Swarm OPT</text>
+</g>
+<!-- n788 -->
+<g id="node114" class="node">
+<title>n788</title>
+<text text-anchor="middle" x="60882.99" y="-54582" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Pruthi Keyabord Char-Swap/Adversarial Training</text>
+</g>
+<!-- n711&#45;&gt;n788 -->
+<g id="edge111" class="edge">
+<title>n711-&gt;n788</title>
+<path fill="none" stroke="black" d="M41625.72,-54313.23C43433.69,-54428.5 45930.81,-54570.02 48129.59,-54632 49105.29,-54659.5 54788.3,-54660.98 58230.14,-54659.23"/>
+<polygon fill="black" stroke="black" points="58230.23,-54662.73 58240.23,-54659.23 58230.23,-54655.73 58230.23,-54662.73"/>
+<text text-anchor="middle" x="50897.29" y="-54733" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Pruthi Keyabord Char-Swap</text>
+</g>
+<!-- n789 -->
+<g id="node115" class="node">
+<title>n789</title>
+<text text-anchor="middle" x="60882.99" y="-54256" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-PWWS/Synonym Encoded Method</text>
+</g>
+<!-- n711&#45;&gt;n789 -->
+<g id="edge112" class="edge">
+<title>n711-&gt;n789</title>
+<path fill="none" stroke="black" d="M41630.94,-54199.31C43439.22,-54238.4 45934.51,-54286.66 48129.59,-54309 50177.16,-54329.84 55923.85,-54332.05 58954.85,-54331.67"/>
+<polygon fill="black" stroke="black" points="58955.12,-54335.17 58965.12,-54331.67 58955.12,-54328.17 58955.12,-54335.17"/>
+<text text-anchor="middle" x="50897.29" y="-54403" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PWWS</text>
+</g>
+<!-- n790 -->
+<g id="node116" class="node">
+<title>n790</title>
+<text text-anchor="middle" x="60882.99" y="-53930" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-seq2sick/Randomised smoothing</text>
+</g>
+<!-- n711&#45;&gt;n790 -->
+<g id="edge113" class="edge">
+<title>n711-&gt;n790</title>
+<path fill="none" stroke="black" d="M41631.3,-54094.48C43439.58,-54063.43 45934.73,-54025.41 48129.59,-54009 52035.26,-53979.8 56613.97,-53988.95 59083.33,-53997.45"/>
+<polygon fill="black" stroke="black" points="59083.72,-54000.96 59093.73,-53997.49 59083.74,-53993.96 59083.72,-54000.96"/>
+<text text-anchor="middle" x="50897.29" y="-54084" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=seq2sick</text>
+</g>
+<!-- n791 -->
+<g id="node117" class="node">
+<title>n791</title>
+<text text-anchor="middle" x="60882.99" y="-53604" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-TextBugger/Dirichlet Neighborhood Ensemble</text>
+</g>
+<!-- n711&#45;&gt;n791 -->
+<g id="edge114" class="edge">
+<title>n711-&gt;n791</title>
+<path fill="none" stroke="black" d="M41626.5,-53980.1C43434.51,-53872.62 45931.34,-53741.07 48129.59,-53685 49119.57,-53659.75 54954.83,-53666.86 58379.06,-53673.44"/>
+<polygon fill="black" stroke="black" points="58379.09,-53676.94 58389.1,-53673.46 58379.1,-53669.94 58379.09,-53676.94"/>
+<text text-anchor="middle" x="50897.29" y="-53760" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=TextBugger</text>
+</g>
+<!-- n792 -->
+<g id="node118" class="node">
+<title>n792</title>
+<text text-anchor="middle" x="60882.99" y="-53278" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A_TextFooler/Dirichlet Neighborhood Ensemble</text>
+</g>
+<!-- n711&#45;&gt;n792 -->
+<g id="edge115" class="edge">
+<title>n711-&gt;n792</title>
+<path fill="none" stroke="black" d="M41616.81,-53867.24C43424.23,-53683.75 45924.41,-53458.82 48129.59,-53363 49120.98,-53319.92 54978.42,-53332.28 58399.93,-53343.55"/>
+<polygon fill="black" stroke="black" points="58399.94,-53347.05 58409.95,-53343.58 58399.97,-53340.05 58399.94,-53347.05"/>
+<text text-anchor="middle" x="50897.29" y="-53438" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=TextFooler</text>
+</g>
+<!-- n793 -->
+<g id="node119" class="node">
+<title>n793</title>
+<text text-anchor="middle" x="60882.99" y="-52952" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Kuleshov/Randomised smoothing</text>
+</g>
+<!-- n711&#45;&gt;n793 -->
+<g id="edge116" class="edge">
+<title>n711-&gt;n793</title>
+<path fill="none" stroke="black" d="M41601.15,-53750.44C43407.59,-53487.34 45913.19,-53164.36 48129.59,-53028 48662.34,-52995.22 55630.58,-53011.27 59035.05,-53021.17"/>
+<polygon fill="black" stroke="black" points="59035.33,-53024.67 59045.34,-53021.2 59035.35,-53017.67 59035.33,-53024.67"/>
+<text text-anchor="middle" x="50897.29" y="-53103" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Kuleshov</text>
+</g>
+<!-- n794 -->
+<g id="node120" class="node">
+<title>n794</title>
+<text text-anchor="middle" x="60882.99" y="-52626" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-GSA/Synonym Encoded Method</text>
+</g>
+<!-- n711&#45;&gt;n794 -->
+<g id="edge117" class="edge">
+<title>n711-&gt;n794</title>
+<path fill="none" stroke="black" d="M41581.41,-53639.74C43386.5,-53299.65 45898.85,-52880.9 48129.59,-52704 48398.04,-52682.71 55628.24,-52692.06 59080.23,-52697.76"/>
+<polygon fill="black" stroke="black" points="59080.33,-52701.26 59090.34,-52697.78 59080.35,-52694.26 59080.33,-52701.26"/>
+<text text-anchor="middle" x="50897.29" y="-52779" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=GSA</text>
+</g>
+<!-- n795 -->
+<g id="node121" class="node">
+<title>n795</title>
+<text text-anchor="middle" x="60882.99" y="-52300" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-IGA/Synonym Encoded Method</text>
+</g>
+<!-- n711&#45;&gt;n795 -->
+<g id="edge118" class="edge">
+<title>n711-&gt;n795</title>
+<path fill="none" stroke="black" d="M41557.38,-53533.53C43360.76,-53117.73 45881.31,-52603.74 48129.59,-52386 48398.35,-52359.97 55666.95,-52367.23 59107.9,-52372.16"/>
+<polygon fill="black" stroke="black" points="59107.98,-52375.66 59117.98,-52372.17 59107.99,-52368.66 59107.98,-52375.66"/>
+<text text-anchor="middle" x="50897.29" y="-52461" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=IGA</text>
+</g>
+<!-- n796 -->
+<g id="node122" class="node">
+<title>n796</title>
+<text text-anchor="middle" x="60882.99" y="-51974" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-GA/Synonym Encoded Method</text>
+</g>
+<!-- n711&#45;&gt;n796 -->
+<g id="edge119" class="edge">
+<title>n711-&gt;n796</title>
+<path fill="none" stroke="black" d="M41528.6,-53427.92C43329.75,-52934.74 45860.02,-52322.39 48129.59,-52063 48398.95,-52032.21 55726.14,-52040.35 59149.74,-52045.87"/>
+<polygon fill="black" stroke="black" points="59149.77,-52049.37 59159.77,-52045.88 59149.78,-52042.37 59149.77,-52049.37"/>
+<text text-anchor="middle" x="50897.29" y="-52138" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=GA</text>
+</g>
+<!-- n797 -->
+<g id="node123" class="node">
+<title>n797</title>
+<text text-anchor="middle" x="60882.99" y="-51648" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Gaussian Noise/Dirichlet Neighborhood Ensemble</text>
+</g>
+<!-- n711&#45;&gt;n797 -->
+<g id="edge120" class="edge">
+<title>n711-&gt;n797</title>
+<path fill="none" stroke="black" d="M41495.44,-53323.71C43293.74,-52751.7 45835.05,-52037.93 48129.59,-51736 48375,-51703.71 54504.03,-51710.2 58174.36,-51717.04"/>
+<polygon fill="black" stroke="black" points="58174.43,-51720.54 58184.44,-51717.06 58174.45,-51713.54 58174.43,-51720.54"/>
+<text text-anchor="middle" x="50897.29" y="-51811" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Gaussian Noise</text>
+</g>
+<!-- n798 -->
+<g id="node124" class="node">
+<title>n798</title>
+<text text-anchor="middle" x="60882.99" y="-51322" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Bernoulli/Dirichlet Neighborhood Ensemble</text>
+</g>
+<!-- n711&#45;&gt;n798 -->
+<g id="edge121" class="edge">
+<title>n711-&gt;n798</title>
+<path fill="none" stroke="black" d="M41458.32,-53222.04C43253.11,-52570.25 45806.56,-51752.37 48129.59,-51407 48381.92,-51369.49 54884.3,-51380.82 58504,-51390.1"/>
+<polygon fill="black" stroke="black" points="58504.27,-51393.6 58514.28,-51390.12 58504.29,-51386.6 58504.27,-51393.6"/>
+<text text-anchor="middle" x="50897.29" y="-51482" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Bernoulli</text>
+</g>
+<!-- n799 -->
+<g id="node125" class="node">
+<title>n799</title>
+<text text-anchor="middle" x="60882.99" y="-50996" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Adversarial noises/Dirichlet Neighborhood Ensemble</text>
+</g>
+<!-- n711&#45;&gt;n799 -->
+<g id="edge122" class="edge">
+<title>n711-&gt;n799</title>
+<path fill="none" stroke="black" d="M41417.07,-53123.43C43207.6,-52390.87 45774.38,-51465.82 48129.59,-51076 49076.25,-50919.31 54588.92,-50972.55 58049.31,-51023.25"/>
+<polygon fill="black" stroke="black" points="58049.4,-51026.75 58059.45,-51023.39 58049.51,-51019.75 58049.4,-51026.75"/>
+<text text-anchor="middle" x="50897.29" y="-51151" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Adversarial noises</text>
+</g>
+<!-- n713 -->
+<g id="node127" class="node">
+<title>n713</title>
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-50314" rx="585.36" ry="585.36"/>
+<text text-anchor="middle" x="60882.99" y="-50239" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PPCA[37]</text>
+</g>
+<!-- n712&#45;&gt;n713 -->
+<g id="edge125" class="edge">
+<title>n712-&gt;n713</title>
+<path fill="none" stroke="black" d="M39619.98,-50314C42536.76,-50314 57148.53,-50314 60287.49,-50314"/>
+<polygon fill="black" stroke="black" points="60287.52,-50317.5 60297.52,-50314 60287.52,-50310.5 60287.52,-50317.5"/>
+<text text-anchor="middle" x="50897.29" y="-50389" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TM= White Box</text>
+</g>
+<!-- n715 -->
+<g id="node129" class="node">
+<title>n715</title>
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-48964" rx="746.23" ry="746.23"/>
+<text text-anchor="middle" x="60882.99" y="-48889" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Spoofing[39]</text>
+</g>
+<!-- n712&#45;&gt;n715 -->
+<g id="edge127" class="edge">
+<title>n712-&gt;n715</title>
+<path fill="none" stroke="black" d="M39618.99,-50282.6C42486.74,-50104.76 56682.65,-49224.42 60127.77,-49010.77"/>
+<polygon fill="black" stroke="black" points="60128.08,-49014.26 60137.84,-49010.15 60127.65,-49007.27 60128.08,-49014.26"/>
+<text text-anchor="middle" x="50897.29" y="-49828" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TM= Gray Box</text>
+</g>
+<!-- n714 -->
+<g id="node128" class="node">
+<title>n714</title>
+<text text-anchor="middle" x="77126.99" y="-50239" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC/RS</text>
+</g>
+<!-- n713&#45;&gt;n714 -->
+<g id="edge126" class="edge">
+<title>n713-&gt;n714</title>
+<path fill="none" stroke="black" d="M61468.34,-50314C64079.39,-50314 74642.44,-50314 76756.6,-50314"/>
+<polygon fill="black" stroke="black" points="76756.62,-50317.5 76766.62,-50314 76756.62,-50310.5 76756.62,-50317.5"/>
+<text text-anchor="middle" x="70219.76" y="-50389" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Poisoning Adaptation</text>
+</g>
+<!-- n716 -->
+<g id="node130" class="node">
+<title>n716</title>
+<text text-anchor="middle" x="77126.99" y="-48889" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Spoofing/Data Sanitizing</text>
+</g>
+<!-- n715&#45;&gt;n716 -->
+<g id="edge128" class="edge">
+<title>n715-&gt;n716</title>
+<path fill="none" stroke="black" d="M61629.43,-48964C64183.7,-48964 72603.42,-48964 75841.46,-48964"/>
+<polygon fill="black" stroke="black" points="75841.53,-48967.5 75851.53,-48964 75841.53,-48960.5 75841.53,-48967.5"/>
+<text text-anchor="middle" x="70219.76" y="-49039" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Spoofing</text>
+</g>
+<!-- n736 -->
+<g id="node135" class="node">
+<title>n736</title>
+<text text-anchor="middle" x="77126.99" y="-58733" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Systematic Poisoning/Systematic Defense</text>
+</g>
+<!-- n725&#45;&gt;n736 -->
+<g id="edge134" class="edge">
+<title>n725-&gt;n736</title>
+<path fill="none" stroke="black" d="M61276.43,-58808C63115.08,-58808 70952.19,-58808 74873.14,-58808"/>
+<polygon fill="black" stroke="black" points="74873.19,-58811.5 74883.19,-58808 74873.19,-58804.5 74873.19,-58811.5"/>
+<text text-anchor="middle" x="70219.76" y="-58883" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Systematic Poisoning</text>
+</g>
+<!-- n801 -->
+<g id="node139" class="node">
+<title>n801</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-8658" rx="2880" ry="2880"/>
+<text text-anchor="middle" x="39111.59" y="-8343" font-family="Helvetica,Arial,sans-serif" font-size="1050.00">SSL-RF[43]</text>
+</g>
+<!-- n800&#45;&gt;n801 -->
+<g id="edge138" class="edge">
+<title>n800-&gt;n801</title>
+<path fill="none" stroke="black" d="M26066.38,-8658C29386.49,-8658 33509.78,-8658 36220.98,-8658"/>
+<polygon fill="black" stroke="black" points="36221.41,-8661.5 36231.41,-8658 36221.41,-8654.5 36221.41,-8661.5"/>
+<text text-anchor="middle" x="28457.85" y="-8733" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=SSL-RF</text>
+</g>
+<!-- n802 -->
+<g id="node140" class="node">
+<title>n802</title>
+<ellipse fill="none" stroke="black" cx="39111.59" cy="-2880" rx="2880" ry="2880"/>
+<text text-anchor="middle" x="39111.59" y="-2610" font-family="Helvetica,Arial,sans-serif" font-size="900.00">SSL-Deep[44]</text>
+</g>
+<!-- n800&#45;&gt;n802 -->
+<g id="edge139" class="edge">
+<title>n800-&gt;n802</title>
+<path fill="none" stroke="black" d="M25819.53,-7043.82C29233.81,-5974.2 33579,-4612.94 36353.41,-3743.77"/>
+<polygon fill="black" stroke="black" points="36354.57,-3747.07 36363.07,-3740.74 36352.48,-3740.39 36354.57,-3747.07"/>
+<text text-anchor="middle" x="28457.85" y="-6802" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=SSL-Deep</text>
+</g>
+<!-- n807 -->
+<g id="node145" class="node">
+<title>n807</title>
+<text text-anchor="middle" x="60882.99" y="-8583" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Subtle Adv/Generated Probability Labels, Hard Class Lablels</text>
+</g>
+<!-- n801&#45;&gt;n807 -->
+<g id="edge144" class="edge">
+<title>n801-&gt;n807</title>
+<path fill="none" stroke="black" d="M41991.81,-8658C46089.38,-8658 53572.16,-8658 57785.63,-8658"/>
+<polygon fill="black" stroke="black" points="57785.66,-8661.5 57795.66,-8658 57785.66,-8654.5 57785.66,-8661.5"/>
+<text text-anchor="middle" x="50897.29" y="-8733" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Subtle Adv</text>
+</g>
+<!-- n803 -->
+<g id="node141" class="node">
+<title>n803</title>
+<text text-anchor="middle" x="60882.99" y="-3294" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Naively poisoning/Adversarial Training</text>
+</g>
+<!-- n802&#45;&gt;n803 -->
+<g id="edge140" class="edge">
+<title>n802-&gt;n803</title>
+<path fill="none" stroke="black" d="M41985.87,-3063.24C43756.39,-3167.19 46073.58,-3287.19 48129.59,-3342 51856.55,-3441.36 56198.36,-3421.69 58733.42,-3396.58"/>
+<polygon fill="black" stroke="black" points="58733.67,-3400.08 58743.64,-3396.48 58733.6,-3393.08 58733.67,-3400.08"/>
+<text text-anchor="middle" x="50897.29" y="-3490" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=NP</text>
+</g>
+<!-- n804 -->
+<g id="node142" class="node">
+<title>n804</title>
+<text text-anchor="middle" x="60882.99" y="-2968" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-APG/Adversarial Training</text>
+</g>
+<!-- n802&#45;&gt;n804 -->
+<g id="edge141" class="edge">
+<title>n802-&gt;n804</title>
+<path fill="none" stroke="black" d="M41991.26,-2935.21C43761.72,-2966.63 46076.96,-3003.18 48129.59,-3021 50283.31,-3039.7 56529.46,-3042.68 59403.33,-3043.04"/>
+<polygon fill="black" stroke="black" points="59403.59,-3046.54 59413.59,-3043.04 59403.59,-3039.54 59403.59,-3046.54"/>
+<text text-anchor="middle" x="50897.29" y="-3113" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=APG</text>
+</g>
+<!-- n805 -->
+<g id="node143" class="node">
+<title>n805</title>
+<text text-anchor="middle" x="60882.99" y="-2642" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-CDP/Adversarial Training</text>
+</g>
+<!-- n802&#45;&gt;n805 -->
+<g id="edge142" class="edge">
+<title>n802-&gt;n805</title>
+<path fill="none" stroke="black" d="M41990.88,-2814.72C43761.37,-2777.86 46076.76,-2735.55 48129.59,-2717 50284.94,-2697.52 56538.97,-2707.67 59409.89,-2713.65"/>
+<polygon fill="black" stroke="black" points="59410.13,-2717.15 59420.14,-2713.67 59410.15,-2710.15 59410.13,-2717.15"/>
+<text text-anchor="middle" x="50897.29" y="-2792" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=CDP</text>
+</g>
+<!-- n806 -->
+<g id="node144" class="node">
+<title>n806</title>
+<text text-anchor="middle" x="60882.99" y="-2316" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-DeHiB/Adversarial Training</text>
+</g>
+<!-- n802&#45;&gt;n806 -->
+<g id="edge143" class="edge">
+<title>n802-&gt;n806</title>
+<path fill="none" stroke="black" d="M41985.43,-2689.47C43755.95,-2581.55 46073.29,-2457.35 48129.59,-2402 52151.02,-2293.75 56888.36,-2333.63 59299.34,-2365.89"/>
+<polygon fill="black" stroke="black" points="59299.45,-2369.39 59309.49,-2366.03 59299.54,-2362.39 59299.45,-2369.39"/>
+<text text-anchor="middle" x="50897.29" y="-2477" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=APG+CDP</text>
+</g>
+<!-- n951 -->
+<g id="node151" class="node">
+<title>n951</title>
+<text text-anchor="middle" x="77126.99" y="-71992" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-MIA/Hiding Prediction Information, adv regularization. Mix up Training</text>
+</g>
+<!-- n901&#45;&gt;n951 -->
+<g id="edge150" class="edge">
+<title>n901-&gt;n951</title>
+<path fill="none" stroke="black" d="M61337.24,-71844.15C62474.71,-71888.74 65542.18,-72003.07 68100.99,-72045 69814.36,-72073.08 71710.94,-72081.18 73321.48,-72081.25"/>
+<polygon fill="black" stroke="black" points="73321.53,-72084.75 73331.53,-72081.25 73321.53,-72077.75 73321.53,-72084.75"/>
+<text text-anchor="middle" x="70219.76" y="-72155" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Membership Inference Attack</text>
+</g>
+<!-- n985 -->
+<g id="node152" class="node">
+<title>n985</title>
+<text text-anchor="middle" x="77126.99" y="-71666" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-SPA/Ensemble Adversarial Training</text>
+</g>
+<!-- n903&#45;&gt;n985 -->
+<g id="edge151" class="edge">
+<title>n903-&gt;n985</title>
+<path fill="none" stroke="black" d="M61943.51,-70068.4C63538.94,-69827.33 66535.7,-69653.84 68082.99,-71363 68109.42,-71392.2 68072.48,-71689.83 68100.99,-71717 68116.8,-71732.06 72492.09,-71737.79 75144.09,-71739.87"/>
+<polygon fill="black" stroke="black" points="75144.29,-71743.37 75154.29,-71739.88 75144.29,-71736.37 75144.29,-71743.37"/>
+<text text-anchor="middle" x="70219.76" y="-71811" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=SPA</text>
+</g>
+<!-- n986 -->
+<g id="node153" class="node">
+<title>n986</title>
+<text text-anchor="middle" x="77126.99" y="-71340" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-PIA/Cascade Adversarial Training</text>
+</g>
+<!-- n903&#45;&gt;n986 -->
+<g id="edge152" class="edge">
+<title>n903-&gt;n986</title>
+<path fill="none" stroke="black" d="M61958.51,-70174.85C63455.17,-70091.16 66195.72,-70140.51 68082.99,-71363 68095.41,-71371.04 68088.02,-71383.89 68100.99,-71391 68139.77,-71412.24 72615.27,-71415.46 75248.38,-71415.51"/>
+<polygon fill="black" stroke="black" points="75248.51,-71419.01 75258.51,-71415.51 75248.51,-71412.01 75248.51,-71419.01"/>
+<text text-anchor="middle" x="70219.76" y="-71488" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PIA</text>
+</g>
+<!-- n987 -->
+<g id="node154" class="node">
+<title>n987</title>
+<text text-anchor="middle" x="77126.99" y="-71014" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-WPA/Data Randomization</text>
+</g>
+<!-- n903&#45;&gt;n987 -->
+<g id="edge153" class="edge">
+<title>n903-&gt;n987</title>
+<path fill="none" stroke="black" d="M61952.07,-70427.54C63358.11,-70621.34 65908.61,-70944.23 68100.99,-71067 68468.7,-71087.59 73165.55,-71089.8 75633.36,-71089.53"/>
+<polygon fill="black" stroke="black" points="75633.76,-71093.03 75643.76,-71089.52 75633.75,-71086.03 75633.76,-71093.03"/>
+<text text-anchor="middle" x="70219.76" y="-71162" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=WPA</text>
+</g>
+<!-- n988 -->
+<g id="node155" class="node">
+<title>n988</title>
+<text text-anchor="middle" x="77126.99" y="-70688" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-FGSM/Dynamic Quantized activation function, Denoiser, Multi Model Based Defense</text>
+</g>
+<!-- n903&#45;&gt;n988 -->
+<g id="edge154" class="edge">
+<title>n903-&gt;n988</title>
+<path fill="none" stroke="black" d="M61959.33,-70364.54C63368.59,-70478.38 65917.72,-70667.77 68100.99,-70741 68572.94,-70756.83 70601.7,-70762.63 72616.4,-70764.33"/>
+<polygon fill="black" stroke="black" points="72616.75,-70767.84 72626.75,-70764.34 72616.75,-70760.84 72616.75,-70767.84"/>
+<text text-anchor="middle" x="70219.76" y="-70838" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=FGSM</text>
+</g>
+<!-- n989 -->
+<g id="node156" class="node">
+<title>n989</title>
+<text text-anchor="middle" x="77126.99" y="-70362" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-IFGSM/Adding regularization term, Modifying the network structure</text>
+</g>
+<!-- n903&#45;&gt;n989 -->
+<g id="edge155" class="edge">
+<title>n903-&gt;n989</title>
+<path fill="none" stroke="black" d="M61962.93,-70300.83C63373.75,-70334.6 65922.14,-70391.06 68100.99,-70415 69873.85,-70434.48 71842.72,-70441.03 73487.95,-70442.29"/>
+<polygon fill="black" stroke="black" points="73488.21,-70445.79 73498.21,-70442.3 73488.21,-70438.79 73488.21,-70445.79"/>
+<text text-anchor="middle" x="70219.76" y="-70515" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=IFGSM</text>
+</g>
+<!-- n990 -->
+<g id="node157" class="node">
+<title>n990</title>
+<text text-anchor="middle" x="77126.99" y="-70036" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGM/Principled adversarial training</text>
+</g>
+<!-- n903&#45;&gt;n990 -->
+<g id="edge156" class="edge">
+<title>n903-&gt;n990</title>
+<path fill="none" stroke="black" d="M61962.89,-70242.03C63373.66,-70201.98 65922,-70135.6 68100.99,-70111 70521.94,-70083.66 73308.41,-70089.33 75137.13,-70098.11"/>
+<polygon fill="black" stroke="black" points="75137.16,-70101.61 75147.18,-70098.16 75137.2,-70094.61 75137.16,-70101.61"/>
+<text text-anchor="middle" x="70219.76" y="-70186" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=PGM</text>
+</g>
+<!-- n991 -->
+<g id="node158" class="node">
+<title>n991</title>
+<text text-anchor="middle" x="77126.99" y="-69710" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-CDG/Gradient band-based adversarial training</text>
+</g>
+<!-- n903&#45;&gt;n991 -->
+<g id="edge157" class="edge">
+<title>n903-&gt;n991</title>
+<path fill="none" stroke="black" d="M61958.83,-70178.61C63367.88,-70058.77 65917.13,-69859.87 68100.99,-69786 68734.7,-69764.56 72175.45,-69769.84 74619.97,-69776.61"/>
+<polygon fill="black" stroke="black" points="74620.27,-69780.11 74630.28,-69776.64 74620.29,-69773.11 74620.27,-69780.11"/>
+<text text-anchor="middle" x="70219.76" y="-69861" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=CDG</text>
+</g>
+<!-- n992 -->
+<g id="node159" class="node">
+<title>n992</title>
+<text text-anchor="middle" x="77126.99" y="-69384" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-DeepFool/Data Randomization, Input transformations, Characterizing adversarial subspaces</text>
+</g>
+<!-- n903&#45;&gt;n992 -->
+<g id="edge158" class="edge">
+<title>n903-&gt;n992</title>
+<path fill="none" stroke="black" d="M61951.55,-70117.04C63357.35,-69918.95 65907.94,-69589.24 68100.99,-69466 68551.42,-69440.69 70423.2,-69436.74 72346.27,-69440.05"/>
+<polygon fill="black" stroke="black" points="72346.5,-69443.55 72356.5,-69440.06 72346.51,-69436.55 72346.5,-69443.55"/>
+<text text-anchor="middle" x="70219.76" y="-69541" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=DeepFool</text>
+</g>
+<!-- n993 -->
+<g id="node160" class="node">
+<title>n993</title>
+<text text-anchor="middle" x="77126.99" y="-69058" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-C&amp;W/Data Randomization</text>
+</g>
+<!-- n903&#45;&gt;n993 -->
+<g id="edge159" class="edge">
+<title>n903-&gt;n993</title>
+<path fill="none" stroke="black" d="M61952.65,-70425.6C63488.41,-70581.04 66327.44,-70627.11 68082.99,-69185 68101.24,-69170.01 68081.67,-69148.58 68100.99,-69135 68138.79,-69108.43 73025.6,-69119.95 75591.51,-69127.84"/>
+<polygon fill="black" stroke="black" points="75591.84,-69131.34 75601.85,-69127.87 75591.86,-69124.34 75591.84,-69131.34"/>
+<text text-anchor="middle" x="70219.76" y="-69210" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=C&amp;W</text>
+</g>
+<!-- n994 -->
+<g id="node161" class="node">
+<title>n994</title>
+<text text-anchor="middle" x="77126.99" y="-68732" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-JSMA/Input gradient regularization</text>
+</g>
+<!-- n903&#45;&gt;n994 -->
+<g id="edge160" class="edge">
+<title>n903-&gt;n994</title>
+<path fill="none" stroke="black" d="M61943.19,-70479.92C63539.06,-70721.64 66537.42,-70896.25 68082.99,-69185 68110.65,-69154.37 68071.12,-68842.48 68100.99,-68814 68132.69,-68783.78 72527.31,-68792.38 75171.67,-68800.3"/>
+<polygon fill="black" stroke="black" points="75171.83,-68803.8 75181.84,-68800.33 75171.86,-68796.8 75171.83,-68803.8"/>
+<text text-anchor="middle" x="70219.76" y="-68889" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=JSMA</text>
+</g>
+<!-- n995 -->
+<g id="node162" class="node">
+<title>n995</title>
+<text text-anchor="middle" x="77126.99" y="-68406" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-ITGSM/Input gradient regularization</text>
+</g><g id="edge167" class="edge">
+<title>n15-&gt;n57</title>
+<path fill="none" stroke="black" d="M41991.51,-41373.78C44927.57,-41342.86 49614.21,-41318.56 53664.99,-41410 55224.35,-41445.2 56971.78,-41523.13 58356.58,-41593.97"/>
+<polygon fill="black" stroke="black" points="58356.58,-41597.48 58366.74,-41594.49 58356.93,-41590.49 58356.58,-41597.48"/>
+<text text-anchor="middle" x="50897.29" y="-41485" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Non-Sparse Binary Vectors</text>
+</g>
+<!-- n903&#45;&gt;n995 -->
+<g id="edge161" class="edge">
+<title>n903-&gt;n995</title>
+<path fill="none" stroke="black" d="M61942.67,-70483.4C63543.56,-70731.24 66555.21,-70915.57 68082.99,-69185 68108.63,-69155.96 68073.26,-68515.04 68100.99,-68488 70545.52,-66103.94 75368.34,-67773.83 76748.75,-68323.24"/>
+<polygon fill="black" stroke="black" points="76747.48,-68326.5 76758.07,-68326.95 76750.07,-68320 76747.48,-68326.5"/>
+<text text-anchor="middle" x="70219.76" y="-68563" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=ITGSM</text>
+</g><g id="edge166" class="edge">
+<title>n15-&gt;n57</title>
+<path fill="none" stroke="black" d="M41989.21,-41532.23C43759.71,-41599.85 46075.7,-41677.96 48129.59,-41714 51676.47,-41776.24 55779.11,-41769.19 58352.33,-41755.2"/>
+<polygon fill="black" stroke="black" points="58352.72,-41758.7 58362.7,-41755.14 58352.68,-41751.7 58352.72,-41758.7"/>
+<text text-anchor="middle" x="50897.29" y="-41838" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Random</text>
+</g>
+<!-- n16 -->
+<g id="node164" class="node">
+<title>n16</title>
+<text text-anchor="middle" x="60882.99" y="-47971" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-SVM PA/DT</text>
+</g>
+<!-- n15&#45;&gt;n16 -->
+<g id="edge163" class="edge">
+<title>n15-&gt;n16</title>
+<path fill="none" stroke="black" d="M41590.46,-42879.75C44408.62,-44459 49201.62,-46879.62 53682.99,-47883 54871.3,-48149.06 58420.01,-48104.58 60048.48,-48068.11"/>
+<polygon fill="black" stroke="black" points="60048.7,-48071.61 60058.62,-48067.89 60048.54,-48064.61 60048.7,-48071.61"/>
+<text text-anchor="middle" x="50897.29" y="-47952" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=SVM PA</text>
+</g>
+<!-- n50 -->
+<g id="node165" class="node">
+<title>n50</title>
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-46074" rx="1800" ry="1800"/>
+<text text-anchor="middle" x="60882.99" y="-45999" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PSBV[40]</text>
+</g>
+<!-- n15&#45;&gt;n50 -->
+<g id="edge164" class="edge">
+<title>n15-&gt;n50</title>
+<path fill="none" stroke="black" d="M41927.89,-42015.78C46483.52,-42991.17 55340.81,-44887.59 59112.53,-45695.14"/>
+<polygon fill="black" stroke="black" points="59112.03,-45698.62 59122.54,-45697.29 59113.49,-45691.77 59112.03,-45698.62"/>
+<text text-anchor="middle" x="50897.29" y="-44600" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Poison Sparse Binary Vectors</text>
+</g>
+<!-- n57 -->
+<g id="node168" class="node">
+<title>n57</title>
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-41736" rx="2520" ry="2520"/>
+<text text-anchor="middle" x="60882.99" y="-41661" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PNSBV[41]</text>
+</g>
+<!-- n15&#45;&gt;n57 -->
+
+<!-- n15&#45;&gt;n57 -->
+
+<!-- n59 -->
+<g id="node169" class="node">
+<title>n59</title>
+<text text-anchor="middle" x="60882.99" y="-38969" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Gradient-descent/Kernel parameter optimization[172]</text>
+</g>
+<!-- n15&#45;&gt;n59 -->
+<g id="edge169" class="edge">
+<title>n15-&gt;n59</title>
+<path fill="none" stroke="black" d="M41941.15,-40875.19C44867.53,-40344.62 49576.34,-39562.91 53682.99,-39207 55107.74,-39083.52 56696.65,-39037.85 58018.52,-39025.1"/>
+<polygon fill="black" stroke="black" points="58018.74,-39028.6 58028.71,-39025.01 58018.67,-39021.6 58018.74,-39028.6"/>
+<text text-anchor="middle" x="50897.29" y="-39935" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Gradient-descent attack</text>
+</g>
+<!-- n61 -->
+<g id="node170" class="node">
+<title>n61</title>
+<text text-anchor="middle" x="60882.99" y="-38643" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Label Flipping/Label Sanitization[173]</text>
+</g>
+<!-- n15&#45;&gt;n61 -->
+<g id="edge170" class="edge">
+<title>n15-&gt;n61</title>
+<path fill="none" stroke="black" d="M41829.77,-40460.48C43599.43,-39889.43 45971.96,-39215.6 48129.59,-38905 49149.03,-38758.25 55423.02,-38726.03 58774.97,-38719.39"/>
+<polygon fill="black" stroke="black" points="58775.1,-38722.89 58785.09,-38719.37 58775.09,-38715.89 58775.1,-38722.89"/>
+<text text-anchor="middle" x="50897.29" y="-38980" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Label Flipping</text>
+</g>
+<!-- n62 -->
+<g id="node171" class="node">
+<title>n62</title>
+<text text-anchor="middle" x="60882.99" y="-38317" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Poison insertion attacks/Data Sanitization[174]</text>
+</g>
+<!-- n15&#45;&gt;n62 -->
+<g id="edge171" class="edge">
+<title>n15-&gt;n62</title>
+<path fill="none" stroke="black" d="M41985.44,-41221.2C43980.35,-40934 46550.73,-40230.91 48111.59,-38524 48136.18,-38497.1 48101.18,-38466.82 48129.59,-38444 48228.2,-38364.78 54689.43,-38372.19 58375.53,-38382.9"/>
+<polygon fill="black" stroke="black" points="58375.65,-38386.4 58385.66,-38382.93 58375.67,-38379.4 58375.65,-38386.4"/>
+<text text-anchor="middle" x="50897.29" y="-38519" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Poison insertion attacks</text>
+</g>
+<!-- n63 -->
+<g id="node172" class="node">
+<title>n63</title>
+<text text-anchor="middle" x="60882.99" y="-37991" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Data Modification Attacks/Data Sanitization[175]</text>
+</g>
+<!-- n15&#45;&gt;n63 -->
+<g id="edge172" class="edge">
+<title>n15-&gt;n63</title>
+<path fill="none" stroke="black" d="M41990.06,-41313.67C44046.03,-41075.57 46690.52,-40393.42 48111.59,-38524 48142.01,-38483.99 48093.36,-38106.83 48129.59,-38072 48152.13,-38050.33 54499.97,-38056.27 58229.94,-38061.63"/>
+<polygon fill="black" stroke="black" points="58230.18,-38065.13 58240.18,-38061.65 58230.19,-38058.13 58230.18,-38065.13"/>
+<text text-anchor="middle" x="50897.29" y="-38147" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Data modification attacks</text>
+</g>
+<!-- n64 -->
+<g id="node173" class="node">
+<title>n64</title>
+<text text-anchor="middle" x="60882.99" y="-37665" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Boiling Frogs Attacks/Label Sanitization[176]</text>
+</g>
+<!-- n15&#45;&gt;n64 -->
+<g id="edge173" class="edge">
+<title>n15-&gt;n64</title>
+<path fill="none" stroke="black" d="M41990.31,-41321.47C44052.16,-41087.78 46703.98,-40407.74 48111.59,-38524 48137.27,-38489.63 48098.92,-37781.99 48129.59,-37752 48310.69,-37574.9 54753.48,-37644.94 58410.22,-37699.24"/>
+<polygon fill="black" stroke="black" points="58410.21,-37702.74 58420.26,-37699.38 58410.32,-37695.74 58410.21,-37702.74"/>
+<text text-anchor="middle" x="50897.29" y="-37827" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Boiling frog attacks</text>
+</g>
+<!-- n51 -->
+<g id="node166" class="node">
+<title>n51</title>
+<text text-anchor="middle" x="77126.99" y="-45999" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Poison SBV/LSD defense, KSSD</text>
+</g>
+<!-- n50&#45;&gt;n51 -->
+<g id="edge165" class="edge">
+<title>n50-&gt;n51</title>
+<path fill="none" stroke="black" d="M62683.25,-46074C65790.82,-46074 72132.03,-46074 75275.05,-46074"/>
+<polygon fill="black" stroke="black" points="75275.12,-46077.5 75285.12,-46074 75275.12,-46070.5 75275.12,-46077.5"/>
+<text text-anchor="middle" x="70219.76" y="-46149" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PSM=Sparse Binary Vectors</text>
+</g>
+<!-- n56 -->
+<g id="node167" class="node">
+<title>n56</title>
+<text text-anchor="middle" x="77126.99" y="-42177" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Poison NSBV/K-LID-SSVM, LS-SVM, LN-SVM</text>
+</g>
+<!-- n57&#45;&gt;n56 -->
+<g id="edge168" class="edge">
+<title>n57-&gt;n56</title>
+<path fill="none" stroke="black" d="M63394.2,-41947.11C64780.88,-42053.57 66534.91,-42171.62 68100.99,-42227 70227.27,-42302.19 72637.09,-42304.65 74431.42,-42290.38"/>
+<polygon fill="black" stroke="black" points="74431.65,-42293.88 74441.62,-42290.3 74431.59,-42286.88 74431.65,-42293.88"/>
+<text text-anchor="middle" x="70219.76" y="-42371" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PSM=Non-Sparse Binary Vectors</text>
+</g>
+<!-- n14&#45;&gt;n13 -->
+<g id="edge175" class="edge">
+<title>n14-&gt;n13</title>
+<path fill="none" stroke="black" d="M48105.01,-29867.35C49962.06,-29940.12 51894.92,-30015.86 53678.34,-30085.74"/>
+<polygon fill="black" stroke="black" points="53678.35,-30089.24 53688.48,-30086.13 53678.62,-30082.24 53678.35,-30089.24"/>
+<text text-anchor="middle" x="50897.29" y="-30159" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=CNN</text>
+</g>
+<!-- n20 -->
+<g id="node176" class="node">
+<title>n20</title>
+<ellipse fill="none" stroke="black" cx="60882.99" cy="-19254" rx="3600" ry="3600"/>
+<text text-anchor="middle" x="60882.99" y="-18864" font-family="Helvetica,Arial,sans-serif" font-size="1300.00">RNN[33]</text>
+</g>
+<!-- n14&#45;&gt;n20 -->
+<g id="edge183" class="edge">
+<title>n14-&gt;n20</title>
+<path fill="none" stroke="black" d="M47253.06,-25677.99C50852.18,-23981.55 54879.55,-22083.25 57616.89,-20793"/>
+<polygon fill="black" stroke="black" points="57618.62,-20796.06 57626.17,-20788.63 57615.63,-20789.73 57618.62,-20796.06"/>
+<text text-anchor="middle" x="50897.29" y="-25331" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TA=RNN</text>
+</g>
+<!-- n18 -->
+<g id="node175" class="node">
+<title>n18</title>
+<text text-anchor="middle" x="77126.99" y="-19031" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-GB-GCN</text>
+</g>
+<!-- n20&#45;&gt;n18 -->
+<g id="edge176" class="edge">
+<title>n20-&gt;n18</title>
+<path fill="none" stroke="black" d="M64482.18,-19170.42C65637.76,-19147.14 66923.35,-19124.96 68100.99,-19113 71254.6,-19080.97 75028.38,-19094.98 76497.53,-19102.43"/>
+<polygon fill="black" stroke="black" points="76497.72,-19105.93 76507.74,-19102.49 76497.76,-19098.93 76497.72,-19105.93"/>
+<text text-anchor="middle" x="70219.76" y="-19188" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=GB-GCN</text>
+</g>
+<!-- n21 -->
+<g id="node183" class="node">
+<title>n21</title>
+<text text-anchor="middle" x="77126.99" y="-18705" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-LSTM/AT</text>
+</g>
+<!-- n20&#45;&gt;n21 -->
+<g id="edge184" class="edge">
+<title>n20-&gt;n21</title>
+<path fill="none" stroke="black" d="M64472.42,-18977.81C65629.9,-18900.78 66919.05,-18827.63 68100.99,-18789 68924,-18762.1 74481.02,-18773.31 76442.28,-18778.18"/>
+<polygon fill="black" stroke="black" points="76442.31,-18781.68 76452.32,-18778.2 76442.33,-18774.68 76442.31,-18781.68"/>
+<text text-anchor="middle" x="70219.76" y="-18864" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=LSTM</text>
+</g>
+<!-- n22 -->
+<g id="node184" class="node">
+<title>n22</title>
+<text text-anchor="middle" x="77126.99" y="-18379" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-BI-LSTM/AT</text>
+</g>
+<!-- n20&#45;&gt;n22 -->
+<g id="edge185" class="edge">
+<title>n20-&gt;n22</title>
+<path fill="none" stroke="black" d="M64452.82,-18788.22C65614.06,-18657.18 66910.36,-18532.59 68100.99,-18467 71102.5,-18301.66 74674.04,-18376.84 76275.41,-18424.9"/>
+<polygon fill="black" stroke="black" points="76275.57,-18428.4 76285.67,-18425.21 76275.78,-18421.41 76275.57,-18428.4"/>
+<text text-anchor="middle" x="70219.76" y="-18542" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=BI-LSTM</text>
+</g>
+<!-- n25 -->
+<g id="node178" class="node">
+<title>n25</title>
+<text text-anchor="middle" x="60882.99" y="-15407" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-DF/Robust Split with Information Gain</text>
+</g>
+<!-- n19&#45;&gt;n25 -->
+<g id="edge178" class="edge">
+<title>n19-&gt;n25</title>
+<path fill="none" stroke="black" d="M42708.86,-15303.61C44360.05,-15364.6 46343.87,-15428.37 48129.59,-15460 51870.41,-15526.27 56229.45,-15514.63 58760.39,-15499.07"/>
+<polygon fill="black" stroke="black" points="58760.61,-15502.57 58770.59,-15499.01 58760.57,-15495.57 58760.61,-15502.57"/>
+<text text-anchor="middle" x="50897.29" y="-15584" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=DF</text>
+</g>
+<!-- n26 -->
+<g id="node179" class="node">
+<title>n26</title>
+<text text-anchor="middle" x="60882.99" y="-15081" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-GAN/Hardening Random Forest</text>
+</g>
+<!-- n19&#45;&gt;n26 -->
+<g id="edge179" class="edge">
+<title>n19-&gt;n26</title>
+<path fill="none" stroke="black" d="M42711.94,-15156C47431.5,-15156 55529.47,-15156 59100.97,-15156"/>
+<polygon fill="black" stroke="black" points="59101.1,-15159.5 59111.1,-15156 59101.1,-15152.5 59101.1,-15159.5"/>
+<text text-anchor="middle" x="50897.29" y="-15231" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=GAN</text>
+</g>
+<!-- n27 -->
+<g id="node180" class="node">
+<title>n27</title>
+<text text-anchor="middle" x="60882.99" y="-14755" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Kantchelian Attack/Robust Split</text>
+</g>
+<!-- n19&#45;&gt;n27 -->
+<g id="edge180" class="edge">
+<title>n19-&gt;n27</title>
+<path fill="none" stroke="black" d="M42708.86,-15008.39C44360.05,-14947.4 46343.87,-14883.63 48129.59,-14852 50212.01,-14815.11 56121.68,-14820.56 59108.12,-14826.04"/>
+<polygon fill="black" stroke="black" points="59108.23,-14829.54 59118.24,-14826.06 59108.25,-14822.54 59108.23,-14829.54"/>
+<text text-anchor="middle" x="50897.29" y="-14927" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Kantchelian Attack</text>
+</g>
+<!-- n28 -->
+<g id="node181" class="node">
+<title>n28</title>
+<text text-anchor="middle" x="60882.99" y="-14429" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Cheng Attack/Hardening Random Forest</text>
+</g>
+<!-- n19&#45;&gt;n28 -->
+<g id="edge181" class="edge">
+<title>n19-&gt;n28</title>
+<path fill="none" stroke="black" d="M42698.34,-14844.8C44350.67,-14716.19 46338.36,-14582.27 48129.59,-14518 49149.01,-14481.42 55309.94,-14490.25 58681.13,-14498.07"/>
+<polygon fill="black" stroke="black" points="58681.31,-14501.57 58691.31,-14498.09 58681.32,-14494.57 58681.31,-14501.57"/>
+<text text-anchor="middle" x="50897.29" y="-14593" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Cheng Attack</text>
+</g>
+<!-- n29 -->
+<g id="node182" class="node">
+<title>n29</title>
+<text text-anchor="middle" x="60882.99" y="-14103" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Papernote/Hardening Random Forest</text>
+</g>
+<!-- n19&#45;&gt;n29 -->
+<g id="edge182" class="edge">
+<title>n19-&gt;n29</title>
+<path fill="none" stroke="black" d="M42680.77,-14684.24C44334.95,-14488.25 46329.08,-14284.1 48129.59,-14187 51921.97,-13982.47 56357.96,-14048.01 58872.15,-14113.51"/>
+<polygon fill="black" stroke="black" points="58872.2,-14117.01 58882.28,-14113.77 58872.38,-14110.01 58872.2,-14117.01"/>
+<text text-anchor="middle" x="50897.29" y="-14262" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PC=Papernote</text>
+</g>
+<!-- n1001 -->
+<g id="node185" class="node">
+<title>n1001</title>
+<text text-anchor="middle" x="93151.24" y="-29137" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-JPEG-Lp/ JPEG Compression</text>
+</g>
+<!-- n1002 -->
+<g id="node186" class="node">
+<title>n1002</title>
+<text text-anchor="middle" x="93151.24" y="-28811" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-APGD-AT/ Randomization</text>
+</g>
+<!-- n1003 -->
+<g id="node187" class="node">
+<title>n1003</title>
+<text text-anchor="middle" x="93151.24" y="-28485" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-APGD-AT/ Logit Squeezing</text>
+</g>
+<!-- n1004 -->
+<g id="node188" class="node">
+<title>n1004</title>
+<text text-anchor="middle" x="93151.24" y="-28159" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Momentum/ Mustafa</text>
+</g>
+<!-- n1005 -->
+<g id="node189" class="node">
+<title>n1005</title>
+<text text-anchor="middle" x="93151.24" y="-27833" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Momentum Iterative/ Super Resolution</text>
+</g>
+<!-- n1006 -->
+<g id="node190" class="node">
+<title>n1006</title>
+<text text-anchor="middle" x="93151.24" y="-27507" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Momentum/ Image Denoisining</text>
+</g>
+<!-- n1007 -->
+<g id="node191" class="node">
+<title>n1007</title>
+<text text-anchor="middle" x="93151.24" y="-27181" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Discretized Inputs/ OneHot</text>
+</g>
+<!-- n1008 -->
+<g id="node192" class="node">
+<title>n1008</title>
+<text text-anchor="middle" x="93151.24" y="-26855" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Discretized Inputs/ Termometer Enconding</text>
+</g>
+<!-- n1009 -->
+<g id="node193" class="node">
+<title>n1009</title>
+<text text-anchor="middle" x="93151.24" y="-26529" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Clean label/ Data Sanitizing</text>
+</g>
+<!-- n1010 -->
+<g id="node194" class="node">
+<title>n1010</title>
+<text text-anchor="middle" x="93151.24" y="-26203" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Gradient Based / BAT</text>
+</g>
+<!-- n1011 -->
+<g id="node195" class="node">
+<title>n1011</title>
+<text text-anchor="middle" x="93151.24" y="-25877" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGD Fast/ Data Augmentation</text>
+</g>
+<!-- n1012 -->
+<g id="node196" class="node">
+<title>n1012</title>
+<text text-anchor="middle" x="93151.24" y="-25551" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGD Fast/ Pixel Defense</text>
+</g>
+<!-- n1013 -->
+<g id="node197" class="node">
+<title>n1013</title>
+<text text-anchor="middle" x="93151.24" y="-25225" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGD Fast/ Defensive Distilation</text>
+</g>
+<!-- n1014 -->
+<g id="node198" class="node">
+<title>n1014</title>
+<text text-anchor="middle" x="93151.24" y="-24899" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGD Fast/ Regularization</text>
+</g>
+<!-- n1015 -->
+<g id="node199" class="node">
+<title>n1015</title>
+<text text-anchor="middle" x="93151.24" y="-24573" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-MGA/ Vector Defence</text>
+</g>
+<!-- n1016 -->
+<g id="node200" class="node">
+<title>n1016</title>
+<text text-anchor="middle" x="93151.24" y="-24247" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-PGD Fast/ Gradient Masking</text>
+</g>
+<!-- n1017 -->
+<g id="node201" class="node">
+<title>n1017</title>
+<text text-anchor="middle" x="93151.24" y="-23921" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-IGB-Adam/ Vector Defence</text>
+</g>
+<!-- n1018 -->
+<g id="node202" class="node">
+<title>n1018</title>
+<text text-anchor="middle" x="93151.24" y="-23595" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Image Scaling/ RobustScaling</text>
+</g>
+<!-- n1021 -->
+<g id="node203" class="node">
+<title>n1021</title>
+<text text-anchor="middle" x="93151.24" y="-23269" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Discretized Inputs/ Thermometer Encoding</text>
+</g>
+<!-- n1022 -->
+<g id="node204" class="node">
+<title>n1022</title>
+<text text-anchor="middle" x="93151.24" y="-29789" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Gradient Based/BAT</text>
+</g>
+<!-- n5092&#45;&gt;n1022 -->
+<g id="edge187" class="edge">
+<title>n5092-&gt;n1022</title>
+<path fill="none" stroke="black" d="M81191.15,-29864C84736.52,-29864 89657.37,-29864 91921.14,-29864"/>
+<polygon fill="black" stroke="black" points="91921.5,-29867.5 91931.5,-29864 91921.5,-29860.5 91921.5,-29867.5"/>
+<text text-anchor="middle" x="85724.34" y="-29939" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based</text>
+</g>
+<!-- n1141 -->
+<g id="node218" class="node">
+<title>n1141</title>
+<text text-anchor="middle" x="93151.24" y="-20335" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-ReColorAdv/ JPEG Compression</text>
+</g>
+<!-- n1142 -->
+<g id="node219" class="node">
+<title>n1142</title>
+<text text-anchor="middle" x="93151.24" y="-20009" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-cADV/ JPEG Compression</text>
+</g>
+<!-- n1143 -->
+<g id="node220" class="node">
+<title>n1143</title>
+<text text-anchor="middle" x="93151.24" y="-19683" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-AtADV/ JPEG Compression</text>
+</g>
+<!-- n5001 -->
+<g id="node221" class="node">
+<title>n5001</title>
+<text text-anchor="middle" x="93151.24" y="-29463" font-family="Helvetica,Arial,sans-serif" font-size="250.00">M-Gradient Descent/ Adversarial Retraining</text>
+</g>
+<!-- n1100 -->
+<g id="node222" class="node">
+<title>n1100</title>
+<text text-anchor="middle" x="93151.24" y="-22943" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Gradient Based/ Vector Defence</text>
+</g>
+<!-- n1104 -->
+<g id="node223" class="node">
+<title>n1104</title>
+<text text-anchor="middle" x="93151.24" y="-22617" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-DeepFool/ Adversarial Retraining</text>
+</g>
+<!-- n1107 -->
+<g id="node224" class="node">
+<title>n1107</title>
+<text text-anchor="middle" x="93151.24" y="-22291" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-FGSM/ Adversarial Retraining</text>
+</g>
+<!-- n1109 -->
+<g id="node225" class="node">
+<title>n1109</title>
+<text text-anchor="middle" x="93151.24" y="-21965" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Cassidi/ Adversarial Retraining</text>
+</g>
+<!-- n1110 -->
+<g id="node226" class="node">
+<title>n1110</title>
+<text text-anchor="middle" x="93151.24" y="-21639" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-NewtonFool/ Adversarial Retraining</text>
+</g>
+<!-- n1117 -->
+<g id="node227" class="node">
+<title>n1117</title>
+<text text-anchor="middle" x="93151.24" y="-21313" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-TUAP/ Adversarial Retraining</text>
+</g>
+<!-- n1120 -->
+<g id="node228" class="node">
+<title>n1120</title>
+<text text-anchor="middle" x="93151.24" y="-20987" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-DFO/ Adversarial Retraining</text>
+</g>
+<!-- n1124 -->
+<g id="node229" class="node">
+<title>n1124</title>
+<text text-anchor="middle" x="93151.24" y="-20661" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Salt-Pepper/ Filter</text>
+</g>
+<!-- n1144 -->
+<g id="node230" class="node">
+<title>n1144</title>
+<text text-anchor="middle" x="93151.24" y="-19357" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Data Augmentation Attack/Adversarial Training</text>
+</g>
+<!-- n5000&#45;&gt;n5001 -->
+<g id="edge201" class="edge">
+<title>n5000-&gt;n5001</title>
+<path fill="none" stroke="black" d="M78729.76,-29538C81236.81,-29538 86151.1,-29538 89540.75,-29538"/>
+<polygon fill="black" stroke="black" points="89540.99,-29541.5 89550.99,-29538 89540.99,-29534.5 89540.99,-29541.5"/>
+<text text-anchor="middle" x="85724.34" y="-29613" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based</text>
+</g>
+<!-- n5002&#45;&gt;n1001 -->
+<g id="edge203" class="edge">
+<title>n5002-&gt;n1001</title>
+<path fill="none" stroke="black" d="M78038.95,-29212C80636.53,-29212 88108.9,-29212 91473.19,-29212"/>
+<polygon fill="black" stroke="black" points="91473.35,-29215.5 91483.35,-29212 91473.35,-29208.5 91473.35,-29215.5"/>
+<text text-anchor="middle" x="85724.34" y="-29287" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Additive + Functional (Assembly)</text>
+</g>
+<!-- n5003&#45;&gt;n1002 -->
+<g id="edge205" class="edge">
+<title>n5003-&gt;n1002</title>
+<path fill="none" stroke="black" d="M78729.76,-28886C81817.55,-28886 88556.99,-28886 91602.01,-28886"/>
+<polygon fill="black" stroke="black" points="91602.05,-28889.5 91612.05,-28886 91602.05,-28882.5 91602.05,-28889.5"/>
+<text text-anchor="middle" x="85724.34" y="-28961" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search= Random Search (Assembly)</text>
+</g>
+<!-- n5012&#45;&gt;n1003 -->
+<g id="edge207" class="edge">
+<title>n5012-&gt;n1003</title>
+<path fill="none" stroke="black" d="M78729.76,-28560C81797.76,-28560 88470.75,-28560 91543.01,-28560"/>
+<polygon fill="black" stroke="black" points="91543.14,-28563.5 91553.14,-28560 91543.14,-28556.5 91543.14,-28563.5"/>
+<text text-anchor="middle" x="85724.34" y="-28635" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Random Search</text>
+</g>
+<!-- n5004&#45;&gt;n1004 -->
+<g id="edge209" class="edge">
+<title>n5004-&gt;n1004</title>
+<path fill="none" stroke="black" d="M78729.76,-28234C81930.56,-28234 89055.18,-28234 91921.13,-28234"/>
+<polygon fill="black" stroke="black" points="91921.36,-28237.5 91931.36,-28234 91921.36,-28230.5 91921.36,-28237.5"/>
+<text text-anchor="middle" x="85724.34" y="-28309" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search= Momentum Search</text>
+</g>
+<!-- n5013&#45;&gt;n1005 -->
+<g id="edge211" class="edge">
+<title>n5013-&gt;n1005</title>
+<path fill="none" stroke="black" d="M78038.95,-27908C80525.23,-27908 87477.54,-27908 91018.84,-27908"/>
+<polygon fill="black" stroke="black" points="91018.89,-27911.5 91028.89,-27908 91018.89,-27904.5 91018.89,-27911.5"/>
+<text text-anchor="middle" x="85724.34" y="-27983" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Momentum Iterative</text>
+</g>
+<!-- n5014&#45;&gt;n1006 -->
+<g id="edge213" class="edge">
+<title>n5014-&gt;n1006</title>
+<path fill="none" stroke="black" d="M78038.95,-27582C80611.8,-27582 87967.05,-27582 91375.99,-27582"/>
+<polygon fill="black" stroke="black" points="91376.28,-27585.5 91386.28,-27582 91376.28,-27578.5 91376.28,-27585.5"/>
+<text text-anchor="middle" x="85724.34" y="-27657" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Momentum Iterative</text>
+</g>
+<!-- n5005&#45;&gt;n1007 -->
+<g id="edge215" class="edge">
+<title>n5005-&gt;n1007</title>
+<path fill="none" stroke="black" d="M78729.76,-27256C81818.79,-27256 88562.39,-27256 91605.67,-27256"/>
+<polygon fill="black" stroke="black" points="91605.7,-27259.5 91615.7,-27256 91605.7,-27252.5 91605.7,-27259.5"/>
+<text text-anchor="middle" x="85724.34" y="-27331" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based</text>
+</g>
+<!-- n5072&#45;&gt;n1008 -->
+<g id="edge217" class="edge">
+<title>n5072-&gt;n1008</title>
+<path fill="none" stroke="black" d="M78038.95,-26930C80477.32,-26930 87211.25,-26930 90810.37,-26930"/>
+<polygon fill="black" stroke="black" points="90810.58,-26933.5 90820.58,-26930 90810.58,-26926.5 90810.58,-26933.5"/>
+<text text-anchor="middle" x="85724.34" y="-27005" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=LS-PGA</text>
+</g>
+<!-- n5010&#45;&gt;n1009 -->
+<g id="edge219" class="edge">
+<title>n5010-&gt;n1009</title>
+<path fill="none" stroke="black" d="M78428.13,-26604C81353.53,-26604 88443.59,-26604 91595.35,-26604"/>
+<polygon fill="black" stroke="black" points="91595.45,-26607.5 91605.45,-26604 91595.45,-26600.5 91595.45,-26607.5"/>
+<text text-anchor="middle" x="85724.34" y="-26679" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=NA</text>
+</g>
+<!-- n5016&#45;&gt;n1010 -->
+<g id="edge221" class="edge">
+<title>n5016-&gt;n1010</title>
+<path fill="none" stroke="black" d="M80580.24,-26278C84117.51,-26278 89432.24,-26278 91858.95,-26278"/>
+<polygon fill="black" stroke="black" points="91859.17,-26281.5 91869.17,-26278 91859.17,-26274.5 91859.17,-26281.5"/>
+<text text-anchor="middle" x="85724.34" y="-26353" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based</text>
+</g>
+<!-- n5091&#45;&gt;n1011 -->
+<g id="edge223" class="edge">
+<title>n5091-&gt;n1011</title>
+<path fill="none" stroke="black" d="M78729.76,-25952C81764.61,-25952 88326.97,-25952 91442.17,-25952"/>
+<polygon fill="black" stroke="black" points="91442.44,-25955.5 91452.44,-25952 91442.44,-25948.5 91442.44,-25955.5"/>
+<text text-anchor="middle" x="85724.34" y="-26027" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Fast Search</text>
+</g>
+<!-- n5019&#45;&gt;n1012 -->
+<g id="edge225" class="edge">
+<title>n5019-&gt;n1012</title>
+<path fill="none" stroke="black" d="M78729.76,-25626C81860.5,-25626 88745.17,-25626 91726.91,-25626"/>
+<polygon fill="black" stroke="black" points="91727.01,-25629.5 91737.01,-25626 91727.01,-25622.5 91727.01,-25629.5"/>
+<text text-anchor="middle" x="85724.34" y="-25701" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Fast Search</text>
+</g>
+<!-- n5021&#45;&gt;n1013 -->
+<g id="edge227" class="edge">
+<title>n5021-&gt;n1013</title>
+<path fill="none" stroke="black" d="M78729.76,-25300C81737.74,-25300 88211.03,-25300 91358.62,-25300"/>
+<polygon fill="black" stroke="black" points="91358.7,-25303.5 91368.7,-25300 91358.7,-25296.5 91358.7,-25303.5"/>
+<text text-anchor="middle" x="85724.34" y="-25375" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Fast Search</text>
+</g>
+<!-- n5023&#45;&gt;n1014 -->
+<g id="edge229" class="edge">
+<title>n5023-&gt;n1014</title>
+<path fill="none" stroke="black" d="M78729.76,-24974C81847.26,-24974 88687.03,-24974 91688.89,-24974"/>
+<polygon fill="black" stroke="black" points="91689.05,-24977.5 91699.05,-24974 91689.05,-24970.5 91689.05,-24977.5"/>
+<text text-anchor="middle" x="85724.34" y="-25049" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Fast Search</text>
+</g>
+<!-- n5032&#45;&gt;n1015 -->
+<g id="edge231" class="edge">
+<title>n5032-&gt;n1015</title>
+<path fill="none" stroke="black" d="M78729.76,-24648C81898.87,-24648 88914.49,-24648 91834.77,-24648"/>
+<polygon fill="black" stroke="black" points="91834.92,-24651.5 91844.92,-24648 91834.92,-24644.5 91834.92,-24651.5"/>
+<text text-anchor="middle" x="85724.34" y="-24723" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Momentum Iterative</text>
+</g>
+<!-- n5020&#45;&gt;n1016 -->
+<g id="edge233" class="edge">
+<title>n5020-&gt;n1016</title>
+<path fill="none" stroke="black" d="M78729.76,-24322C81789.6,-24322 88435.26,-24322 91518.41,-24322"/>
+<polygon fill="black" stroke="black" points="91518.57,-24325.5 91528.57,-24322 91518.57,-24318.5 91518.57,-24325.5"/>
+<text text-anchor="middle" x="85724.34" y="-24397" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Fast Search</text>
+</g>
+<!-- n5008&#45;&gt;n1017 -->
+<g id="edge235" class="edge">
+<title>n5008-&gt;n1017</title>
+<path fill="none" stroke="black" d="M78729.76,-23996C81811.86,-23996 88532.16,-23996 91585.14,-23996"/>
+<polygon fill="black" stroke="black" points="91585.2,-23999.5 91595.2,-23996 91585.2,-23992.5 91585.2,-23999.5"/>
+<text text-anchor="middle" x="85724.34" y="-24071" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based</text>
+</g>
+<!-- n5011&#45;&gt;n1018 -->
+<g id="edge237" class="edge">
+<title>n5011-&gt;n1018</title>
+<path fill="none" stroke="black" d="M78038.95,-23670C80640.15,-23670 88129.74,-23670 91487.23,-23670"/>
+<polygon fill="black" stroke="black" points="91487.38,-23673.5 91497.38,-23670 91487.38,-23666.5 91487.38,-23673.5"/>
+<text text-anchor="middle" x="85724.34" y="-23745" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=NA</text>
+</g>
+<!-- n5015&#45;&gt;n1021 -->
+<g id="edge239" class="edge">
+<title>n5015-&gt;n1021</title>
+<path fill="none" stroke="black" d="M78038.95,-23344C80482.19,-23344 87238.13,-23344 90831.87,-23344"/>
+<polygon fill="black" stroke="black" points="90832.07,-23347.5 90842.07,-23344 90832.07,-23340.5 90832.07,-23347.5"/>
+<text text-anchor="middle" x="85724.34" y="-23419" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Momentum Iterative</text>
+</g>
+<!-- n5007&#45;&gt;n1100 -->
+<g id="edge241" class="edge">
+<title>n5007-&gt;n1100</title>
+<path fill="none" stroke="black" d="M78729.76,-23018C81785.27,-23018 88416.46,-23018 91505.3,-23018"/>
+<polygon fill="black" stroke="black" points="91505.48,-23021.5 91515.48,-23018 91505.48,-23014.5 91505.48,-23021.5"/>
+<text text-anchor="middle" x="85724.34" y="-23093" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Based</text>
+</g>
+<!-- n5076&#45;&gt;n1104 -->
+<g id="edge243" class="edge">
+<title>n5076-&gt;n1104</title>
+<path fill="none" stroke="black" d="M78038.95,-22692C80592.94,-22692 87859.49,-22692 91300.39,-22692"/>
+<polygon fill="black" stroke="black" points="91300.47,-22695.5 91310.47,-22692 91300.47,-22688.5 91300.47,-22695.5"/>
+<text text-anchor="middle" x="85724.34" y="-22767" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Closet decision boundary</text>
+</g>
+<!-- n5077&#45;&gt;n1107 -->
+<g id="edge245" class="edge">
+<title>n5077-&gt;n1107</title>
+<path fill="none" stroke="black" d="M78038.95,-22366C80631.25,-22366 88078.55,-22366 91452.63,-22366"/>
+<polygon fill="black" stroke="black" points="91452.82,-22369.5 91462.82,-22366 91452.82,-22362.5 91452.82,-22369.5"/>
+<text text-anchor="middle" x="85724.34" y="-22441" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Sign Method</text>
+</g>
+<!-- n5078&#45;&gt;n1109 -->
+<g id="edge247" class="edge">
+<title>n5078-&gt;n1109</title>
+<path fill="none" stroke="black" d="M78038.95,-22040C80624.21,-22040 88038.16,-22040 91425.07,-22040"/>
+<polygon fill="black" stroke="black" points="91425.3,-22043.5 91435.3,-22040 91425.3,-22036.5 91425.3,-22043.5"/>
+<text text-anchor="middle" x="85724.34" y="-22115" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Sign Method</text>
+</g>
+<g id="edge249" class="edge">
+<title>n5079-&gt;n1110</title>
+<path fill="none" stroke="black" d="M78038.95,-21714C80560.65,-21714 87676.52,-21714 91168.08,-21714"/>
+<polygon fill="black" stroke="black" points="91168.31,-21717.5 91178.31,-21714 91168.31,-21710.5 91168.31,-21717.5"/>
+<text text-anchor="middle" x="85724.34" y="-21789" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gradient Descent</text>
+</g><g id="edge251" class="edge">
+<title>n5080-&gt;n1117</title>
+<path fill="none" stroke="black" d="M78038.95,-21388C80634.87,-21388 88099.37,-21388 91466.75,-21388"/>
+<polygon fill="black" stroke="black" points="91466.92,-21391.5 91476.92,-21388 91466.92,-21384.5 91466.92,-21391.5"/>
+<text text-anchor="middle" x="85724.34" y="-21463" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=TUAP</text>
+</g><g id="edge253" class="edge">
+<title>n5081-&gt;n1120</title>
+<path fill="none" stroke="black" d="M78038.95,-21062C80654.74,-21062 88213.91,-21062 91543.34,-21062"/>
+<polygon fill="black" stroke="black" points="91543.4,-21065.5 91553.4,-21062 91543.4,-21058.5 91543.4,-21065.5"/>
+<text text-anchor="middle" x="85724.34" y="-21137" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=DFOer restrictions</text>
+</g><g id="edge255" class="edge">
+<title>n5024-&gt;n1124</title>
+<path fill="none" stroke="black" d="M79153.41,-20736C82589.16,-20736 89443.18,-20736 92081.19,-20736"/>
+<polygon fill="black" stroke="black" points="92081.32,-20739.5 92091.32,-20736 92081.32,-20732.5 92081.32,-20739.5"/>
+<text text-anchor="middle" x="85724.34" y="-20811" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=NA</text>
+</g><g id="edge257" class="edge">
+<title>n5073-&gt;n1141</title>
+<path fill="none" stroke="black" d="M78038.95,-20410C80597.9,-20410 87887.77,-20410 91320.43,-20410"/>
+<polygon fill="black" stroke="black" points="91320.48,-20413.5 91330.48,-20410 91320.48,-20406.5 91320.48,-20413.5"/>
+<text text-anchor="middle" x="85724.34" y="-20485" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Additive + Functional (Assembly)</text>
+</g><g id="edge259" class="edge">
+<title>n5074-&gt;n1142</title>
+<path fill="none" stroke="black" d="M78038.95,-20084C80678.46,-20084 88351.41,-20084 91632.86,-20084"/>
+<polygon fill="black" stroke="black" points="91633.07,-20087.5 91643.07,-20084 91633.07,-20080.5 91633.07,-20087.5"/>
+<text text-anchor="middle" x="85724.34" y="-20159" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Hint and mask</text>
+</g><g id="edge261" class="edge">
+<title>n5075-&gt;n1143</title>
+<path fill="none" stroke="black" d="M78038.95,-19758C80660.02,-19758 88244.44,-19758 91563.44,-19758"/>
+<polygon fill="black" stroke="black" points="91563.46,-19761.5 91573.46,-19758 91563.46,-19754.5 91563.46,-19761.5"/>
+<text text-anchor="middle" x="85724.34" y="-19833" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Color Space nearest target Ts</text>
+</g><g id="edge263" class="edge">
+<title>n5018-&gt;n1144</title>
+<path fill="none" stroke="black" d="M78038.95,-19432C80425.03,-19432 86924.41,-19432 90574.57,-19432"/>
+<polygon fill="black" stroke="black" points="90574.6,-19435.5 90584.6,-19432 90574.6,-19428.5 90574.6,-19435.5"/>
+<text text-anchor="middle" x="85724.34" y="-19507" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Perturbation Search=Gan Based (Assembly)</text>
+</g></g>
+</svg>
