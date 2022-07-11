@@ -5,4 +5,4 @@ collection: roadmap-v1
 ---
 
 Roadmap CNN Nodes:
-[Download SVG file here](https://github.com/phoenixml/roadmap.github.io/blob/master/images/Roadmap-CNN-v1.svg?raw=true)
+[Click here to view CNN Roadmap Graph](https://github.com/phoenixml/roadmap.github.io/blob/master/images/Roadmap-CNN-v1.svg?raw=true)

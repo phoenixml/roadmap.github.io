@@ -1,5 +1,5 @@
-<svg width="829" height="714" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0.00 0.00 43213.3 108530">
-<g id="graph0" class="graph" transform="translate(3.9612245179302574,108000.00089185341) scale(0.9903061294825644)">
+<svg width="829" height="650" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0.00 0.00 43213.30 108530.00">
+<g id="graph0" class="graph" transform="translate(3.96220771943573,108013.33826607553) scale(0.9905519298589325)">
 <title>TrackA</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-108526 43209.3,-108526 43209.3,4 -4,4"/>
 <!-- n13 -->
@@ -398,40 +398,6 @@
 <polygon fill="black" stroke="black" points="17950.9,-2879.1 17956.45,-2870.08 17946.48,-2873.67 17950.9,-2879.1"/>
 <text text-anchor="middle" x="16001.98" y="-7032" font-family="Helvetica,Arial,sans-serif" font-size="250.00">DT=Image</text>
 </g>
-<!-- n5069 -->
-
-<!-- n13&#45;&gt;n5069 -->
-
-<!-- n5025 -->
-
-<!-- n13&#45;&gt;n5025 -->
-
-<!-- n5043 -->
-
-<!-- n13&#45;&gt;n5043 -->
-
-<!-- n5006 -->
-
-<!-- n13&#45;&gt;n5006 -->
-
-<!-- n5053 -->
-
-<!-- n13&#45;&gt;n5053 -->
-
-<!-- n5093 -->
-
-<!-- n13&#45;&gt;n5093 -->
-
-<!-- n5009 -->
-
-<!-- n13&#45;&gt;n5009 -->
-
-<!-- n5057 -->
-
-<!-- n13&#45;&gt;n5057 -->
-
-<!-- n3 -->
-
 <!-- n5 -->
 <g id="node2" class="node">
 <title>n5</title>
@@ -1249,7 +1215,7 @@
 <!-- n270 -->
 <g id="node90" class="node">
 <title>n270</title>
-<text text-anchor="middle" x="40298.56" y="-27051" font-family="Helvetica,Arial,sans-serif" font-size="250.00">n270</text>
+<text text-anchor="middle" x="40298.56" y="-27051" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-AutoAttack/ Stocahstic Element, Shardped Edge</text>
 </g>
 <!-- n6057 -->
 <g id="node92" class="node">
@@ -1280,8 +1246,8 @@
 <!-- n6058&#45;&gt;n270 -->
 <g id="edge92" class="edge">
 <title>n6058-&gt;n270</title>
-<path fill="none" stroke="black" d="M37355.22,-27126C38282.74,-27126 39371.34,-27126 39928.31,-27126"/>
-<polygon fill="black" stroke="black" points="39928.51,-27129.5 39938.51,-27126 39928.51,-27122.5 39928.51,-27129.5"/>
+<path fill="none" stroke="black" d="M37355.22,-27126C37473,-27126 37593.37,-27126 37714.93,-27126"/>
+<polygon fill="black" stroke="black" points="37715.18,-27129.5 37725.18,-27126 37715.18,-27122.5 37715.18,-27129.5"/>
 </g>
 <!-- n271 -->
 <g id="node94" class="node">
@@ -1436,77 +1402,111 @@
 <title>n284</title>
 <text text-anchor="middle" x="40298.56" y="-8961" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-T-NES-FGSM/Augmented Adv Training</text>
 </g>
+<!-- n6067 -->
 <g id="node112" class="node">
 <title>n6067</title>
 <ellipse fill="none" stroke="black" cx="28186.15" cy="-9036" rx="1080" ry="1080"/>
 <text text-anchor="middle" x="28186.15" y="-8961" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Visible</text>
-</g><g id="edge110" class="edge">
+</g>
+<!-- n5056&#45;&gt;n6067 -->
+<g id="edge110" class="edge">
 <title>n5056-&gt;n6067</title>
 <path fill="none" stroke="black" d="M21204.28,-9036C22975.26,-9036 25622.08,-9036 27095.54,-9036"/>
 <polygon fill="black" stroke="black" points="27095.79,-9039.5 27105.79,-9036 27095.79,-9032.5 27095.79,-9039.5"/>
 <text text-anchor="middle" x="24101.06" y="-9111" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PS=Universal</text>
-</g><g id="node113" class="node">
+</g>
+<!-- n6068 -->
+<g id="node113" class="node">
 <title>n6068</title>
 <ellipse fill="none" stroke="black" cx="35740.82" cy="-9036" rx="1440" ry="1440"/>
 <text text-anchor="middle" x="35740.82" y="-8961" font-family="Helvetica,Arial,sans-serif" font-size="250.00">NES &amp; Gradient Based</text>
-</g><g id="edge111" class="edge">
+</g>
+<!-- n6067&#45;&gt;n6068 -->
+<g id="edge111" class="edge">
 <title>n6067-&gt;n6068</title>
 <path fill="none" stroke="black" d="M29266.25,-9036C30585.12,-9036 32822.05,-9036 34290.19,-9036"/>
 <polygon fill="black" stroke="black" points="34290.42,-9039.5 34300.42,-9036 34290.41,-9032.5 34290.42,-9039.5"/>
 <text text-anchor="middle" x="31750.48" y="-9111" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Additive-All(W,G,B) + Functional (Assembly)</text>
-</g><g id="edge112" class="edge">
+</g>
+<!-- n6068&#45;&gt;n284 -->
+<g id="edge112" class="edge">
 <title>n6068-&gt;n284</title>
 <path fill="none" stroke="black" d="M37180.94,-9036C37469.34,-9036 37778.59,-9036 38086.22,-9036"/>
 <polygon fill="black" stroke="black" points="38086.24,-9039.5 38096.24,-9036 38086.24,-9032.5 38086.24,-9039.5"/>
-</g><g id="node114" class="node">
+</g>
+<!-- n286 -->
+<g id="node114" class="node">
 <title>n286</title>
 <text text-anchor="middle" x="40298.56" y="-5343" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-P-RGF/Adversarial Training</text>
-</g><g id="node116" class="node">
+</g>
+<!-- n6069 -->
+<g id="node116" class="node">
 <title>n6069</title>
 <ellipse fill="none" stroke="black" cx="28186.15" cy="-5418" rx="1080" ry="1080"/>
 <text text-anchor="middle" x="28186.15" y="-5343" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Optimal perturbation</text>
-</g><g id="edge114" class="edge">
+</g>
+<!-- n5067&#45;&gt;n6069 -->
+<g id="edge114" class="edge">
 <title>n5067-&gt;n6069</title>
 <path fill="none" stroke="black" d="M21204.28,-5418C22975.26,-5418 25622.08,-5418 27095.54,-5418"/>
 <polygon fill="black" stroke="black" points="27095.79,-5421.5 27105.79,-5418 27095.79,-5414.5 27095.79,-5421.5"/>
 <text text-anchor="middle" x="24101.06" y="-5493" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PS=Universal</text>
-</g><g id="node117" class="node">
+</g>
+<!-- n6070 -->
+<g id="node117" class="node">
 <title>n6070</title>
 <ellipse fill="none" stroke="black" cx="35740.82" cy="-5418" rx="1260" ry="1260"/>
 <text text-anchor="middle" x="35740.82" y="-5343" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Random search</text>
-</g><g id="edge115" class="edge">
+</g>
+<!-- n6069&#45;&gt;n6070 -->
+<g id="edge115" class="edge">
 <title>n6069-&gt;n6070</title>
 <path fill="none" stroke="black" d="M29266.25,-5418C30640.41,-5418 33011.2,-5418 34470.64,-5418"/>
 <polygon fill="black" stroke="black" points="34470.81,-5421.5 34480.81,-5418 34470.81,-5414.5 34470.81,-5421.5"/>
 <text text-anchor="middle" x="31750.48" y="-5493" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Additive-All(W,G,B)</text>
-</g><g id="edge116" class="edge">
+</g>
+<!-- n6070&#45;&gt;n286 -->
+<g id="edge116" class="edge">
 <title>n6070-&gt;n286</title>
 <path fill="none" stroke="black" d="M37001.02,-5418C37531.06,-5418 38153.78,-5418 38714.42,-5418"/>
 <polygon fill="black" stroke="black" points="38714.74,-5421.5 38724.74,-5418 38714.74,-5414.5 38714.74,-5421.5"/>
-</g><g id="node118" class="node">
+</g>
+<!-- n287 -->
+<g id="node118" class="node">
 <title>n287</title>
 <text text-anchor="middle" x="40298.56" y="-1725" font-family="Helvetica,Arial,sans-serif" font-size="250.00">A-Trans-P-RGF/AT</text>
-</g><g id="node120" class="node">
+</g>
+<!-- n6071 -->
+<g id="node120" class="node">
 <title>n6071</title>
 <ellipse fill="none" stroke="black" cx="28186.15" cy="-1800" rx="1080" ry="1080"/>
 <text text-anchor="middle" x="28186.15" y="-1725" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Optimal perturbation</text>
-</g><g id="edge118" class="edge">
+</g>
+<!-- n5068&#45;&gt;n6071 -->
+<g id="edge118" class="edge">
 <title>n5068-&gt;n6071</title>
 <path fill="none" stroke="black" d="M21204.28,-1800C22975.26,-1800 25622.08,-1800 27095.54,-1800"/>
 <polygon fill="black" stroke="black" points="27095.79,-1803.5 27105.79,-1800 27095.79,-1796.5 27095.79,-1803.5"/>
 <text text-anchor="middle" x="24101.06" y="-1875" font-family="Helvetica,Arial,sans-serif" font-size="250.00">PS=Universal</text>
-</g><g id="node121" class="node">
+</g>
+<!-- n6072 -->
+<g id="node121" class="node">
 <title>n6072</title>
 <ellipse fill="none" stroke="black" cx="35740.82" cy="-1800" rx="1260" ry="1260"/>
 <text text-anchor="middle" x="35740.82" y="-1725" font-family="Helvetica,Arial,sans-serif" font-size="250.00">Random search</text>
-</g><g id="edge119" class="edge">
+</g>
+<!-- n6071&#45;&gt;n6072 -->
+<g id="edge119" class="edge">
 <title>n6071-&gt;n6072</title>
 <path fill="none" stroke="black" d="M29266.25,-1800C30640.41,-1800 33011.2,-1800 34470.64,-1800"/>
 <polygon fill="black" stroke="black" points="34470.81,-1803.5 34480.81,-1800 34470.81,-1796.5 34470.81,-1803.5"/>
 <text text-anchor="middle" x="31750.48" y="-1875" font-family="Helvetica,Arial,sans-serif" font-size="250.00">TM=Additive-Black Box</text>
-</g><g id="edge120" class="edge">
+</g>
+<!-- n6072&#45;&gt;n287 -->
+<g id="edge120" class="edge">
 <title>n6072-&gt;n287</title>
 <path fill="none" stroke="black" d="M37001.02,-1800C37714.01,-1800 38594.68,-1800 39266.36,-1800"/>
 <polygon fill="black" stroke="black" points="39266.73,-1803.5 39276.73,-1800 39266.73,-1796.5 39266.73,-1803.5"/>
-</g></g>
+</g>
+</g>
 </svg>

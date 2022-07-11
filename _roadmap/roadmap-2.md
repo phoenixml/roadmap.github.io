@@ -5,4 +5,4 @@ collection: roadmap
 ---
 
 Roadmap Nodes:
-[Download SVG file here](https://github.com/phoenixml/roadmap.github.io/blob/master/images/Roadmap-v0.svg?raw=true)
+[Click here to view Roadmap Nodes Graph](https://github.com/phoenixml/roadmap.github.io/blob/master/images/Roadmap-v0.svg?raw=true)
