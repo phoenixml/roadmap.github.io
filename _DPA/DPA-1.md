@@ -1,6 +1,6 @@
 ---
 title: "DPA"
-excerpt: ""
+excerpt: " "
 collection: DPA
 ---
 
