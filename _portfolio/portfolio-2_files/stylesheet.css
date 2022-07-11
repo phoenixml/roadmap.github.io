@@ -290,12 +290,11 @@ td
 	{mso-style-parent:style0;
 	color:black;
 	font-size:8.0pt;
-	font-style:italic;
-	font-family:Cambria, serif;
+	font-family:"Times New Roman", serif;
 	mso-font-charset:0;
-	text-align:justify;
+	text-align:left;
 	vertical-align:middle;
-	border-top:1.0pt solid black;
+	border-top:none;
 	border-right:1.0pt solid black;
 	border-bottom:none;
 	border-left:1.0pt solid black;
@@ -307,11 +306,11 @@ td
 	font-style:italic;
 	font-family:Cambria, serif;
 	mso-font-charset:0;
-	text-align:justify;
+	text-align:left;
 	vertical-align:middle;
-	border-top:none;
+	border-top:1.0pt solid black;
 	border-right:1.0pt solid black;
-	border-bottom:1.0pt solid black;
+	border-bottom:none;
 	border-left:1.0pt solid black;
 	white-space:normal;}
 .xl79
@@ -323,7 +322,7 @@ td
 	mso-font-charset:0;
 	text-align:left;
 	vertical-align:middle;
-	border-top:1.0pt solid black;
+	border-top:none;
 	border-right:1.0pt solid black;
 	border-bottom:none;
 	border-left:1.0pt solid black;
@@ -371,11 +370,10 @@ td
 .xl83
 	{mso-style-parent:style0;
 	color:black;
-	font-size:8.0pt;
-	font-family:Cambria, serif;
+	font-size:10.0pt;
+	font-family:"Times New Roman", serif;
 	mso-font-charset:0;
-	text-align:left;
-	vertical-align:middle;
+	vertical-align:top;
 	border-top:1.0pt solid black;
 	border-right:1.0pt solid black;
 	border-bottom:none;
@@ -384,11 +382,10 @@ td
 .xl84
 	{mso-style-parent:style0;
 	color:black;
-	font-size:8.0pt;
-	font-family:Cambria, serif;
+	font-size:10.0pt;
+	font-family:"Times New Roman", serif;
 	mso-font-charset:0;
-	text-align:left;
-	vertical-align:middle;
+	vertical-align:top;
 	border-top:none;
 	border-right:1.0pt solid black;
 	border-bottom:1.0pt solid black;
@@ -398,11 +395,12 @@ td
 	{mso-style-parent:style0;
 	color:black;
 	font-size:8.0pt;
-	font-family:"Times New Roman", serif;
+	font-style:italic;
+	font-family:Cambria, serif;
 	mso-font-charset:0;
-	text-align:left;
+	text-align:justify;
 	vertical-align:middle;
-	border-top:none;
+	border-top:1.0pt solid black;
 	border-right:1.0pt solid black;
 	border-bottom:none;
 	border-left:1.0pt solid black;
@@ -414,20 +412,21 @@ td
 	font-style:italic;
 	font-family:Cambria, serif;
 	mso-font-charset:0;
-	text-align:left;
+	text-align:justify;
 	vertical-align:middle;
 	border-top:none;
 	border-right:1.0pt solid black;
-	border-bottom:none;
+	border-bottom:1.0pt solid black;
 	border-left:1.0pt solid black;
 	white-space:normal;}
 .xl87
 	{mso-style-parent:style0;
 	color:black;
-	font-size:10.0pt;
-	font-family:"Times New Roman", serif;
+	font-size:8.0pt;
+	font-family:Cambria, serif;
 	mso-font-charset:0;
-	vertical-align:top;
+	text-align:left;
+	vertical-align:middle;
 	border-top:1.0pt solid black;
 	border-right:1.0pt solid black;
 	border-bottom:none;
@@ -436,10 +435,11 @@ td
 .xl88
 	{mso-style-parent:style0;
 	color:black;
-	font-size:10.0pt;
-	font-family:"Times New Roman", serif;
+	font-size:8.0pt;
+	font-family:Cambria, serif;
 	mso-font-charset:0;
-	vertical-align:top;
+	text-align:left;
+	vertical-align:middle;
 	border-top:none;
 	border-right:1.0pt solid black;
 	border-bottom:1.0pt solid black;
