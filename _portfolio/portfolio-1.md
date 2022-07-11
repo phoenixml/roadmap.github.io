@@ -1,5 +1,5 @@
 ---
-title: "Perturbation Functions"
+title: "Mathematical Perturbation Functions"
 excerpt: "DPA mathematical perturbation function list<br/><img src='../images/mathematical_perturbations.png'>"
 collection: portfolio
 ---
