@@ -246,15 +246,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _perturbation
-  - scope:
-      path: ""
-      type: perturbation
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
 
 # Sass/SCSS
 sass:
