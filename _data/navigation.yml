@@ -3,18 +3,18 @@ main:
   - title: "Roadmap"
     url: /publications/
 
-  - title: "Full List DPA"
+  - title: "DPA"
     url: /DPA/       
     
-  - title: "Full List Defence"
+  - title: "Defence"
     url: /cv/
  
-  - title: "Mathematical Perturbation Function"
+  - title: "Mathematical Perturbation"
     url: /portfolio/
         
-  - title: "Algorithm Perturbation Function"
+  - title: "Algorithm Perturbation"
     url: /year-archive/
     
-  - title: "Roadmap Different Versions"
+  - title: "Roadmap Versions"
     url: /roadmap-v1/
 
