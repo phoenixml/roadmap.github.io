@@ -1,6 +1,6 @@
 ---
 title: "Algorithm Perturbation Functions"
-excerpt: "DPA Perturbation Function Driven By Algorithm<br/>
+excerpt: "DPA Perturbation Function Driven By Algorithm<br/>"
 collection: portfolio
 ---
 
