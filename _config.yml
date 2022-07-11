@@ -190,7 +190,12 @@ collections:
   perturbation:
     output: true
     permalink: /:collection/:path/
-
+  dpa:
+    output: true
+    permalink: /:collection/:path/
+  roadmap:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # _posts
@@ -250,6 +255,15 @@ defaults:
   - scope:
       path: ""
       type: perturbation
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _roadmap
+  - scope:
+      path: ""
+      type: roadmap
     values:
       layout: single
       author_profile: true
