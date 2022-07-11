@@ -1,17 +1,20 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Roadmap"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/       
+  - title: "Full List DPA"
+    url: /DPA/       
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
+  - title: "Full List Defence"
     url: /cv/
  
+  - title: "Mathematical Perturbation Function"
+    url: /portfolio/
+        
+  - title: "Algorithm Perturbation Function"
+    url: /year-archive/
+    
+  - title: "Roadmap Different Versions"
+    url: /roadmap-v1/
+
