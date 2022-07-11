@@ -1,8 +1,7 @@
 ---
 title: "Perturbation Functions"
-excerpt:"DPA mathematical perturbation"<br/><img src='/images/MPF.png'>
+excerpt:"DPA mathematical perturbation<br/><img src='/images/MPF.png'>"
 collection: portfolio
-"DPA mathematical perturbation functions"
 ---
 
 DPA mathematical perturbation functions collected and grouped into one excel file - Raw data. 
