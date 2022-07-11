@@ -7,7 +7,7 @@ main:
     url: /dpa/       
     
   - title: "Defence"
-    url: /cv/
+    url: /defence/
  
   - title: "Perturbation Functions"
     url: /perturbation/
