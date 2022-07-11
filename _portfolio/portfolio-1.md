@@ -1,6 +1,6 @@
 ---
 title: "Perturbation Functions"
-excerpt: "DPA mathematical perturbation<br/><img src='/images/MPF.png'>"
+excerpt: "DPA mathematical perturbation<br/><img src='/images/mathematical_perturbations.png'>"
 collection: portfolio
 ---
 
