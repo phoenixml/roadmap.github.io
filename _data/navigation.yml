@@ -9,10 +9,10 @@ main:
   - title: "Defence"
     url: /cv/
  
-  - title: "Mathematical Perturbation"
+  - title: "Mathematical Perturbation Function List"
     url: /portfolio/
         
-  - title: "Algorithm Perturbation"
+  - title: "Algorithm Perturbation List"
     url: /year-archive/
     
   - title: "Roadmap Versions"
