@@ -1,9 +1,9 @@
 ---
 title: "Perturbation Functions"
-excerpt: "DPA mathematical perturbation"
-url: 'https://phoenixml.github.io/roadmap.github.io/files/Mathematical_Perturbation_Functions.xlsx'
+excerpt:"DPA mathematical perturbation"<br/><img src='/images/MPF.png'>
 collection: portfolio
+"DPA mathematical perturbation functions"
 ---
 
-DPA mathematical perturbation functions in an excel sheet. 
-[Download paper here](https://phoenixml.github.io/roadmap.github.io/files/Mathematical_Perturbation_Functions.xlsx')
+DPA mathematical perturbation functions collected and grouped into one excel file - Raw data. 
+[Download paper here](https://github.com/phoenixml/roadmap.github.io/blob/master/files/Mathematical_Perturbation_Functions.xlsx?raw=true')
