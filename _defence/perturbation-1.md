@@ -1,7 +1,7 @@
 ---
 title: "Defence Against DPA "
 excerpt: ""
-collection: defence
+collection: perturbation
 ---
 
 Defence against data poisoning attacks collected and grouped into one file. 
