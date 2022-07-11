@@ -11,6 +11,9 @@ main:
  
   - title: "Perturbation Functions"
     url: /perturbation/
+    
+  - title: "DPA Measurements"
+    url: /measurements/
             
   - title: "Roadmap Versions"
     url: /roadmap-v1/
