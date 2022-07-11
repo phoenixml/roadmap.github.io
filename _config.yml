@@ -202,6 +202,9 @@ collections:
   measurements:
     output: true
     permalink: /:collection/:path/
+  roadmap-v1:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # _posts
@@ -288,6 +291,15 @@ defaults:
   - scope:
       path: ""
       type: measurements
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _roadmap-v1
+  - scope:
+      path: ""
+      type: roadmap-v1
     values:
       layout: single
       author_profile: true

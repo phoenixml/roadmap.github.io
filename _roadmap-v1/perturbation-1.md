@@ -1,7 +1,7 @@
 ---
 title: "Roadmap V1 CNN Branch"
 excerpt: " "
-collection: roadmap
+collection: roadmap-v1
 ---
 
 Roadmap CNN Nodes:
