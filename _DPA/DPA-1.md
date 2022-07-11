@@ -1,7 +1,7 @@
 ---
 title: "DPA"
 excerpt: " "
-collection: DPA
+collection: dpa
 ---
 
 DPA full list collected and grouped into one file. 
