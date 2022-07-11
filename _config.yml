@@ -237,7 +237,7 @@ defaults:
   # _DPA
   - scope:
       path: ""
-      type: DPA
+      type: dpa
     values:
       layout: single
       author_profile: true
