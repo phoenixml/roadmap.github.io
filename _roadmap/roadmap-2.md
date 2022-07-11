@@ -1,8 +1,8 @@
 ---
-title: "Roadmap"
-excerpt: "Road Map SVG<br/><img src='../images/Roadmap-v0.svg'>"
+title: "Roadmap Nodes - SVG"
+excerpt: " "
 collection: roadmap
 ---
 
-Roadmap nodes list:
-[Download file here](https://github.com/phoenixml/roadmap.github.io/blob/master/files/DPA_Family_Nodes.xlsx?raw=true)
+Roadmap Nodes:
+[Download SVG file here](https://github.com/phoenixml/roadmap.github.io/blob/master/files/Roadmap-v0.svg?raw=true)
