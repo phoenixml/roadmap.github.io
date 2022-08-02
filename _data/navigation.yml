@@ -1,20 +1,23 @@
 # main links links
 main:
-  - title: "Roadmap"
-    url: /roadmap/
-
   - title: "DPA"
-    url: /dpa/       
+    url: /dpa/   
+ 
+  - title: "DPA Measurements"
+    url: /measurements/  
+
+  - title: "Characterizing Model"
+    url: /measurements/ 
     
-  - title: "Defence"
+  - title: "DPA Defence"
     url: /defence/
  
   - title: "Perturbation Functions"
     url: /perturbation/
     
-  - title: "DPA Measurements"
-    url: /measurements/
+  - title: "Roadmap"
+    url: /roadmap/
             
-  - title: "Roadmap Versions"
-    url: /roadmap-v1/
+#  - title: "Roadmap Versions"
+#    url: /roadmap-v1/
 
