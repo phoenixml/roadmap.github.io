@@ -1,6 +1,6 @@
 ---
 title: "DPA Full List"
-excerpt: ""
+excerpt: "<embed src="https://phoenixml.github.io/roadmap.github.io/files/DPA_Full_List.pdf" width="600" height="700" type="application/pdf" />"
 collection: perturbation
 ---
 
