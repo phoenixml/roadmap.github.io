@@ -1,6 +1,6 @@
 ---
 title: "DPA Full List"
-excerpt: "DPA Full List"
+excerpt: "<br/><img src='../images/DPA-List.png'>"
 collection: perturbation
 ---
 
