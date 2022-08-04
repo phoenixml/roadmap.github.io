@@ -1,9 +1,10 @@
 ---
 title: "DPA Measurements"
-excerpt: "This page includes a list of DPA measurements <br/>
-collection: perturbation
+excerpt: "This page includes a list of DPA measurements<br/>"
+collection: DPAMeasurements
 ---
-1)Data Type: Text, Audio, Video, Graph, Structured and Unstructured, and all types of data.
+
+1) Data Type: Text, Audio, Video, Graph, Structured and Unstructured, and all types of data.
 2) Victim Model: Supervised learning, Unsupervised learning, Neural language processing, Reinforcement learning, and Statistic learning.
 3) Target Algorithm: SVM, CNN, Linear Regression, Logistic Regression, Decision Tree, Gradient Based GCN, Random Forest, RNN, LSTM, Bi-LSTM, Gradient Boost, Decision Tree, Faster RCNN.
 4) Target Architecture: LeNet, VGG, AlexNet, QuocNet, GoogLeNet, CaffeNet, ResNet, DQN, TRPO, A3C, VAE, AE, VGGFace, FCN, BiDAF, 2-Layer FC.
