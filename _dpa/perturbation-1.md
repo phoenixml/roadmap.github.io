@@ -1,6 +1,6 @@
 ---
 title: "DPA Full List PDF Version"
-excerpt: "<br/><img src='../images/DPA-List.png'>"
+excerpt: "This page includes Data Poisoning Attacks (DPAs)<br/><img src='../images/DPA-List.png'>"
 collection: perturbation
 ---
 
