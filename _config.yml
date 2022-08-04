@@ -296,7 +296,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _roadmap-v1
+  # _DPAMeasurements
   - scope:
       path: ""
       type: DPAMeasurements
