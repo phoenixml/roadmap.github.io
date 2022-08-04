@@ -205,6 +205,9 @@ collections:
   roadmap-v1:
     output: true
     permalink: /:collection/:path/
+  dpameasurements:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # _posts
