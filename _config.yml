@@ -308,6 +308,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _roadmap-v1
+  - scope:
+      path: ""
+      type: dpameasurements
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 # Sass/SCSS
 sass:
