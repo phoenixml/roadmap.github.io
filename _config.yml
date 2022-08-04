@@ -296,10 +296,10 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _DPAMeasurements
+  # _dpameasurements
   - scope:
       path: ""
-      type: DPAMeasurements
+      type: dpameasurements
     values:
       layout: single
       author_profile: true
