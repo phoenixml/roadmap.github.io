@@ -317,7 +317,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
-
+  # _notebook
+  - scope:
+      path: ""
+      type: notebook
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 # Sass/SCSS
 sass:
   sass_dir: _sass

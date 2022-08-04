@@ -1,0 +1,1397 @@
+Digraph TrackA{
+rankdir="LR"
+node [fontsize=250, width=10]
+edge [fontsize=250]
+node [colorscheme=oranges9]
+node [fontname="Helvetica,Arial,sans-serif"]
+edge [fontname="Helvetica,Arial,sans-serif"]
+
+subgraph CNN {
+	//	node [style=];
+	//rank = same
+		n13 
+		//label = "process #2";
+	//	color=
+		#**************************** PAT ***********************
+//"n2" [label="A/ PAT" , shape=plaintext] 
+"n3" [label="M-NTM/ PAT", shape=plaintext]
+//"n4" [label="A Track - Known and Unknown VM",  shape=ellipse]
+
+#"n11" -> "n9" [arrowhead=none]
+"n5" [label="A-JPEG/ PAT", shape=plaintext, width=50]
+"n6" [label="A-StAdv/ PAT", shape=plaintext]
+
+"n7" [label="A-ReCAdv/ PAT", shape=plaintext]
+"n8" [label="A-LPA/ PAT", shape=plaintext]
+"n9" [label="A-Fast-LPA/ PAT", shape=plaintext]
+//"n10"[label="A-PPGD/ PAT", shape=plaintext]
+# DNN Connections from Attack to DNN
+"n13"-> "n5027" [label="PC=JPEG"]
+"n5027" [label="Visibility=Visible",shape=plaintext]
+"n5027" -> "n5" [label="Perturbation Search=Gradient Based",shape=plaintext]
+
+"n13" -> "n5028"  [label="PC=StAdv"] 
+"n5028" [label="Visibility=Visible",shape=plaintext]
+"n5028" -> "n6" [label="Perturbation Search=Gradient Based"]
+
+"n13" -> "n5029"  [label="PC=ReColorAdv"]
+"n5029" [label="Visibility=Visible",shape=plaintext]
+"n5029" -> "n7" [label="Perturbation Search=NA"]
+
+"n13" -> "n5030"  [label="PC=LPA"]
+"n5030" [label="Visibility=Visible",shape=plaintext]
+"n5030" -> "n8" [label="Perturbation Search=NA"]
+
+"n13" -> "n5031"  [label="PC=Fast-LPA"]
+"n5031" [label="Visibility=Visible",shape=plaintext]
+"n5031" -> "n9" [label="Perturbation Search=NA"]
+
+//"n13" -> "n10" [label="PC=PPGD"]
+"n13" -> "n5033" [label="PC=FGSM"]
+"n5033" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5033" -> "n53" [label="Perturbation Search=Momentum Fast Iterative"]
+
+"n13" -> "n5034" [label="PC=BIM"]
+"n5034" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5034" -> "n54" [label="Perturbation Search=Momentum Iterative"]
+
+//"n13" -> "n55" [label="PC=MI-BIM"] 
+"n13" -> "n5042" [label="PC=PGD"]
+"n5042" [label="Visibility=Visible",shape=plaintext]
+"n5042" -> "n92" [label="Perturbation Search=Non Fast"]
+
+"n13" -> "n5044"  [label="PC=FrogsAttack"]
+"n5044" [label="Visibility=Visible",shape=plaintext]
+"n5044" -> "n244" [label="Perturbation Search=Gradient Based Frogs"]
+
+"n13" -> "n5045"  [label="PC=CollisionAttack"] 
+"n5045" [label="Visibility=Visible",shape=plaintext]
+"n5045" -> "n245" [label="Perturbation Search=NA"]
+
+"n13" -> "n5046"  [label="PC=One Shot Kill"]
+"n5046" [label="Visibility=Visible",shape=plaintext]
+"n5046" -> "n246" [label="Perturbation Search=NA"]
+
+"n13" -> "n5090"  [label="PC=APGD"] 
+"n5090" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5090" -> "n253" [label="Perturbation Search=Random Search"]
+
+
+//"n13" -> "n252"  [label="PC=PGD"] 
+//"n13" -> "n254"  [label="PC=NES-PGD-NonFast"]
+
+"n13" -> "n5017" [label="PGD Fast/Data Augmentation"]
+"n5017" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5017" -> "n2012" [label="Perturbation Search=Fast Search"]
+
+"n13" -> "n5009"  [label="PC=ScoreBased"] 
+"n5009" [label="Visibility=Visible",shape=plaintext]
+"n5009" -> "n261" [label="Perturbation Search=Salient Search, Random"]
+
+"n13" -> "n5057"  [label="PC=JSMA"] 
+"n5057" [label="Visibility=Visible",shape=plaintext]
+"n5057" -> "n262" [label="Perturbation Search=Constrained Based"]
+
+"n13" -> "n5058"  [label="PC=C&W"]
+"n5058" [label="Visibility=Visible",shape=plaintext]
+"n5058" -> "n263" [label="Perturbation Search=Unconstrained Based"]
+
+"n13" -> "n5059"  [label="PC=ZOO"]
+"n5059" [label="Visibility=Visible",shape=plaintext]
+"n5059" -> "n264" [label="Perturbation Search=Gradient Approximation"]
+
+"n13" -> "n5060"  [label="PC=Query Mechanism"]
+"n5060" [label="Visibility=Visible",shape=plaintext]
+"n5060" -> "n265" [label="Perturbation Search=Query Reduction"]
+
+"n13" -> "n5061"  [label="PC=UAP"]
+"n5061" [label="Visibility=Perceptual",shape=plaintext]
+"n5061" -> "n266" [label="Perturbation Search=Minimal perturbation to decision boundary"]
+
+"n13" -> "n5062"  [label="PC=AutoZoom"]
+"n5062" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5062" -> "n267" [label="Perturbation Search=Random Vector Based Gradient Estimation"]
+
+"n13" -> "n5063"  [label="PC=GenAttack"]
+"n5063" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5063" -> "n268" [label="Perturbation Search=Random noise in the range (-δmax,δmax)"]
+
+"n13" -> "n5064"  [label="PC=Embedding COsine"]
+"n5064" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5064" -> "n269" [label="Perturbation Search=Random noise in the range (-δmax,δmax)"]
+
+"n13" -> "n5070"  [label="PC=AAtack"]
+"n5070" [label="Visibility=Visible",shape=plaintext]
+"n5070" -> "n270" [label="Perturbation Search=Adaptive direction initialization"]
+
+"n13" -> "n5071"  [label="PC=BayesOpt"]
+"n5071" [label="Visibility=Visible",shape=plaintext]
+"n5071" -> "n271" [label="Perturbation Search=search dimensionality reduction"]
+
+"n13" -> "n5066"  [label="PC=ScoreBased"]
+"n5066" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5066" -> "n281" [label="Perturbation Search=Random search"]
+
+"n13" -> "n5049"  [label="PC=NES"] 
+"n5049" [label="Visibility=Visible",shape=plaintext]
+"n5049" -> "n282" [label="Perturbation Search=Latent Space NES search and Gradient Based"]
+
+"n289" [label="A-NES-PGD-NonFast/Augmented Adv Training", shape=plaintext]
+"n13" -> "n5050"  [label="PC=NES"] 
+"n5050" [label="Visibility=Visible",shape=plaintext]
+"n5050" -> "n289" [label="Perturbation Search=Latent Space NES-NonFast search and Gradient Based"]
+
+"n13" -> "n5054"  [label="PC=Transfer-NES-PGD"]
+"n5054" [label="Visibility=Visible",shape=plaintext]
+"n5054" -> "n283" [label="Perturbation Search=Latent Space NES search and Gradient Based"]
+
+"n13" -> "n5056"  [label="PC=Transfer-NES-FGSM"]
+"n5056" [label="Visibility=Visible",shape=plaintext]
+"n5056" -> "n284" [label="Perturbation Search=Latent Space NES search and Gradient Based"]
+
+//"n13" -> "n285"  [label="PC=AutoZOOM"] 
+"n13" -> "n5067"  [label="PC=P-RGF"]
+"n5067" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5067" -> "n286" [label="Perturbation Search=Random search"]
+
+"n13" -> "n5068"  [label="PC=Trans-P-RGF"]
+"n5068" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5068" -> "n287" [label="Perturbation Search=Random search"]
+
+"n13" -> "n5069"  [label="PC=TREMBA"]
+"n5069" [label="Visibility=Visible",shape=plaintext]
+"n5069" -> "n288" [label="Perturbation Search=Random search"]
+
+"n13" -> "n5025"  [label="PC=NTM-NPTM"]
+"n5025" [label="Visibility=Visible",shape=plaintext]
+"n5025" -> "n3" [label="Perturbation Search=L∞ , L2 , JPEG-L∞ , StAdv, ReColorAdv"]
+
+//"n13" -> "n52"  [label="PC=Momentum Gradient"] 
+
+"n13" -> "n5043"  [label="PC=Watermarking"]
+"n5043" [label="Visibility=Visible",shape=plaintext]
+"n5043" -> "n242" [label="Perturbation Search=Gradient Based Watermarking"]
+
+"n13" -> "n5006"  [label="PC=Gradient Based - Data Augmentation"] 
+"n5006" [label="Visibility=Visible",shape=plaintext]
+"n5006" -> "n251" [label="Perturbation Search=Non Fast"]
+
+"n13" -> "n5053"  [label="PC=TransferBased-NES"]
+"n5053" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5053" -> "n280" [label="Perturbation Search=Gradient Based"]
+
+"n13" -> "n5093"  [label="PC=Gaussian Noise"]
+"n5093" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5093" -> "n85" [label="Perturbation Search=Gradient Search"]
+
+//"n3" -> "n2" [label="TN=NTM-NPTM"]
+//"n5" -> "n2" [label="TN=A-JPEG"]
+//"n6" -> "n2" [label="TN=A-StAdv"]
+//"n7" -> "n2" [label="TN=A-ReColorAdv"]
+//"n8" -> "n2" [label="TN=A-LPA"]
+//"n9" -> "n2" [label="TN=A-Fast-LPA"]
+//"n10" -> "n2"[label="TN=A-PPGD"]
+
+	}
+
+#******************50 ******MUSTAFA*****************************
+//"n51" [label="M/ Mustafa", shape=plaintext]
+//"n52" [label="M-MG/ Mustafa", shape=plaintext]
+//"n52" -> "n51" [label="TN=MG/ Mustafa"]
+"n53" [label="M-FGSM/ Mustafa", shape=plaintext]
+"n54" [label="M-BIM/ Mustafa", shape=plaintext]
+//"n55" [label="M-MI-BIM/ Mustafa", shape=plaintext]
+//"n55" -> "n51" [label="TN=Momentum/ Mustafa"]
+
+//"n53" -> "n51" [label="TN=M-FGSM/ Mustafa"]
+//"n54" -> "n51"[label="TN=M-BIM/ Mustafa"]
+
+
+
+# **************90********BAT****************************
+
+"n91" [label="M-M-PGD/ BAT", shape=plaintext]
+
+"n92" [label="M-PGD/ BAT", shape=plaintext]
+
+//"n92" -> "n93" [label="TN=Muti-Step-PGD/ BAT"]
+//"n93" [label="Multi Step Bilateral/ BAT",shape=plaintext]
+//"n91" -> "n93" [label="TN=PGD/ BAT"]
+"n13" -> "n5040"  [label="PC=Projected Gradient Descent"]
+"n5040" [label="Visibility=Visible",shape=plaintext]
+"n5040" -> "n91" [label="Perturbation Search=Non Fast"]
+
+#*************240******DATA Sanitizing***************************
+"n242" [label="A-Watermarking/ Data Sanitizing", shape=plaintext]
+"n244" [label="A-FrogsAttacks/ Data Sanitizing", shape=plaintext]
+"n245" [label="A-Collision Attack/ Data Sanitizing", shape=plaintext]
+"n246" [label="A-WA/ DS", shape=circle]
+"n246" [label="A-One Shot-kill/ DS", shape=plaintext]
+//"n248" [label="CL/ Data Sanitizing",shape=plaintext]
+//"n242" -> "n248" [label="TN=Watermarking-Clean Label/ Data Sanitizing"]
+//"n244" -> "n248" [label="TN=A-FA/ Data Sanitizing"]
+//"n245" -> "n248" [label="TN=A-CA/ Data Sanitizing"]
+//"n246" -> "n248" [label="TN=A-WA/ Data Sanitizing"]
+//"n246" -> "n248" [label="TNA-OS-kill/ Data Sanitizing"]
+
+
+#***************250 ***PIXEL DEFEND******************************
+"n251" [label="M-PGD-NonFast/ Pixel Defend", shape=plaintext]
+
+
+//"n252" [label="M-PGD/ Pixel Defend", shape=plaintext]
+//"n252" -> "n257"[label="TN=M-PGD/ PixelDefend"]
+//"n251" -> "n257"
+//"n253" -> "n257"
+
+
+"n253" [label="A-APGD/ Pixel Defend", shape=plaintext]
+
+//"n254" [label="A-NES-PGD-NonFast/ Data Augmentation",shape=plaintext]
+//"n255" [label="M-PGD-NonFast/ Defensive Distillation",shape=plaintext]
+//"n256" [label="M-PGD-NonFast/ Regularization",shape=plaintext]
+//"n257" [label="PGD-NonFast/ PixelDefend",shape=plaintext]
+//"n251" -> "n254"  [label="TN=PGD-NonFast/ Data Augmentation"] 
+"n2012" [label="M-PGD Fast/Data Augmentation", shape=plaintext]
+//"n1023" -> "n254"  [label="TN=PGD-Fast/ Data Augmentation"] 
+//"n251" -> "n255"  [label="TN=PGD-NonFast/ Distillation"] 
+//"n251" -> "n256"  [label="TN=PGD-NonFast/ Regularisation"]   
+//"n251" -> "n257"  [label="TN=PGD-NonFast/ PixelDefend"]  
+
+#*************280*************************************
+"n280" [label="A-TB-NES/ Randomization", shape=plaintext]
+//"n280" -> "n254"  [label="TN=NES-PGD-NonFast/ Augmentation"] 
+
+
+
+#************260********Stocastic Element and Sharped Edges ******************************
+"n261" [label="A-SB/Stocahstic Element, Shardped Edges", shape=plaintext]
+"n262" [label="M-JSMA/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n263" [label="M-C&W/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n264" [label="M-ZOO/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n265" [label="A-QM/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n266" [label="A-UAP/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n267" [label="A-AutoZoom/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n268" [label="A-GenAttack/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n269" [label="A-ECO/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n270" [label="A-AAttack/ Stocahstic Element, Shardped Edges", shape=plaintext]
+"n271" [label="A-BayesOpt/ Stocahstic Element, Shardped Edges", shape=plaintext]
+
+
+
+//"n273" [label="SB/ Stochastic Elements",shape=plaintext]
+//"n274" [label="SB/ Sharped Edges", shape=plaintext]
+
+
+//"n261" -> "n273"  [label="TN=ScoreBased/ Stochastic Elements"] 
+//"n262" -> "n273" [label="TN=M-JSMA/ Stochastic Elements"] 
+//"n263" -> "n273" [label="TN=M-C&W/ Stochastic Elements"] 
+//"n264" -> "n273" [label="TN=M-ZOO/ Stochastic Elements"] 
+//"n265" -> "n273" [label="TN=A-Query Mechanism/ Stochastic Elements"] 
+//"n266" -> "n273" [label="TN=A-UAP/ Stochastic Elements"]
+//"n267" -> "n273" [label="TN=A-AutoZoom/ Stochastic Elements"] 
+//"n268" -> "n273" [label="TN=A-GenAttack/ Stochastic Elements"] 
+//"n269" -> "n273" [label="TN=A-ECO/  Stochastic Elements"] 
+//"n270" -> "n273" [label="TN=A-AAttack/ Stochastic Elements"] 
+//"n271" -> "n273" [label="TN=A-BayesOpt/ Stochastic Elements"] 
+
+
+
+//"n261" -> "n274"  [label="TN=ScoreBased/ Sharped Edges"] 
+//"n262" -> "n274" [label="TN::M-JSMA/  Sharped Edges"] 
+//"n263" -> "n274"[label="TN=M-C&W/  Sharped Edges"] 
+//"n264" -> "n274"[label="TN=M-ZOO/  Sharped Edges"] 
+//"n265" -> "n274"[label="TN::A-Query Mechanism/  Sharped Edges"] 
+//"n266" -> "n274"[label="TN::A-UAP/  Sharped Edges"] 
+//"n267" -> "n274"[label="TN=A-AutoZoom/  Sharped Edges"] 
+//"n268" -> "n274"[label="TN=A-GenAttack/  Sharped Edges"] 
+//"n269" -> "n274" [label="TN=A-ECO/  Sharped Edges"] 
+//"n270" -> "n274" [label="TN=A-AAttack/  Sharped Edges"] 
+//"n271" -> "n274"[label="TN=A-BayesOpt/ Sharped Edges"] 
+
+
+
+#*********************** Augmented Training ***********************************
+
+
+
+
+"n281" [label="A-ScoreBased/Adversarial Purification", shape=plaintext]
+"n282" [label="A-NES/Augmented Adv Training", shape=plaintext]
+"n283" [label="A-T-NES-PGD/Augmented Adv Training", shape=plaintext]
+"n284" [label="A-T-NES-FGSM/Augmented Adv Training", shape=plaintext]
+//"n285" [label="A-AutoZOOM/AT", shape=plaintext]
+"n286" [label="A-P-RGF/AT", shape=plaintext]
+"n287" [label="A-Trans-P-RGF/AT", shape=plaintext]
+"n288" [label="A-TREMBA/ AT", shape=plaintext]
+
+
+//"n281" -> "n296" [label="TN=A-ScoreBased/ Augmented Training"] 
+//"n282" -> "n296" [label="TN=A-NES/ Augmented Training"]
+//"n283" -> "n296" [label="TN=A-Transfer-NES-PGD/ Augmented Training"]
+//"n284" -> "n296" [label="TN=A-Transfer-NES-FGSM/ Augmented Training"] 
+//"n285" -> "n296" [label="TN=A-AutoZOOM/ Augmented Training"] 
+//"n286" -> "n296" [label="TN=A-P-RGF/ Augmented Training"]
+//"n287" -> "n296" [label="TN=A-Trans-P-RGF/ Augmented Training"]
+//"n288" -> "n296" [label="TN=A-TREMBA/ Augmented Training "]
+
+//"n296" [label="A/ Augmented Training ", shape=plaintext]
+
+
+
+#"n1" [label="A", shape=circle] #style=filled]+
+#*********************1**********************************
+"n4" [label="A",  shape=ellipse, width=170, height=100, fontsize="1500"]
+#***************Victim Model Unsupervised Connections ****************************
+"n12" [label="Unsupervised[3]", shape=circle, fontsize="1300"] #style=filled]
+#Neural Networks
+"n4" -> "n12"  [label="VM=Unsupervised"] 
+"n4" -> "n2000"  [label="VM=Unknown"] 
+"n12" -> "n75"  [label="TA=K-Means Clustering"] 
+"n12" -> "n76"  [label="TA=Agglomerative Hierarchical"] 
+"n12" -> "n77"  [label="TA=Guassian Mixture"] 
+"n12" -> "n79"  [label="TA=DBSCAN Clustering"]
+"n12" -> "n80"  [label="TA=Component Analysis"]
+//"n12" -> "n82"  [label="TA=Guassian Noised/ Preprocessing"]
+//"n12"-> "n83"   [label="TA=Guassian Noised/ Certified Robustness"]
+
+//"n12" -> "n950"[label="TA=Statistic Learning"]
+"n12" -> "n900"[label="TA=Reinforcement Learning"]
+//"n12" -> "n700"[label="VM=RNN"]
+
+
+
+#K-Means, K-Medoids, Fuzzy C-Means
+"n75" [label="K-Means[4]", shape=circle]
+"n75"-> "n87"[label="PC=Spill Over"]
+"n87" [label="Visibility=Visible",shape=plaintext]
+"n87" -> "n6004" [label="Perturbation Search=Random"]
+"n6004"  [label="Spill Over Attack/Preprocessing", shape=plaintext]
+//"n100" [label="TA=Linear Regression"]
+//"n100"
+//"n87"-> "n88"[label="PC=Spill Over",]
+#Hierarchical
+"n76" [label="AH[5]", shape=circle]
+#Guassian Mixture
+"n77" [label="GM[6]", shape=circle]
+
+//"n77" -> "n83" [label="TA=Gaussian Noise/ Certified Robustness"] 
+"n76" -> "n78" [label="PC=Poisoning single-linkage hierarchical clustering"]
+"n76" -> "n86" [label="PC=Poisoning complete-linkage hierarchical clustering"]
+"n78" [label="Ps-lhc/ Adversarial Retraining", shape=plaintext]
+"n86" [label="Pc-lhc/ Adversarial Retraining", shape=plaintext]
+
+"n79" [label="DBSCAN[8]", shape=circle]
+
+"n79" ->"n756"[label="PC=UBAC"]
+"n756" [label="Visibility=Perceptual",shape=plaintext]
+"n756" -> "n6007" [label="Perturbation Search=Random"]
+"n6007" [label="M-DBSCAN/DBSCAN Preprocessing Sanitizing", shape=plaintext]
+
+"n75"-> "n90"[label="PC=NonConvex Optimization"]
+"n90" [label="Visibility=Perceptual",shape=plaintext]
+"n90" -> "n6005" [label="Perturbation Search=Gradient Search Lipschitz"]
+"n6005" [label="NonConvex Optimization/Non-convex Guarantee", shape=plaintext]
+
+
+
+
+"n95" [label="Saddle Point Attack/Adversarial Traning", shape=plaintext]
+"n75"-> "n95"[label="PC=Byazantine-PGD"]
+
+
+"n80" [label="CA[9]", shape=circle]
+
+"n80" -> "n88" [label="PC=IPA-Stealthy-PA"]
+"n88" [label="Visibility=Perceptual",shape=plaintext]
+"n88" -> "n6008" [label="Perturbation Search=Random"]
+"n6008" [label="A-Stealthy Poisoning Attacks/DBSCAN Preprocessing Sanitizing" , shape=plaintext]
+
+
+"n80" -> "n89" [label="PC=FNR"]
+"n89"  [label="Visibility=Visible",shape=plaintext]
+"n89" -> "n6008" [label="Perturbation Search=Random"]
+
+"n6008" [label="A-Weak Long Attacks/DBSCAN Preprocessing Sanitizing" , shape=plaintext]
+
+
+
+"n80" -> "n99" [label="PC=FNR-Boiling Frog-PA"]
+"n99" [label="Visibility=Visible",shape=plaintext]
+"n99" -> "n6010" [label="Perturbation Search=Random"]
+"n6010" [label="A-Boiling Frog Attacks/DBSCAN Preprocessing Sanitizing" , shape=plaintext]
+
+
+"n80" -> "n98" [label="PC=IPA"]
+"n98" [label="Visibility=Visible",shape=plaintext]
+"n98" -> "n6012" [label="Perturbation Search=Random"]
+"n6012" [label="A-IPA Stealthy Attacks/DBSCAN Preprocessing Sanitizing" , shape=plaintext]
+
+
+
+
+#"n81" [label="Independent Component Analysis", shape=circle]
+#"n82" [label="GG [27]", shape=circle, URL="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L221"]
+//"n83" [label="GG [28]", shape=circle, URL="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L231"]
+"n77"-> "n84" [label="PC=Poisson-Gaussian Noise"]
+"n84" [label="Visibility=Visible",shape=plaintext]
+"n84" -> "n6006" [label="Perturbation Search=Random"]
+"n6006" [label="M-Gaussian Noise/ Preprocessing, Certified Robustness", shape=plaintext]
+
+
+
+"n85" [label="M-Gaussian Noise/ Certified Robustness", shape=plaintext]
+
+
+
+//"n82"-> "n85" [label="PC=Gaussian Noise"]
+
+
+#***************Victim Model supervised Connections ****************************
+"n700" [label="Supervised[32]", shape=circle, width=100, fontsize="1000"] #, style=filled, color=green]
+"n4" -> "n700"  [label="VM=Supervised"]
+"n700" -> "n701"  [label="TA=Linear Regression"]
+"n700" -> "n702"  [label="TA=Hierarchical"]
+"n700" -> "n703"  [label="TA=SVR,GPR"]
+//"n700" -> "n704"  [label="TA=Ensemble Methods"]
+"n700" -> "n705"  [label="TA=Decision Trees"]
+//"n700" -> "n706"  [label="TA=Discriminant Analysis"]
+"n700" -> "n707"  [label="TA=Naive Bayes"]
+//"n700" -> "n708"  [label="TA=Nearest Neighbor"]
+
+"n711" [label="NLP[20]", shape=circle, height=70, fontsize="1000"]
+"n740" [label="A-Text Attack/Synonym Encoded Method", shape=plaintext]
+"n780" [label="A-Alzantot/Dirichlet Neighborhood Ensemble", shape=plaintext]
+"n781" [label="A-BAE/Dirichlet Neighborhood Ensemble", shape=plaintext]
+"n782" [label="A-BERT-Attack/Dirichlet Neighborhood Ensemble", shape=plaintext]
+"n783" [label="A-DepWordBug/Randomised smoothing", shape=plaintext]
+"n784" [label="A-HotFlip/Adversarial Training", shape=plaintext]
+"n785" [label="A-InputReduction/Adversarial Training", shape=plaintext]
+"n786" [label="A-Morpheus/Adversarial Training", shape=plaintext]
+"n787" [label="A-Practical Swarm OPT/Adversarial Training", shape=plaintext]
+"n788" [label="A-Pruthi Keyabord Char-Swap/Adversarial Training", shape=plaintext]
+"n789" [label="A-PWWS/Synonym Encoded Method", shape=plaintext]
+"n790" [label="A-seq2sick/Randomised smoothing", shape=plaintext]
+"n791" [label="A-TextBugger/Dirichlet Neighborhood Ensemble", shape=plaintext]
+"n792" [label="A_TextFooler/Dirichlet Neighborhood Ensemble", shape=plaintext]
+"n793" [label="A-Kuleshov/Randomised smoothing", shape=plaintext]
+"n794" [label="A-GSA/Synonym Encoded Method", shape=plaintext]
+"n795" [label="A-IGA/Synonym Encoded Method", shape=plaintext]
+"n796" [label="A-GA/Synonym Encoded Method", shape=plaintext]
+"n797" [label="M-Gaussian Noise/Dirichlet Neighborhood Ensemble", shape=plaintext]
+"n798" [label="A-Bernoulli/Dirichlet Neighborhood Ensemble", shape=plaintext]
+"n799" [label="A-Adversarial noises/Dirichlet Neighborhood Ensemble", shape=plaintext]
+
+
+"n711" ->"n740"[label="PC=Text Attack"]
+"n711" ->"n780" [label="PC=Alzantot"]
+"n711" ->"n781" [label="PC=BAE"]
+"n711" ->"n782" [label="PC=BERT-Attack"]
+"n711" ->"n783" [label="PC=DepWordBug"]
+"n711" ->"n784" [label="PC=HotFlip"]
+"n711" ->"n785" [label="PC=InputReduction"]
+"n711" ->"n786" [label="PC=Morpheus"]
+"n711" ->"n787" [label="PC=Practical Swarm OPT"]
+"n711" ->"n788" [label="PC=Pruthi Keyabord Char-Swap"]
+"n711" ->"n789" [label="PC=PWWS"]
+"n711" ->"n790" [label="PC=seq2sick"]
+"n711" ->"n791" [label="PC=TextBugger"]
+"n711" ->"n792" [label="PC=TextFooler"]
+"n711" ->"n793" [label="PC=Kuleshov"]
+"n711" ->"n794" [label="PC=GSA"]
+"n711" ->"n795" [label="PC=IGA"]
+"n711" ->"n796" [label="PC=GA"]
+"n711" ->"n797" [label="PC=Gaussian Noise"]
+"n711" ->"n798" [label="PC=Bernoulli"]
+"n711" ->"n799" [label="PC=Adversarial noises"]
+
+"n700" -> "n711"  [label="TA=Transformers"]
+"n712" [label="PCA[36]", shape=circle]
+"n700" -> "n712"  [label="TA=PCA"]
+
+"n713" [label="PPCA[37]", shape=circle]
+"n712" -> "n713"  [label="TM= White Box"]
+
+"n713" -> "n714"  [label="PC=Poisoning Adaptation"]
+"n714" [label="PC/RS", shape=plaintext]
+
+"n712" -> "n715"  [label="TM= Gray Box"]
+"n715" [label="Spoofing[39]", shape=circle]
+
+"n716" [label="Spoofing/Data Sanitizing", shape=plaintext]
+"n715" -> "n716"[label="PC=Spoofing"]
+#********* Regression ****************
+#Linear Regression
+"n701" [label="LR[12]", shape=circle]
+"n701" -> "n710" [label="PC=LinBP"]
+"n710" [label="Visibility=Visible",shape=plaintext]
+"n710" -> "n6042" [label="Perturbation Search=Random"]
+"n6042" [label="LinBP/Pixel Defend", shape=plaintext]
+
+
+
+
+
+
+#Hierarchical
+"n702" [label="Hierarchical[13]", shape=circle]
+"n702" ->"n720"[label="PC=L∞-bounded"]
+"n720" [label="Visibility=Visible",shape=plaintext]
+"n720" -> "n6043" [label="Perturbation Search=Random"] 
+"n6043" [label="M-L∞-bounded/TRADES", shape=plaintext]
+
+
+#SVR,GPR
+"n703" [label="SVR,GPR[14]", shape=circle]
+"n703" ->"n723"[label="PC=SVR poisoning"]
+"n723" [label="Visibility=Visible",shape=plaintext]
+"n723" -> "n6045" [label="Perturbation Search=Random"]
+"n6045" [label="SVR,GPR/DBSCAN", shape=plaintext]
+
+
+#Ensemble Methods
+//"n704" [label="EM[15]", shape=circle]
+//"n724" [label="EM/ [TN44]", shape=plaintext]
+//"n704" ->"n724"[label="PC="]
+
+#Decision Trees
+"n705" [label="DT[16]", shape=circle, URL="https://github.com/phoenixml/research-DPA-References"]
+"n700" -> "n725"  [label="TA=Decision Trees"]
+"n725"  [label="SP[16]", shape=circle]
+"n725" -> "n736" [label="PC=Systematic Poisoning"]
+"n736"  [label="Visibility=Visible",shape=plaintext]
+"n736" -> "n6044" [label="Perturbation Search=Random"]
+"n6044" [label="A-Systematic Poisoning/Systematic Defense", shape=plaintext]
+
+
+
+#Neural Networks already exists
+
+#********** Classification ***********
+#Support Vector Machines Exists
+#Discriminant Analysis
+//"n706" [label="DA[17]", shape=circle,fontcolor="yellow"]
+//"n726" [label="DA/ [TN45]", shape=plaintext]
+//"n706" ->"n726"[label="PC="]
+#Naive Bayes
+"n707" [label="NB[18]", shape=circle]
+"n727" [label="A-PANB/ Data Sanitizing", shape=plaintext]
+"n707" ->"n727"[label="PC=PANB"]
+"n707" ->"n728"[label="PC=Label Modification"]
+"n728"[label="A-Label Modification/Data Sanitizing", shape=plaintext]
+#Nearest Neighbor
+//"n708" [label="NN[19]", shape=circle, fontcolor="yellow"]
+//"n728" [label="NN/", shape=plaintext]
+//"n708" ->"n728"[label="PC="]
+
+
+#******************** SEMI Supervised ***********************************
+"n800" [label="Semi-Supervised[42]", shape=circle, width=150, fontsize="1000"]
+"n4" -> "n800"  [label="VM=Semi-Supervised"]
+"n800" -> "n801"[label="TA=SSL-RF"]
+"n801" [label="SSL-RF[43]", shape=circle, width=80, fontsize="1050"]
+"n800" -> "n802"[label="TA=SSL-Deep"]
+"n802" [label="SSL-Deep[44]", shape=circle, width=80, fontsize="900"]
+"n803" [label="A-Naively poisoning/Adversarial Training", shape=plaintext]
+
+
+//DeHiB: Deep Hidden Backdoor Attack on Semi-supervised Learning via
+//Adversarial Perturbation
+
+"n802" -> "n805" [label="PC=CDP"]
+"n805"[label= "Visibility=Visible", shape=plaintext]
+"n805" -> "n6001"  [label="Perturbation Search=Random"]
+"n6001" [label="A-CDP/Adversarial Training", shape=plaintext]
+
+
+"n802" -> "n804" [label="PC=APG"]
+"n804" [label= "Visibility=Visible", shape=plaintext]
+"n804" -> "n6002" [label="Perturbation Search=Random"]
+"n6002" [label="A-APG/Adversarial Training", shape=plaintext]
+
+
+"n802" -> "n803" [label="PC=NP"]
+
+"n802" -> "n806" [label="PC=APG+CDP"]
+"n806"[label= "Visibility=Visible", shape=plaintext]
+"n806" -> "n6000"  [label="Perturbation Search=Random"]
+"n6000" [label="A-DeHiB/Adversarial Training", shape=plaintext]
+
+
+
+
+
+"n801" -> "n807" [label="PC=Subtle Adv"]
+"n807" [label="Subtle Adv/Generated Probability Labels, Hard Class Lablels", shape=plaintext] //https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9099383
+#***************Victim Model RL Connections ****************************
+"n900" [label="RL[11]", shape=circle,  width=30, fontsize="300"] #, style=filled, color=orange]
+#"n900" -> "n13"  [label="TA=CNN"] 
+"n900" -> "n901"  [label="TA=Monte Carlo"] 
+//"n900" -> "n902"  [label="TA=A2C", ] 
+"n900" -> "n903"  [label="TA=DQ-Learning"] 
+"n900" -> "n904"  [label="PC=Pixel Based Attack"] 
+"n900" -> "n905"  [label="PC=Training Adversarial Policies"]
+"n900" -> "n906"  [label="PC=C&W L2,L0,LInf"]
+
+
+"n901" [label="MC[29]", shape=circle, URL="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L239"]
+
+
+"n901" -> "n951" [label="PC=Membership Inference Attack"]
+"n951" [label="A-MIA/Hiding Prediction Information, adv regularization. Mix up Training", shape=plaintext]
+
+
+
+
+"n903" [label="Q-L[30]", shape=circle, URL="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L239",  width=30, fontsize="500"]
+"n985" [label="A-SPA/Ensemble Adversarial Training", shape=plaintext]
+"n986" [label="A-PIA/Cascade Adversarial Training", shape=plaintext]
+"n987" [label="A-WPA/Data Randomization", shape=plaintext]
+"n988" [label="M-FGSM/Dynamic Quantized activation function, Denoiser, Multi Model Based Defense", shape=plaintext]
+
+
+"n989" [label="M-IFGSM/Adding regularization term, Modifying the network structure", shape=plaintext]
+"n990" [label="M-PGM/Principled adversarial training", shape=plaintext]
+"n991" [label="M-CDG/Gradient band-based adversarial training", shape=plaintext]
+"n992" [label="M-DeepFool/Data Randomization, Input transformations, Characterizing adversarial subspaces", shape=plaintext]
+"n993" [label="M-C&W/Data Randomization", shape=plaintext]
+"n994" [label="M-JSMA/Input gradient regularization", shape=plaintext]
+"n995" [label="M-ITGSM/Input gradient regularization", shape=plaintext]
+"n904" [label="M-Pixel Based Attack/Ensemble Adversarial Training", shape=plaintext]
+"n905" [label="A-Training Adversarial Policies/Cascade Adversarial", shape=plaintext]
+"n906" [label="M-C&W L2,L0,LInf/Defensive Distillation", shape=plaintext]
+
+
+"n903" -> "n985"  [label="PC=SPA"] 
+"n903" -> "n986"  [label="PC=PIA"] 
+"n903" -> "n987"  [label="PC=WPA"] 
+"n903" -> "n988"  [label="PC=FGSM"] 
+"n903" -> "n989"  [label="PC=IFGSM"] 
+"n903" -> "n990"  [label="PC=PGM"] 
+"n903" -> "n991"  [label="PC=CDG"]
+"n903" -> "n992"  [label="PC=DeepFool"] 
+"n903" -> "n993"  [label="PC=C&W"]  
+"n903" -> "n994"  [label="PC=JSMA"] 
+"n903" -> "n995"  [label="PC=ITGSM"] 
+
+#***************Victim Model SL Connections ****************************
+//"n950" [label="SL[10]", shape=circle,  fontcolor="yellow"] #, style=filled, color=yellow]
+#"n950" -> "n13"  [label="TA=CNN"] 
+
+
+
+
+############################TARGET ALGORITHM##################################
+#********************CNN Connections**********************
+"n13" [label="CNN[2]", shape=circle, width=200, fontsize="1500"] #style=filled, color=orange]
+
+ 
+#DT Image######################################
+#"n30" [label="Image/ All", shape=circle]
+#"n13" -> "n2000"  [label="DT=Image"]
+
+
+
+#DT Graph#######################################
+#"n40" [label="Graph/ All", shape=circle]
+#"n13" -> "n40"  [label="DT=Graph"]
+#DT Text########################################
+#"n50" [label="Text/ All", shape=circle]
+#"n13" -> "n50"  [label="DT=Text"]
+
+#DT Audio#######################################
+#"n60" [label="Audio/ All", shape=circle]
+#"n13" -> "n60"  [label="DT=Audio"]
+
+
+
+
+
+
+
+# *********************SVM********************************
+"n15" [label="SVM[21]", shape=circle,  width=80, fontsize="1300"]
+"n700" -> "n15"  [label="TA=Support Vector Machine"]
+"n16" [label="M-SVM PA/DT", shape=plaintext]
+"n15" -> "n16"  [label="PC=SVM PA"]
+"n15" -> "n50" [label="PC=Poison Sparse Binary Vectors"]
+"n50" [label="PSBV[40]", shape=circle, width=50]
+
+"n50" -> "n51" [label="PSM=Sparse Binary Vectors"]
+"n51"  [label="M-Poison SBV/LSD defense, KSSD", shape=plaintext]
+"n56"  [label="M-Poison NSBV/K-LID-SSVM, LS-SVM, LN-SVM", shape=plaintext]
+"n57" [label="PNSBV[41]",shape=circle, width=70]
+
+
+"n15" -> "n57" [label="PC=Random"]
+"n15" -> "n57" [label="PC=Non-Sparse Binary Vectors"]
+//"n58"  [label="A-Poison Non Sparse Binary Vectors/K-LID-SVM , LS-SVM , LN-SVM", shape=plaintext]
+"n57" -> "n56"  [label="PSM=Non-Sparse Binary Vectors"]
+"n15" -> "n59" [label="PC=Gradient-descent attack"]
+
+#DT Image######################################
+#"n300" [label="Image/ All", shPSM=Sparse Binary Vectorsape=circle]
+#"n15" -> "n300"  [label="DT=Image"]
+#DT Graph#######################################
+#"n301" [label="Graph/ All", shape=circle]
+#"n15" -> "n301"  [label="DT=Graph"]
+#DT Text########################################
+#"n302" [label="Text/ All", shape=circle]
+#"n15" -> "n302"  [label="DT=Text"]
+#DT Audio#######################################
+#"n303" [label="Audio/ All", shape=circle]
+#"n15" -> "n303"  [label="DT=Audio"]
+
+
+"n15"-> "n61"  [label="PC=Label Flipping"] 
+"n15"-> "n62"  [label="PC=Poison insertion attacks"] 
+"n15"-> "n63"  [label="PC=Data modification attacks"] 
+"n15"-> "n64" [label="PC=Boiling frog attacks"] 
+"n59"  [label="M-Gradient-descent/Kernel parameter optimization[172]", shape=plaintext] 
+"n61"  [label="A-Label Flipping/Label Sanitization[173]", shape=plaintext]
+"n62"  [label="A-Poison insertion attacks/Data Sanitization[174]", shape=plaintext]
+"n63"  [label="A-Data Modification Attacks/Data Sanitization[175]", shape=plaintext]
+"n64"[label="A-Boiling Frogs Attacks/Label Sanitization[176]", shape=plaintext]
+#Neural Networks################################
+"n14" [label="NN[1]", shape=circle, width=250, fontsize="1500",URL="https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L2"]
+"n700" -> "n14"  [label="TA=NN"] 
+"n14" -> "n13" [label="TA=CNN"] 
+
+#DT Image######################################
+#"n400" [label="Image/ All", shape=circle]
+#"n14" -> "n400"  [label="DT=Image"]
+#DT Graph#######################################
+#"n401" [label="Graph/ All", shape=circle]
+#"n14" -> "n401"  [label="DT=Graph"]
+#DT Text########################################
+#"n402" [label="Text/ All", shape=circle]
+#"n14" -> "n402"  [label="DT=Text"]
+#DT Audio#######################################
+#"n403" [label="Audio/ All", shape=circle]
+#"n14" -> "n403"  [label="DT=Audio"]
+
+
+
+
+
+#*********************Linear Regression*******************
+//"n16" [label="LR/ All[22]", shape=circle]
+//"n700" -> "n16"  [label="TA=LR"]
+
+#DT Image######################################
+#"n500" [label="Image/ All", shape=circle]
+#"n16" -> "n500"  [label="DT=Image"]
+#DT Graph#######################################
+#"n501" [label="Graph/ All", shape=circle]
+#"n16" -> "n501"  [label="DT=Graph"]
+#DT Text########################################
+#"n502" [label="Text/ All", shape=circle]
+#"n16" -> "n502"  [label="DT=Text"]
+#DT Audio#######################################
+#"n503" [label="Audio/ All", shape=circle]
+#"n14" -> "n503"  [label="DT=Audio"]
+
+
+
+
+#********************Logistic Regression******************
+//"n17" [label="LR[23]", shape=circle]
+//"n700" -> "n17"  [label="TA=Logistic Regression"]
+//"n752" [label="LR/", shape=plaintext]
+//"n17" ->"n752"[label="PC="]
+
+#DT Image######################################
+#"n600" [label="Image/ All", shape=circle]
+#"n17" -> "n600"  [label="DT=Image"]
+#DT Graph#######################################
+#"n601" [label="Graph/ All", shape=circle]
+#"n17" -> "n601"  [label="DT=Graph"]
+#DT Text########################################
+#"n602" [label="Text/ All", shape=circle]
+#"n17" -> "n602"  [label="DT=Text"]
+#DT Audio#######################################
+#"n603" [label="Audio/ All", shape=circle]
+#"n17" -> "n603"  [label="DT=Audio"]
+
+
+
+
+#********************Decision Tree************************
+//"n24" [label="Decision Tree/ All[24]", shape=circle]
+//"n700" -> "n24"  [label="TA=DT"]
+
+#DT Image######################################
+#"n620" [label="Image/ All", shape=circle]
+#"n24" -> "n620"  [label="DT=Image"]
+#DT Graph#######################################
+#"n621" [label="Graph/ All", shape=circle]
+#"n24" -> "n621"  [label="DT=Graph"]
+#DT Text########################################
+#"n622" [label="Text/ All", shape=circle]
+#"n24" -> "n622"  [label="DT=Text"]
+#DT Audio#######################################
+#"n623" [label="Audio/ All", shape=circle]
+#"n24" -> "n623"  [label="DT=Audio"]
+
+
+
+#*******************Gradient Based GCN*******************
+"n18" [label="A-GB-GCN", shape=plaintext]
+"n20" -> "n18"  [label="PC=GB-GCN"]
+#DT Image######################################
+#"n630" [label="Image/ All", shape=circle]
+#"n18" -> "n630"  [label="DT=Image"]
+#DT Graph#######################################
+#"n631" [label="Graph/ All", shape=circle]
+#"n18" -> "n631"  [label="DT=Graph"]
+#DT Text########################################
+#"n632" [label="Text/ All", shape=circle]
+#"n18" -> "n632"  [label="DT=Text"]
+#DT Audio#######################################
+#"n633" [label="Audio/ All", shape=circle]
+#"n18" -> "n633"  [label="DT=Audio"]
+
+
+
+
+
+#******************Random Forest**************************
+"n19" [label="RF[25]", shape=circle, width=100, fontsize="1300"]
+"n700" -> "n19"  [label="TA=Random Forest"]
+//"n754" [label="A-RF/", shape=plaintext]
+//"n19" ->"n754"[label="PC="]
+
+
+
+
+
+#****************Gradient Boost Decision Tree*************
+"n25" [label="A-DF/Robust Split with Information Gain", shape= plaintext]
+"n19" -> "n25"  [label="PC=DF"]
+//"n755" [label="A-GBDT/Adversarial Training", shape=plaintext]
+//"n25" ->"n755"[label="PC=GBDT"]
+"n19" -> "n26"  [label="PC=GAN"]
+"n26"[label="A-GAN/Hardening Random Forest", shape=plaintext]
+"n19" -> "n27"  [label="PC=Kantchelian Attack"]
+"n27"[label="A-Kantchelian Attack/Robust Split", shape=plaintext]
+"n19" -> "n28"  [label="PC=Cheng Attack"]
+"n28"[label="A-Cheng Attack/Hardening Random Forest", shape=plaintext]
+"n19" -> "n29"  [label="PC=Papernote"]
+"n29"[label="A-Papernote/Hardening Random Forest", shape=plaintext]
+#DT Image######################################
+#"n640" [label="Image/ All", shape=circle]
+#"n19" -> "n640"  [label="DT=Image"]
+#DT Graph#######################################
+#"n641" [label="Graph/ All", shape=circle]
+#"n19" -> "n641"  [label="DT=Graph"]
+#DT Text########################################
+#"n642" [label="Text/ All", shape=circle]
+#"n19" -> "n642"  [label="DT=Text"]
+#DT Audio#######################################
+#"n643" [label="Audio/ All", shape=circle]
+#"n19" -> "n643"  [label="DT=Audio"]
+
+
+
+
+
+#******************RNN************************************
+"n20" [label="RNN[33]", shape=circle,  width=100, fontsize=1300]
+"n14" -> "n20"  [label="TA=RNN"]
+
+#DT Image######################################
+#"n650" [label="Image/ All", shape=circle]
+#"n20" -> "n650"  [label="DT=Image"]
+#DT Graph#######################################
+#"n651" [label="Graph/ All", shape=circle]
+#"n20" -> "n651"  [label="DT=Graph"]
+#DT Text########################################
+#"n652" [label="Text/ All", shape=circle]
+#"n20" -> "n652"  [label="DT=Text"]
+#DT Audio#######################################
+#"n653" [label="Audio/ All", shape=circle]
+#"n20" -> "n653"  [label="DT=Audio"]
+
+
+
+#*****************LSTM************************************
+"n21" [label="A-LSTM/AT", shape=plaintext]
+"n20" -> "n21"  [label="PC=LSTM"]
+#DT Image######################################
+#"n660" [label="Image/ All", shape=circle]
+#"n21" -> "n660"  [label="DT=Image"]
+#DT Graph#######################################
+#"n661" [label="Graph/ All", shape=circle]
+#"n21" -> "n661"  [label="DT=Graph"]
+#DT Text########################################
+#"n662" [label="Text/ All", shape=circle]
+#"n21" -> "n662"  [label="DT=Text"]
+#DT Audio#######################################
+#"n663" [label="Audio/ All", shape=circle]
+#"n21" -> "n663"  [label="DT=Audio"]
+
+
+
+
+
+#*****************BI-LSTM*********************************
+"n22" [label="A-BI-LSTM/AT", shape=plaintext]
+"n20" -> "n22"  [label="PC=BI-LSTM"]
+#DT Image######################################
+#"n670" [label="Image/ All", shape=circle]
+#"n22" -> "n670"  [label="DT=Image"]
+#DT Graph#######################################
+#"n671" [label="Graph/ All", shape=circle]
+#"n22" -> "n671"  [label="DT=Graph"]
+#DT Text########################################
+#"n672" [label="Text/ All", shape=circle]
+#"n22" -> "n672"  [label="DT=Text"]
+#DT Audio#######################################
+#"n673" [label="Audio/ All", shape=circle]
+#"n22" -> "n673"  [label="DT=Audio"]
+
+
+
+
+
+#DT Image######################################
+#"n680" [label="Image/ All", shape=circle]
+#"n25" -> "n680"  [label="DT=Image"]
+#DT Graph#######################################
+#"n681" [label="Graph/ All", shape=circle]
+#"n25" -> "n681"  [label="DT=Graph"]
+#DT Text########################################
+#"n682" [label="Text/ All", shape=circle]
+#"n25" -> "n682"  [label="DT=Text"]
+#DT Audio#######################################
+#"n683" [label="Audio/ All", shape=circle]
+#"n25" -> "n683"  [label="DT=Audio"]
+
+
+
+#****************Faster RCNN******************************
+#DT Image######################################
+#"n690" [label="Image/ All", shape=circle]
+#"n23" -> "n690"  [label="DT=Image"]
+#DT Graph#######################################
+#"n691" [label="Graph/ All", shape=circle]
+#"n23" -> "n691"  [label="DT=Graph"]
+#DT Text########################################
+#"n692" [label="Text/ All", shape=circle]
+#"n23" -> "n692"  [label="DT=Text"]
+#DT Audio#######################################
+#"n693" [label="Audio/ All", shape=circle]
+#"n23" -> "n693"  [label="DT=Audio"]
+
+
+
+
+#********************* MIXED defences*********
+
+
+"n1001" [label="M-JPEG-Lp/ JPEG Compression", shape=plaintext] #
+"n1002" [label="M-APGD-AT/ Randomization", shape=plaintext] #(VM all , TA Neural Netwroks , TM additive -wb)
+"n1003" [label="M-APGD-AT/ Logit Squeezing", shape=plaintext] #(VM all , TA Neural Netwroks , TM additive -wb)
+"n1004" [label="M-Momentum/ Mustafa", shape=plaintext]#(VM all, TA CNN, Threat Model additive-WB / GB) PC (Momentum Gradient Based)
+"n1005" [label="M-Momentum Iterative/ Super Resolution", shape=plaintext]#(VM all, TA CNN, Threat Model additive-WB / GB) PC (Momentum Gradient Based)
+"n1006" [label="M-Momentum/ Image Denoisining", shape=plaintext]#(VM all, TA CNN, Threat Model additive-WB / GB) PC (Momentum Gradient Based)
+"n1007" [label="M-Discretized Inputs/ OneHot", shape=plaintext] #(VM all, TA Neural Networks, TM Additive WB and BB) PC Discrete Gradient Ascent
+"n1008" [label="M-Discretized Inputs/ Termometer Enconding", shape=plaintext]#(VM all, TA Neural Networks, TM Additive WB and BB) PC Discrete Gradient Ascent
+"n1009" [label="A-Clean label/ Data Sanitizing", shape=plaintext]#(VM ALL , CNN, Non additive - all, PC Watermarking)
+"n1010" [label="M-Gradient Based / BAT", shape=plaintext]#(VM ALl , TA CNN, TA ResNet, TM Additive-ALL , PC Projected Gradient Descent)
+"n1011" [label="M-PGD Fast/ Data Augmentation", shape=plaintext]
+
+"n1012" [label="M-PGD Fast/ Pixel Defense", shape=plaintext] #(VM ALL , AT CNN, TA Resnet - VGG, TM additive-ALL , PC Projected Gradient Descent
+"n1013" [label="M-PGD Fast/ Defensive Distilation", shape=plaintext] 
+"n1014" [label="M-PGD Fast/ Regularization", shape=plaintext]
+"n1015" [label="M-MGA/ Vector Defence", shape=plaintext]
+
+
+
+"n1016" [label="M-PGD Fast/ Gradient Masking", shape=plaintext]
+
+
+
+
+"n1017" [label="A-IGB-Adam/ Vector Defence", shape=plaintext]
+"n1018" [label="A-Image Scaling/ RobustScaling", shape=plaintext]
+
+//"n1019" [label="M-Momentum/ Super Resolution", shape=plaintext]
+//"n1020" [label="M-Momentum/ Image Denoisining", shape=plaintext]
+"n1021" [label="A-Discretized Inputs/ Thermometer Encoding", shape=plaintext]
+"n1022" [label="M-Gradient Based/BAT", shape=plaintext]
+"n13" -> "n5092" [label="PC=PGD"] 
+"n5092" [label="Visibility=Visible(PGD$L\infty$), Optimal perturbation(PGD$L_2$,PGD$L_1$)",shape=plaintext]
+"n5092" -> "n1022" [label="Perturbation Search=Gradient Based"]
+
+
+
+# ****************60**************************************
+# ****************70**************************************
+# **************80**************************************
+
+
+#*************110**************************************
+#*************120**************************************
+#*************130**************************************
+#*************140**************************************
+#*************150**************************************
+#*************160**************************************
+#*************170**************************************
+#*************180**************************************
+#*************190**************************************
+#*************200**************************************
+#*************210**************************************
+#*************220**************************************
+#*************230**************************************
+
+
+#************* 2000 UNKNOWN VM ***********************
+"n2000" [label="Unknown", shape=circle, fontsize="1300"]
+//"n2001" [label="A-UAP[]", shape=plaintext]
+//"n2002" [label="DF-UAP[]", shape=plaintext]
+//"n2003" [label="SV-UAP[]", shape=circle]
+//"n2004" [label="GAP-UAP[]", shape=circle]
+//"n2005" [label="Cos-UAP[]", shape=circle]
+//"n2006" [label="FFF[]", shape=circle]
+//"n2007" [label="AAA[]", shape=circle]
+//"n2008" [label="GD-UAP[]", shape=circle]
+//"n2009" [label="PD-UA[]", shape=circle]
+//"n2010" [label="NAG[]", shape=circle]
+//"n2011" [label="DF-UAP-COCO[]", shape=circle]
+//"n2012" [label="Cos-UAP-Jigsaw[]", shape=circle]
+
+"n2000" -> "n2013"  [label="PC= Vanilla Universal-UAP"] 
+"n2013" [label="Visibility=Visible",shape=plaintext]
+"n2013" -> "n6020" [label="Perturbation Search=Random"]
+"n6020" [label="A-UAP/Adversarial Training", shape=plaintext]
+
+
+"n2000" -> "n2014"  [label="PC= Dominant Feature-UAP"] 
+"n2014" [label="Visibility=Visible",shape=plaintext]
+"n2014" -> "n6021" [label="Perturbation Search=Random"]
+"n6021" [label="A-DF-UAP/Adversarial Training", shape=plaintext]
+
+"n2000" -> "n2015"  [label="PC= SV JSMA-UAP"] 
+"n2015" [label="Visibility=Visible",shape=plaintext]
+"n2015" -> "n6023" [label="Perturbation Search=Gradient Based"]
+"n6023" [label="A-SV JSMA-UAP/Adversarial Training", shape=plaintext]
+
+"n2000" -> "n2016"  [label="PC= GAP-UAP"] 
+"n2016" [label="Visibility=Perceptual",shape=plaintext]
+"n2016" -> "n6065" [label="Perturbation Search=Random"]
+"n6065" [label="A-GAP-UAP/Adversarial Training", shape=plaintext]
+
+"n2000" -> "n2017"  [label="PC= Cos-UAP"] 
+"n2017" [label="Visibility=Visible",shape=plaintext]
+"n2017"  -> "n6026" [label="Perturbation Search=Random"]
+"n6026" [label="A-Cos-UAP/Adversarial Training", shape=plaintext]
+
+"n2000" -> "n2018"  [label="PC= FFF"] 
+"n2018"  [label="Visibility=Perceptual",shape=plaintext]
+"n2018" -> "n6027" [label="Perturbation Search=Random"]
+"n6027" [label="A-FFF/Adversarial Training", shape=plaintext]
+
+"n2000" -> "n2019"  [label="PC= AAA"] 
+"n2019"  [label="Visibility=Perceptual",shape=plaintext]
+"n2019" -> "n6028" [label="Perturbation Search=Random"]
+"n6028" [label="A-AAA/Adversarial Training", shape=plaintext]
+
+
+"n2000" -> "n2020"  [label="PC=Class Discriminative UAP"]
+"n2020"  [label="Visibility=Perceptual",shape=plaintext]
+"n2020" -> "n6029" [label="Perturbation Search=Random"]
+"n6029" [label="A-GD-UAP/Adversarial Training", shape=plaintext]
+
+"n2000" -> "n2021"  [label="PC=Prior Driven Uncertinity Approximation"] 
+"n2021"  [label="Visibility=Perceptual",shape=plaintext]
+"n2021" -> "n6030" [label="Perturbation Search=Random"]
+"n6030" [label="A-PD-UAP/Adversarial Training", shape=plaintext]
+
+"n2000" -> "n2022"  [label="PC=Netowrk For Adversary Generation"] 
+"n2022" [label="Visibility=Perceptual",shape=plaintext]
+"n2022" -> "n6031" [label="Perturbation Search=Random"]
+"n6031" [label="A-NAG/Adversarial Training", shape=plaintext]
+
+"n2000" -> "n2023"  [label="PC= DF-COCO-UAP"] 
+"n2023" [label="Visibility=Visible",shape=plaintext]
+"n2023" -> "n6032" [label="Perturbation Search=Random"]
+"n6032" [label="A-DF-COCO-UAP/Adversarial Training", shape=plaintext]
+
+
+"n2000" -> "n2024"  [label="PC= Cos-Jigsaw-UAP"] 
+"n2024" [label="Visibility=Visible",shape=plaintext]
+"n2024" -> "n6033" [label="Perturbation Search=Random"]
+"n6033" [label="A-Cos-Jigsaw-UAP/Adversarial Training", shape=plaintext]
+
+
+
+#********************* JPEG Compression ***************
+//"n1140" [label="A-JPEG-p/ JPEG Compression", shape=plaintext]
+"n1141" [label="A-ReColorAdv/ JPEG Compression", shape=plaintext]
+"n1142" [label="A-cADV/ JPEG Compression", shape=plaintext]
+"n1143" [label="A-AtADV/ JPEG Compression", shape=plaintext]
+
+
+
+#******************** 290 DATA TYPE ****** Exists also in  Adversarial Training**********************
+
+#Block A - NEW Terminal Nodes Preserve 250 to 290 AND 1000 THE NEW Nodes are missing the Attacks Nodes
+
+"n5001" [label="M-Gradient Descent/ Adversarial Retraining", shape=plaintext,  width=100] #(VM all ) / Additive all
+"n1100" [label="Gradient Based/ Vector Defence", shape=plaintext]
+//"n1101" [label="A-APGD/ Adversarial Retraining", shape=plaintext]
+//"n1102" [label="M-FGSM/ Adversarial Retraining", shape=plaintext]
+//"n1103" [label="M-BIM/ Adversarial Retraining", shape=plaintext]
+"n1104" [label="A-DeepFool/ Adversarial Retraining", shape=plaintext]
+//"n1105" [label="A-Fast-LPA/ Adversarial Retraining", shape=plaintext]
+//"n1106" [label="A-R-FGSM/ Adversarial Retraining", shape=plaintext]
+"n1107" [label="A-FGSM/ Adversarial Retraining", shape=plaintext]
+"n1109" [label="A-Cassidi/ Adversarial Retraining", shape=plaintext]
+"n1110" [label="A-NewtonFool/ Adversarial Retraining", shape=plaintext]
+//"n1111" [label="A-R-FGSM/ Adversarial Retraining", shape=plaintext]
+//"n1112" [label="A-N-FGSM/ Adversarial Retraining", shape=plaintext]
+//"n1113" [label="A-Fast-FGSM/ Adversarial Retraining", shape=plaintext]
+//"n1114" [label="A-Rapid-FGSM/ Adversarial Retraining", shape=plaintext]
+//"n1115" [label="A-Robust-FGSM/ Adversarial Retraining", shape=plaintext]
+//"n1116" [label="A-UAP/ Adversarial Retraining", shape=plaintext]
+"n1117" [label="A-TUAP/ Adversarial Retraining", shape=plaintext]
+//"n1118" [label="A-TUAP-DeepFool/ Adversarial Retraining", shape=plaintext]
+//"n1119" [label="A-TUAP-CW/ Adversarial Retraining", shape=plaintext]
+"n1120" [label="A-DFO/ Adversarial Retraining", shape=plaintext]
+"n1124" [label="A-Salt-Pepper/ Filter", shape=plaintext]
+"n1144" [label="A-Data Augmentation Attack/Adversarial Training", shape=plaintext]
+
+
+
+
+//"n1150" [label="TN=A-M/ Adversarial Retraining", shape=plaintext]
+
+
+
+#Block A - CNN connections
+"n13" -> "n5000" [label="PC=Gradient Descent"] 
+"n5000" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5000" -> "n5001" [label="Perturbation Search=Gradient Based"]
+
+"n13" -> "n5002" [label="PC=JPEG-Lp"]
+"n5002" [label="Visibility=Visible",shape=plaintext]
+"n5002" -> "n1001" [label="Perturbation Search=Additive + Functional (Assembly)"]
+
+"n13" -> "n5003" [label="PC=APGD-AT-Randomization"] 
+"n5003" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5003" -> "n1002" [label="Perturbation Search= Random Search (Assembly)"]
+
+"n13" -> "n5012" [label="PC=APGD-AT-Logit Squeezing"] 
+"n5012" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5012" -> "n1003" [label="Perturbation Search=Random Search"]
+
+"n13" -> "n5004" [label="PC=Momentum-Mustafa"] 
+"n5004" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5004" -> "n1004" [label="Perturbation Search= Momentum Search"]
+
+
+"n13" -> "n5013" [label="PC=Momentum Iterative-Super resolution"] 
+"n5013" [label="Visibility=Visible",shape=plaintext]
+"n5013" -> "n1005" [label="Perturbation Search=Momentum Iterative"]
+
+
+
+"n13" -> "n5014" [label="PC=Momentum-Denoisining"]
+"n5014" [label="Visibility=Visible",shape=plaintext]
+"n5014" -> "n1006" [label="Perturbation Search=Momentum Iterative"]
+
+"n13" -> "n5005" [label="PC=Discretized Inputs"]
+"n5005" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5005" -> "n1007" [label="Perturbation Search=Gradient Based"]
+
+
+
+"n13" -> "n5072" [label="PC=Discretized Inputs"]
+"n5072" [label="Visibility=Visible",shape=plaintext]
+"n5072" -> "n1008" [label="Perturbation Search=LS-PGA"]
+
+
+
+"n13" -> "n5010" [label="PC=Watermarking"]
+"n5010" [label="Visibility=Visible / Noise",shape=plaintext]
+"n5010" -> "n1009" [label="Perturbation Search=NA"]
+
+
+
+"n13" -> "n5016" [label="PC=Gradient Based"]
+"n5016" [label="Visibility=Visible(PGDL∞), Optimal perturbation(PGDL2 ,PGDL1)",shape=plaintext]
+"n5016" -> "n1010" [label="Perturbation Search=Gradient Based"]
+
+
+"n13" -> "n5091" [label="PC=PGD Fast"]
+"n5091" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5091" -> "n1011" [label="Perturbation Search=Fast Search"]
+
+
+
+"n13" -> "n5019" [label="PC=PGD Fast"]
+"n5019" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5019" -> "n1012" [label="Perturbation Search=Fast Search"]
+
+"n13" -> "n5021" [label="PC=PGD Fast"]
+"n5021" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5021" -> "n1013" [label="Perturbation Search=Fast Search"]
+
+
+
+"n13" -> "n5023" [label="PC=PGD Fast"]
+"n5023" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5023" -> "n1014" [label="Perturbation Search=Fast Search"]
+
+
+"n13" -> "n5032" [label="PC=M-Gradient Based"]
+"n5032" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5032" -> "n1015" [label="Perturbation Search=Momentum Iterative"]
+
+
+
+
+"n13" -> "n5020" [label="PC=PGD Fast"]
+"n5020" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5020" -> "n1016" [label="Perturbation Search=Fast Search"]
+
+"n13" -> "n5008" [label="PC=IGB-Adam"]
+"n5008" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5008" -> "n1017" [label="Perturbation Search=Gradient Based"]
+
+
+
+
+"n13" -> "n5011" [label="PC=Image Scaling"]
+"n5011" [label="Visibility=Visible",shape=plaintext]
+"n5011" -> "n1018" [label="Perturbation Search=NA"]
+
+
+
+
+//"n13" -> "n1019" [label="PC=Momentum"]
+//"n13" -> "n1020" [label="PC=Momentum"]
+"n13" -> "n5015" [label="PC=Discretized Inputs"]
+"n5015" [label="Visibility=Visible",shape=plaintext]
+"n5015" -> "n1021" [label="Perturbation Search=Momentum Iterative"]
+
+
+
+"n13" -> "n5007" [label="PC=M-PGD"]
+"n5007" [label="Visibility=Optimal perturbation",shape=plaintext]
+"n5007" -> "n1100" [label="Perturbation Search=Gradient Based"]
+
+//"n13" -> "n1101" [label="PC=A-APGD"]
+//"n13" -> "n1102" [label="PC=M-FGSM", shape=circle]
+//"n13" -> "n1103" [label="PC=M-BIM", shape=circle]
+"n13" -> "n5076" [label="PC=DeepFool", shape=circle]
+"n5076" [label="Visibility=Visible",shape=plaintext]
+"n5076" -> "n1104" [label="Perturbation Search=Closet decision boundary"]
+
+//"n13" -> "n1105" [label="PC=A-Fast-LPA", shape=circle]
+//"n13" -> "n1106" [label="PC=R-FGSM", shape=circle]
+
+
+"n13" -> "n5077" [label="PC=FGSM", shape=circle]
+"n5077" [label="Visibility=Visible",shape=plaintext]
+"n5077" -> "n1107" [label="Perturbation Search=Gradient Sign Method"]
+
+//"n13" -> "n1108" [label="PC=CW", shape=circle]
+"n13" -> "n5078" [label="PC=Cassidi", shape=circle]
+"n5078" [label="Visibility=Visible",shape=plaintext]
+"n5078" -> "n1109" [label="Perturbation Search=Gradient Sign Method"]
+
+"n13" -> "n5079" [label="PC=NewtonFool", shape=circle]
+"n5079" [label="Visibility=Visible",shape=plaintext]
+"n5079" -> "n1110" [label="Perturbation Search=Gradient Descent"]
+
+//"n13" -> "n1111" [label="PC=R-FGSM", shape=circle]
+//"n13" -> "n1112" [label="PC=N-FGSM", shape=circle]
+//"n13" -> "n1113" [label="PC=Fast-FGSM", shape=circle]
+//"n13" -> "n1114" [label="PC=Rapid-FGSM", shape=circle]
+//"n13" -> "n1115" [label="PC=Robust-FGSM", shape=circle]
+//"n13" -> "n1116" [label="PC=UAP", shape=circle]
+"n13" -> "n5080" [label="PC=TUAP", shape=circle]
+"n5080" [label="Visibility=Visible",shape=plaintext]
+"n5080" -> "n1117" [label="Perturbation Search=TUAP"]
+
+//"n13" -> "n1118" [label="PC=TUAP-DeepFool", shape=circle]
+//"n13" -> "n1119" [label="PC=TUAP-CW", shape=circle]
+"n13" -> "n5081" [label="PC=DFO", shape=circle]
+"n5081" [label="Visibility=Visible",shape=plaintext]
+"n5081" -> "n1120" [label="Perturbation Search=DFOer restrictions"]
+
+"n13" -> "n5024" [label="PC=Salt-Pepper", shape=circle]
+"n5024" [label="Visibility=Visible, Optimal perturbation",shape=plaintext]
+"n5024" -> "n1124" [label="Perturbation Search=NA"]
+
+
+
+//"n13" -> "n1127"
+//"n13" -> "n1128"
+//"n13" -> "n1129"
+//"n13" -> "n1130"
+//"n13" -> "n1131"
+//"n13" -> "n1132"
+//"n13" -> "n1133"
+//"n13" -> "n1134"
+//"n13" -> "n1135"
+//"n13" -> "n1136"
+//"n13" -> "n1137"
+//"n13" -> "n1138"
+//"n13" -> "n1139"
+//"n13" -> "n1140" [label="PC=JPEG-L∞"]
+"n13" -> "n5073" [label="PC=ReColorAdv"]
+"n5073" [label="Visibility=Visible",shape=plaintext]
+"n5073" -> "n1141" [label="Perturbation Search=Additive + Functional (Assembly)"]
+
+"n13" -> "n5074" [label="PC=cADV"]
+"n5074" [label="Visibility=Visible",shape=plaintext]
+"n5074" -> "n1142" [label="Perturbation Search=Hint and mask"]
+
+"n13" -> "n5075" [label="PC=AtADV"]
+"n5075" [label="Visibility=Visible",shape=plaintext]
+"n5075" -> "n1143" [label="Perturbation Search=Color Space nearest target Ts"]
+
+"n13" -> "n5018" [label="PC=GAN"]
+"n5018" [label="Visibility=Visible",shape=plaintext]
+"n5018" -> "n1144" [label="Perturbation Search=Gan Based (Assembly)"]
+//"n1144" -> 
+
+
+
+
+
+
+//"n1100" ->
+//"n1101" ->
+//"n1102" ->
+//"n1103" ->
+//"n1104" ->
+//"n1105" ->
+//"n1106" ->
+//"n1107" ->
+//"n1108" ->
+//"n1109" ->
+//"n1110" ->
+//"n1111" ->
+//"n1112" ->
+//"n1113" ->
+//"n1114" ->
+//"n1115" ->
+//"n1116" ->
+//"n1117" ->
+//"n1118" ->
+//"n1119" ->
+//"n1120" ->
+//"n1121" ->
+//"n1122" ->
+//"n1123" ->
+//"n1124" ->
+//"n1125" ->
+//"n1126" ->
+   // n266 -> n266
+   // n1101 -> n1101
+    
+}
