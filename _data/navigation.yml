@@ -4,7 +4,7 @@ main:
     url: /dpa/   
  
   - title: "DPA Measurements"
-    url: /dpam/  
+    url: /roadmap-v1/  
 
   - title: "Characterizing Model"
     url: /measurements/ 
@@ -17,7 +17,4 @@ main:
     
   - title: "Roadmap"
     url: /roadmap/
-            
-  - title: "Roadmap Versions"
-    url: /dpam/
 
