@@ -1,6 +1,6 @@
 ---
 title: "DPA Measurements"
-excerpt: "This page includes a list of DPA measurements<br/>"
+excerpt: "This page includes a list of DPA measurements"
 collection: DPAMeasurements
 ---
 
