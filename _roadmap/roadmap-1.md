@@ -1,6 +1,6 @@
 ---
 title: "Roadmap Nodes Graph"
-excerpt: "<img src='..images/Roadmap-v0.svg'>"
+excerpt: ""
 collection: roadmap
 ---
 
