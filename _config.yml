@@ -299,7 +299,7 @@ defaults:
   # _roadmap-v1
   - scope:
       path: ""
-      type: roadmap-v1
+      type: DPAMeasurements
     values:
       layout: single
       author_profile: true

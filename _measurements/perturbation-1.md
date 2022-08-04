@@ -1,5 +1,5 @@
 ---
-title: "DPA Measurements"
+title: "DPA Characterizing Model"
 excerpt: "<br/><img src='../images/measurements.svg'>"
 collection: perturbation
 ---
