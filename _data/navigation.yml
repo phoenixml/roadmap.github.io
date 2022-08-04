@@ -4,7 +4,7 @@ main:
     url: /dpa/   
  
   - title: "DPA Measurements"
-    url: /dpameasurements/  
+    url: /dpam/  
 
   - title: "Characterizing Model"
     url: /measurements/ 
