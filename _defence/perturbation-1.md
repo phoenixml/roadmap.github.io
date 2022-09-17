@@ -1,6 +1,8 @@
 ---
 title: "Defence Against DPA"
-excerpt: "This page includes DPAs defences<br/><img src='../images/dpa-defence.png'><br/>"
+excerpt: "
+Baggio et.al defined defence is the target of security by design to predict potential attacks through a what-if analysis toward designing a suitable defence before the attack occurs.
+br/><img src='../images/dpa-defence.png'><br/>"
 collection: perturbation
 ---
 
