@@ -1,6 +1,6 @@
 ---
 title: "Roadmap Nodes Graph"
-excerpt: ""
+excerpt: "A DPA roadmap that consists of 221 DPAs and 111 defence solutions reported in literature during 2010-2022"
 collection: roadmap
 ---
 
