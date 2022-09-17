@@ -1,6 +1,6 @@
 ---
 title: "Algorithm Perturbation Functions"
-excerpt: ""
+excerpt: "Perturbations are the type of small artificial corruptions introduced into clean samples so as to fool the target machine learning algorithm. The option includes FGSM, PGD, DbBA, Threshold Attack, NewtonFool, PGD permutated Gradient descent, PGD - Iterative, PGD - Single Shot, ZOO, Spatial Transformation, BIM, Momentum Iterative, Auto Attack, Shadow Attack, JSMA, SimBA, SimBA-DCT, DPatch, Carlini \& Wagner, IGS, Adversarial Patch, IFS, QL Attack, LBFG, QeBB, UAP, TUAP, and CE."
 collection: perturbation
 ---
 
